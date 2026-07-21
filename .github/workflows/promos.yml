@@ -1,0 +1,38 @@
+name: Promos du mardi
+
+on:
+  schedule:
+    # 05:30 UTC chaque mardi (06:30 ou 07:30 en France selon la saison)
+    - cron: "30 5 * * 2"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scraper:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Installer les dépendances
+        run: pip install requests beautifulsoup4
+
+      - name: Récupérer les promos
+        run: python scripts/scrape_anticrise.py
+
+      - name: Publier la mise à jour
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain data/promos.json)" ]; then
+            git add data/promos.json
+            git commit -m "Promos du $(date +%d/%m/%Y)"
+            git push
+          else
+            echo "Aucun changement"
+          fi
