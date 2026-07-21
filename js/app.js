@@ -80,6 +80,35 @@ function initOnboarding(){
 /* ============================================================
    2. MAGASINS (OpenStreetMap / Overpass — pas de clé API)
    ============================================================ */
+
+/* Seules ces enseignes sont proposées : les boulangeries et boucheries
+   de quartier n'ont pas de catalogue d'optimisations à exploiter.
+   Les formats sont volontairement distincts — Intermarché Contact et
+   Intermarché n'ont pas le même catalogue, donc pas les mêmes promos. */
+const ENSEIGNES_CONNUES = [
+  "Intermarché Contact","Intermarché Express","Intermarché Super","Intermarché Hyper",
+  "Intermarché","Netto",
+  "Auchan Supermarché","Auchan Local","Auchan","My Auchan",
+  "Carrefour Market","Carrefour Contact","Carrefour City","Carrefour Express","Carrefour",
+  "E.Leclerc","Leclerc",
+  "Hyper U","Super U","U Express","Magasins U",
+  "Géant Casino","Petit Casino","Casino",
+  "Lidl","Aldi","Norma","Atac","Match","Cora","Monoprix","Franprix","Leader Price",
+  "Bi1","Colruyt","Grand Frais","Picard","Supeco","Maximarché"
+];
+
+/** Renvoie l'enseigne d'un magasin, ou null s'il n'en fait pas partie.
+    Les libellés longs sont testés en premier : sans ça « Intermarché
+    Contact » serait ramené à « Intermarché ». */
+const ENSEIGNES_TRIEES = [...ENSEIGNES_CONNUES].sort((a,b) => b.length - a.length);
+
+function canoniser(nom){
+  const n = norm(nom);
+  for(const e of ENSEIGNES_TRIEES){
+    if(n.includes(norm(e))) return e;
+  }
+  return null;
+}
 function chercherMagasins(cible, hintSel){
   const hint = hintSel ? $(hintSel) : null;
   if(!navigator.geolocation){
@@ -90,32 +119,39 @@ function chercherMagasins(cible, hintSel){
   navigator.geolocation.getCurrentPosition(async pos => {
     const {latitude:lat, longitude:lon} = pos.coords;
     const q = `[out:json][timeout:25];(
-      node["shop"~"supermarket|convenience|hypermarket|greengrocer|butcher|bakery"](around:6000,${lat},${lon});
-      way["shop"~"supermarket|convenience|hypermarket"](around:6000,${lat},${lon});
-    );out center 60;`;
+      node["shop"~"^(supermarket|hypermarket)$"](around:15000,${lat},${lon});
+      way["shop"~"^(supermarket|hypermarket)$"](around:15000,${lat},${lon});
+    );out center 200;`;
     try{
       const r = await fetch("https://overpass-api.de/api/interpreter",
         {method:"POST", body:"data="+encodeURIComponent(q)});
       const d = await r.json();
-      magasinsTrouves = d.elements
-        .map(e => ({
-          nom: (e.tags && (e.tags.brand || e.tags.name)) || null,
-          type: e.tags && e.tags.shop,
-          dist: distance(lat, lon, e.lat || (e.center&&e.center.lat), e.lon || (e.center&&e.center.lon))
-        }))
+      const bruts = d.elements
+        .map(e => {
+          const brut = (e.tags && (e.tags.brand || e.tags.name)) || "";
+          return {
+            nom: canoniser(brut),
+            dist: distance(lat, lon,
+                           e.lat || (e.center && e.center.lat),
+                           e.lon || (e.center && e.center.lon))
+          };
+        })
         .filter(m => m.nom && isFinite(m.dist))
         .sort((a,b) => a.dist - b.dist);
-      // dédoublonnage par enseigne
+
+      // une seule ligne par enseigne : on garde le magasin le plus proche
       const vus = new Set();
-      magasinsTrouves = magasinsTrouves.filter(m => {
-        const k = norm(m.nom); if(vus.has(k)) return false; vus.add(k); return true;
-      }).slice(0, 14);
+      magasinsTrouves = bruts.filter(m => {
+        if(vus.has(m.nom)) return false;
+        vus.add(m.nom); return true;
+      }).slice(0, 20);
 
       if(!magasinsTrouves.length){
-        if(hint) hint.textContent = "Aucune enseigne trouvée dans un rayon de 6 km.";
+        if(hint) hint.textContent =
+          "Aucune grande enseigne dans un rayon de 15 km. Vous pourrez les ajouter à la main dans Réglages.";
         return;
       }
-      if(hint) hint.textContent = magasinsTrouves.length + " enseignes trouvées. Cochez celles où vous allez.";
+      if(hint) hint.textContent = magasinsTrouves.length + " enseignes autour de vous. Cochez celles où vous allez.";
       rendreMagasins(cible);
     }catch(e){
       if(hint) hint.textContent = "La recherche a échoué. Réessayez, ou ajoutez vos magasins à la main.";
