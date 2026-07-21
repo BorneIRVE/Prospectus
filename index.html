@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#F4EFE6">
+<title>Prospectus — menus, courses, promos</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ========== ONBOARDING ========== -->
+<div id="onboarding" class="onboarding hidden">
+  <div class="ob-sheet">
+    <div class="ob-progress"><span id="obStep">1</span><span class="ob-sep">/</span><span>5</span></div>
+
+    <section class="ob-page" data-step="1">
+      <p class="eyebrow">Première visite</p>
+      <h1 class="display">Vos courses,<br>calculées.</h1>
+      <p class="lede">Cinq questions, une seule fois. Ensuite tout est modifiable dans Réglages.</p>
+      <button class="btn btn-primary" data-next>Commencer</button>
+    </section>
+
+    <section class="ob-page hidden" data-step="2">
+      <p class="eyebrow">Foyer</p>
+      <h2 class="display-sm">Combien de personnes à table&nbsp;?</h2>
+      <div class="stepper">
+        <button class="step-btn" data-dec="obPersonnes">−</button>
+        <output id="obPersonnes" class="step-val">2</output>
+        <button class="step-btn" data-inc="obPersonnes">+</button>
+      </div>
+      <h2 class="display-sm">Combien de repas à préparer cette semaine&nbsp;?</h2>
+      <div class="stepper">
+        <button class="step-btn" data-dec="obRepas">−</button>
+        <output id="obRepas" class="step-val">7</output>
+        <button class="step-btn" data-inc="obRepas">+</button>
+      </div>
+      <div class="ob-nav"><button class="btn btn-ghost" data-prev>Retour</button><button class="btn btn-primary" data-next>Suivant</button></div>
+    </section>
+
+    <section class="ob-page hidden" data-step="3">
+      <p class="eyebrow">Budget</p>
+      <h2 class="display-sm">Le plafond à ne pas dépasser</h2>
+      <p class="lede">Pour la semaine entière, courses comprises.</p>
+      <div class="budget-input">
+        <input type="number" id="obBudget" inputmode="decimal" value="70" min="10" step="5">
+        <span class="unit">€</span>
+      </div>
+      <div class="ob-nav"><button class="btn btn-ghost" data-prev>Retour</button><button class="btn btn-primary" data-next>Suivant</button></div>
+    </section>
+
+    <section class="ob-page hidden" data-step="4">
+      <p class="eyebrow">Exclusions</p>
+      <h2 class="display-sm">Ce que vous ne voulez jamais voir</h2>
+      <p class="lede">Un aliment par ligne, ou séparés par des virgules. Les recettes qui en contiennent seront écartées.</p>
+      <textarea id="obExclus" rows="4" placeholder="champignons, coriandre, agneau"></textarea>
+      <div class="ob-nav"><button class="btn btn-ghost" data-prev>Retour</button><button class="btn btn-primary" data-next>Suivant</button></div>
+    </section>
+
+    <section class="ob-page hidden" data-step="5">
+      <p class="eyebrow">Magasins</p>
+      <h2 class="display-sm">Où faites-vous vos courses&nbsp;?</h2>
+      <p class="lede">On cherche les enseignes autour de vous, vous cochez celles où vous allez vraiment.</p>
+      <button class="btn btn-primary" id="obGeo">Chercher autour de moi</button>
+      <p class="hint" id="obGeoHint">La position reste sur votre téléphone, elle n'est envoyée nulle part.</p>
+      <div id="obMagasins" class="store-list"></div>
+      <div class="ob-nav"><button class="btn btn-ghost" data-prev>Retour</button><button class="btn btn-primary" id="obFinish">Terminer</button></div>
+    </section>
+  </div>
+</div>
+
+<!-- ========== APP ========== -->
+<div id="app" class="app hidden">
+
+  <!-- ACCUEIL -->
+  <main class="view" id="view-accueil">
+    <header class="topbar">
+      <p class="eyebrow" id="moisLabel">—</p>
+      <h1 class="display-sm">Le mois en cours</h1>
+    </header>
+
+    <section class="totaux">
+      <div class="total total-depense">
+        <span class="total-label">Dépensé</span>
+        <strong class="total-val" id="totalDepense">0,00 €</strong>
+      </div>
+      <div class="total total-eco">
+        <span class="total-label">Économisé</span>
+        <strong class="total-val" id="totalEco">0,00 €</strong>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="donut-wrap">
+        <svg id="donut" viewBox="0 0 200 200" role="img" aria-label="Répartition des dépenses par rayon"></svg>
+        <div class="donut-center">
+          <span id="donutCenterVal">0 €</span>
+          <small id="donutCenterLbl">ce mois</small>
+        </div>
+      </div>
+      <ul class="legende" id="legende"></ul>
+      <p class="empty" id="accueilEmpty">Aucune course validée ce mois. Générez un menu, puis validez la liste pour alimenter le suivi.</p>
+    </section>
+
+    <section class="card">
+      <h3 class="card-title">Semaines validées</h3>
+      <ul class="histo" id="histo"></ul>
+    </section>
+  </main>
+
+  <!-- PROMO -->
+  <main class="view hidden" id="view-promo">
+    <header class="topbar">
+      <p class="eyebrow" id="promoMaj">—</p>
+      <h1 class="display-sm">Promos de la semaine</h1>
+    </header>
+    <div class="filtres" id="promoFiltres"></div>
+    <div id="promoListe" class="promo-liste"></div>
+  </main>
+
+  <!-- MENU -->
+  <main class="view hidden" id="view-menu">
+    <header class="topbar">
+      <p class="eyebrow">Semaine</p>
+      <h1 class="display-sm">Le menu</h1>
+    </header>
+    <section class="jauge-wrap card">
+      <div class="jauge-head">
+        <span id="jaugeCout">0,00 €</span>
+        <span class="jauge-max">sur <span id="jaugeBudget">0 €</span></span>
+      </div>
+      <div class="jauge"><div class="jauge-fill" id="jaugeFill"></div></div>
+      <p class="jauge-eco" id="jaugeEco"></p>
+    </section>
+    <button class="btn btn-primary btn-block" id="btnGenerer">Générer le menu</button>
+    <div id="menuListe" class="menu-liste"></div>
+  </main>
+
+  <!-- LISTE -->
+  <main class="view hidden" id="view-liste">
+    <header class="topbar">
+      <p class="eyebrow">Courses</p>
+      <h1 class="display-sm">La liste</h1>
+    </header>
+    <div id="listeCourses" class="liste-courses"></div>
+    <button class="btn btn-primary btn-block hidden" id="btnValider">Valider les courses du mois</button>
+  </main>
+
+  <!-- RECETTE -->
+  <main class="view hidden" id="view-recette">
+    <header class="topbar">
+      <p class="eyebrow">Cuisine</p>
+      <h1 class="display-sm">Les recettes</h1>
+    </header>
+    <div id="recettesListe" class="recettes"></div>
+  </main>
+
+  <!-- REGLAGES -->
+  <main class="view hidden" id="view-reglages">
+    <header class="topbar">
+      <p class="eyebrow">Réglages</p>
+      <h1 class="display-sm">Vos paramètres</h1>
+    </header>
+    <section class="card">
+      <label class="field"><span>Personnes au foyer</span><input type="number" id="setPersonnes" min="1" max="12"></label>
+      <label class="field"><span>Repas par semaine</span><input type="number" id="setRepas" min="1" max="21"></label>
+      <label class="field"><span>Budget hebdomadaire (€)</span><input type="number" id="setBudget" min="10" step="5"></label>
+      <label class="field"><span>Aliments exclus</span><textarea id="setExclus" rows="3"></textarea></label>
+    </section>
+    <section class="card">
+      <h3 class="card-title">Magasins</h3>
+      <button class="btn btn-ghost" id="setGeo">Rechercher à nouveau</button>
+      <div id="setMagasins" class="store-list"></div>
+    </section>
+    <section class="card">
+      <h3 class="card-title">Déjà dans les placards</h3>
+      <p class="hint">Ces produits seront retirés de la liste de courses.</p>
+      <textarea id="setStock" rows="4" placeholder="riz, huile d'olive, farine, oeufs"></textarea>
+    </section>
+    <button class="btn btn-primary btn-block" id="btnSauver">Enregistrer</button>
+    <button class="btn btn-danger btn-block" id="btnReset">Tout effacer et recommencer</button>
+  </main>
+
+  <nav class="tabbar" role="tablist">
+    <button class="tab is-active" data-view="accueil"><svg viewBox="0 0 24 24"><path d="M12 3 3 10v11h6v-6h6v6h6V10z"/></svg><span>Accueil</span></button>
+    <button class="tab" data-view="promo"><svg viewBox="0 0 24 24"><path d="m20 12-8 8-8-8V4h8z"/><circle cx="8.5" cy="8.5" r="1.6" fill="#12100E"/></svg><span>Promo</span></button>
+    <button class="tab" data-view="menu"><svg viewBox="0 0 24 24"><path d="M5 3v18M5 3c2 0 3 2 3 5s-1 4-3 4M19 3v8a3 3 0 0 1-6 0V3M16 11v10" fill="none" stroke="currentColor" stroke-width="2"/></svg><span>Menu</span></button>
+    <button class="tab" data-view="liste"><svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h10" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg><span>Liste</span></button>
+    <button class="tab" data-view="recette"><svg viewBox="0 0 24 24"><path d="M12 4a6 6 0 0 1 6 6v2H6v-2a6 6 0 0 1 6-6zM4 15h16v2H4z"/></svg><span>Recette</span></button>
+    <button class="tab" data-view="reglages"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3.2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9 7 7M17 17l2.1 2.1M19.1 4.9 17 7M7 17l-2.1 2.1" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span>Réglages</span></button>
+  </nav>
+</div>
+
+<div id="toast" class="toast"></div>
+
+<script src="js/recettes.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
