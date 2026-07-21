@@ -167,15 +167,18 @@ function promosActives(){
   );
 }
 
-/** Cherche la meilleure promo correspondant à un ingrédient. */
-function promoPour(nomIngredient){
+/** Cherche la meilleure promo correspondant à un ingrédient.
+    Une offre sans pourcentage lisible est conservée (remise 0) : elle
+    ne fait pas baisser le budget, mais elle signale le produit. */
+function promoPour(nomIngredient, rayon){
   const n = norm(nomIngredient);
   const mots = n.split(" ").filter(w => w.length > 3);
   let best = null;
   for(const p of promosActives()){
-    const cible = norm(p.produit);
+    if(rayon && p.rayon && p.rayon !== rayon) continue;
+    const cible = norm(p.produit + " " + (p.marque || ""));
     const match = cible.includes(n) || n.includes(cible) || mots.some(w => cible.includes(w));
-    if(match && p.remise > 0 && (!best || p.remise > best.remise)) best = p;
+    if(match && (!best || p.remise > best.remise)) best = p;
   }
   return best;
 }
@@ -201,9 +204,11 @@ function rendrePromos(){
       <div class="promo-txt">
         <div class="promo-ens">${p.enseigne}</div>
         <div class="promo-nom">${p.produit}</div>
-        <div class="promo-meta">${p.detail || ""}${p.fin ? " · jusqu'au " + p.fin : ""}</div>
+        <div class="promo-meta">${p.rayon || ""}${p.marque ? " · " + p.marque : ""}${p.fin ? " · jusqu'au " + p.fin : ""}</div>
         <span class="badge-remise ${p.type==="coupon"?"badge-coupon":""}">
-          ${p.type==="coupon" ? "Bon de réduction" : "−" + Math.round(p.remise*100) + " %"}
+          ${p.remise >= 1 ? "Gratuit"
+            : p.remise > 0 ? "−" + Math.round(p.remise*100) + " %"
+            : p.type === "coupon" ? "Bon de réduction" : "En promo"}
         </span>
       </div>
       ${p.prix ? `<div class="prix">
@@ -218,14 +223,15 @@ function rendrePromos(){
    ============================================================ */
 function coutRecette(rec){
   const n = S.config.personnes;
-  let plein = 0, reduit = 0;
+  let plein = 0, reduit = 0, nbPromos = 0;
   for(const i of rec.ing){
     const brut = i.q * n * i.p;
     plein += brut;
-    const pr = promoPour(i.n);
+    const pr = promoPour(i.n, i.r);
+    if(pr) nbPromos++;
     reduit += pr ? brut * (1 - pr.remise) : brut;
   }
-  return {plein, reduit, eco: plein - reduit};
+  return {plein, reduit, eco: plein - reduit, nbPromos};
 }
 
 function estExclue(rec){
@@ -251,7 +257,7 @@ function genererMenu(){
   // score : moins cher que la cible = bonus, économie promo = bonus fort
   const notes = pool.map(p => ({
     ...p,
-    score: (cible - p.c.reduit) * 0.6 + p.c.eco * 2.5 + Math.random() * 1.6
+    score: (cible - p.c.reduit) * 0.6 + p.c.eco * 2.5 + p.c.nbPromos * 0.8 + Math.random() * 1.6
   })).sort((a,b) => b.score - a.score);
 
   const choisies = [];
@@ -367,7 +373,7 @@ function construireListe(){
   return Object.values(agg)
     .filter(a => !stock.some(s => norm(a.n).includes(s) || s.includes(norm(a.n))))
     .map(a => {
-      const pr = promoPour(a.n);
+      const pr = promoPour(a.n, a.r);
       const plein = a.q * a.p;
       return {...a, promo:pr, plein, cout: pr ? plein * (1 - pr.remise) : plein};
     });
