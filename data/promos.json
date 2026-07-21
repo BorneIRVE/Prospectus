@@ -1,5 +1,50 @@
 {
- "maj": null,
+ "maj": "2026-07-21T19:45:19+00:00",
  "source": "https://anti-crise.fr",
- "items": []
+ "items": [
+  {
+   "enseigne": "Intermarché",
+   "produit": "50% sur Mini Rubans correcteur Tipp Ex (28/07 09/08)",
+   "detail": "Intermarché : 50% sur Mini Rubans correcteur Tipp-Ex (28/07 – 09/08)",
+   "type": "promo",
+   "remise": 0.5,
+   "prix": null,
+   "prixAvant": null,
+   "lien": "https://anti-crise.fr/les-bons-plans-courses/intermarche-50-sur-mini-rubans-correcteur-tipp-ex-28-07-09-08/",
+   "fin": null
+  },
+  {
+   "enseigne": "Intermarché",
+   "produit": "50% sur Recharges PILOT FriXion Ball (28/07 09/08)",
+   "detail": "Intermarché : 50% sur Recharges PILOT FriXion Ball (28/07 – 09/08)",
+   "type": "promo",
+   "remise": 0.5,
+   "prix": null,
+   "prixAvant": null,
+   "lien": "https://anti-crise.fr/les-bons-plans-courses/intermarche-50-sur-recharges-pilot-frixion-ball-28-07-09-08/",
+   "fin": null
+  },
+  {
+   "enseigne": "Intermarché",
+   "produit": "50% sur Stylos bille BiC Cristal (28/07 09/08)",
+   "detail": "Intermarché : 50% sur Stylos-bille BiC Cristal (28/07 – 09/08)",
+   "type": "promo",
+   "remise": 0.5,
+   "prix": null,
+   "prixAvant": null,
+   "lien": "https://anti-crise.fr/les-bons-plans-courses/intermarche-50-sur-stylos-bille-bic-cristal-28-07-09-08/",
+   "fin": null
+  },
+  {
+   "enseigne": "Intermarché",
+   "produit": "40% sur Feutres effaçables BiC (28/07 09/08)",
+   "detail": "Intermarché : 40% sur Feutres effaçables BiC (28/07 – 09/08)",
+   "type": "promo",
+   "remise": 0.4,
+   "prix": null,
+   "prixAvant": null,
+   "lien": "https://anti-crise.fr/les-bons-plans-courses/intermarche-40-sur-feutres-effacables-bic-28-07-09-08/",
+   "fin": null
+  }
+ ]
 }
