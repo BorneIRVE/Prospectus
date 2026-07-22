@@ -1,38 +1,40 @@
-name: Promos du mardi
+name: Promos hebdo (anti-crise)
 
 on:
   schedule:
-    # 05:30 UTC chaque mardi (06:30 ou 07:30 en France selon la saison)
-    - cron: "30 5 * * 2"
-  workflow_dispatch:
+    # Chaque mardi à 06:00 UTC (08:00 en France l'été). cron : min h * * jour(2=mardi)
+    - cron: "0 6 * * 2"
+  workflow_dispatch:        # permet aussi un lancement manuel depuis l'onglet Actions
 
 permissions:
-  contents: write
+  contents: write           # nécessaire pour committer promos.json
 
 jobs:
-  scraper:
+  scrape:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Récupérer le dépôt
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
+      - name: Installer Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
       - name: Installer les dépendances
-        run: pip install requests beautifulsoup4
+        run: pip install -r scraper/requirements.txt
 
-      - name: Récupérer les promos
-        run: python scripts/scrape_anticrise.py
+      - name: Lancer le scraper
+        run: python scraper/anticrise.py
 
-      - name: Publier la mise à jour
+      - name: Committer les promos si elles ont changé
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if [ -n "$(git status --porcelain data/promos.json)" ]; then
-            git add data/promos.json
-            git commit -m "Promos du $(date +%d/%m/%Y)"
-            git push
+          git config user.name  "promos-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/promos.json data/promos-*.json
+          if git diff --cached --quiet; then
+            echo "Aucun changement de promos."
           else
-            echo "Aucun changement"
+            git commit -m "Promos du $(date +%F)"
+            git push
           fi
