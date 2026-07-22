@@ -1,47 +1,69 @@
-# Prospectus
+# Prospectus — assistant menus & promos
 
-Assistant de menus : il compose les repas de la semaine sous votre budget, en tenant compte
-de ce que vous avez déjà, de vos exclusions alimentaires et des promotions du moment.
+Application web (site statique) qui construit des menus autour des promotions
+de la semaine, calcule le **coût réel** après coupons/ODR, et génère une liste
+de courses rangée par rayon. Aucune base de données, aucun serveur : le site
+est statique et un job GitHub Actions met à jour les promos chaque mardi.
 
-## Mise en ligne (5 minutes, faisable depuis l'iPhone)
+## Mise en ligne (GitHub Pages)
 
-1. Sur github.com, créez un dépôt public — par exemple `prospectus`.
-2. Glissez-y tous les fichiers de ce dossier, en gardant l'arborescence :
+1. Créez un dépôt GitHub et déposez-y **tout le contenu de ce dossier** à la racine.
+2. Dépôt → **Settings → Pages** → Source : *Deploy from a branch*, branche `main`, dossier `/root`.
+3. Ouvrez l'URL fournie (`https://votre-compte.github.io/votre-repo/`).
+
+L'app fonctionne immédiatement grâce au `data/promos.json` d'amorçage inclus.
+
+## Activer la mise à jour automatique des promos
+
+1. Ouvrez `scraper/anticrise.py` et réglez en haut :
+   - `ENSEIGNES` : vos magasins (minuscules, comme sur anti-crise.fr) ;
+   - `CONTACT` : votre e-mail (inséré dans le User-Agent).
+2. Poussez le code. Le workflow `.github/workflows/promos.yml` tourne chaque
+   mardi 06:00 UTC, régénère `data/promos.json` et le commite.
+3. Pour un test immédiat : onglet **Actions → Promos hebdo → Run workflow**.
+
+Voir `scraper/README.md` pour le détail.
+
+## Structure
 
 ```
-index.html
-css/style.css
-js/app.js
-js/recettes.js
-data/promos.json
-scripts/scrape_anticrise.py
-.github/workflows/promos.yml
+index.html            écran unique, 6 onglets
+css/style.css         direction visuelle « prospectus »
+js/
+  rayons.js           range un produit dans un rayon (+ flag comestible)
+  recettes.js         base de recettes (à enrichir librement)
+  promos.js           rend l'onglet Promo depuis data/promos.json
+  menu.js             génère le menu piloté par les promos
+  app.js              orchestrateur (onboarding, navigation, liste, suivi)
+data/promos.json      promos de la semaine (généré par le scraper)
+scraper/              scraper Python + dépendances + notice
+.github/workflows/    automatisation hebdomadaire
 ```
 
-3. Dans **Settings → Pages**, choisissez la branche `main` et le dossier `/ (root)`.
-4. Le site s'ouvre sur `https://<votre-compte>.github.io/prospectus/`.
-   Ajoutez-le à l'écran d'accueil : il s'ouvre alors comme une application.
+## Comment ça marche
 
-## La mise à jour des promos
+- **Promo** — lit `data/promos.json`, classe chaque offre par rayon, affiche le
+  prix barré rouge + le coût réel + les liens coupon/ODR. Bouton *Ajouter à ma
+  liste* (verrouillé si l'offre est déjà au menu).
+- **Menu** — `Générer` choisit les recettes qui exploitent le plus de promos
+  alimentaires, sous vos contraintes (personnes, repas, exclusions, magasins).
+  Anti-gaspi : réutilisation des restes signalée.
+- **Liste** — construite depuis le menu (+ promos ajoutées + ajouts manuels),
+  rangée par rayon, avec deux coûts : **promos (ferme)** et **reste estimé**.
+  *Valider les courses* alimente le suivi de l'Accueil.
+- **Accueil** — dépensé / économisé du mois, répartition par rayon, historique.
+- **Réglages** — foyer, budget, exclusions, magasins, placards.
 
-Le workflow `.github/workflows/promos.yml` tourne **chaque mardi à 5 h 30 UTC**.
-Il lit anti-crise.fr, écrit `data/promos.json` et pousse le commit tout seul.
-Aucune action de votre part.
+Tout est stocké en local sur l'appareil (localStorage). « Tout effacer » dans
+Réglages remet à zéro.
 
-Pour le déclencher à la main : onglet **Actions → Promos du mardi → Run workflow**.
+## Limites connues (et évolutions)
 
-Si anti-crise.fr change de structure, le script n'écrase rien : l'ancien fichier reste
-en place et le site continue de fonctionner avec les prix de référence.
-
-## Ce qui reste sur votre téléphone
-
-Paramètres, menus, liste cochée et historique vivent dans le stockage local du navigateur.
-Rien n'est envoyé à un serveur. Seule exception : la recherche des magasins interroge
-OpenStreetMap avec vos coordonnées approximatives, une fois, au moment où vous appuyez
-sur le bouton.
-
-## Ajouter vos recettes
-
-Ouvrez `js/recettes.js` et copiez le format d'une entrée existante.
-`q` est la quantité **pour une personne**, `p` le prix de référence hors promo
-par unité (`kg`, `L` ou `pièce`). Le reste se calcule tout seul.
+- **Coût hors promo** = estimation forfaitaire (1,30 €/ingrédient) faute de
+  prix de référence. Brancher **Open Prices** (Open Food Facts) le remplacera.
+- **Générateur** = heuristique gloutonne (très bon menu, pas prouvé optimal).
+  Un vrai solveur sous contraintes (OR-Tools) est l'évolution côté serveur.
+- **Historique de prix / fausses promos** : nécessite d'accumuler plusieurs
+  semaines de `promos.json`.
+- anti-crise.fr est une **source secondaire et remplaçable** ; en cas de
+  changement de structure, le scraper échoue visiblement (voir sa notice).
