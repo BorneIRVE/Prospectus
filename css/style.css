@@ -1,0 +1,357 @@
+/* ============================================================
+   Prospectus â€” direction visuelle
+   Papier de catalogue : fond crÃ¨me imprimÃ©, encre profonde,
+   rouge Â« prix choc Â», vert d'Ã©conomie. Prix en mono, toujours
+   barrÃ©s quand une promo s'applique : c'est la signature.
+   ============================================================ */
+
+:root{
+  --papier:#F4EFE6;
+  --papier-2:#FBF8F2;
+  --encre:#14120F;
+  --encre-douce:#6B6357;
+  --rouge:#D6202A;
+  --vert:#0F7B4F;
+  --bleu:#1B2A4A;
+  --trait:#14120F;
+
+  --r:14px;
+  --pad:18px;
+  --safe-b:env(safe-area-inset-bottom,0px);
+}
+
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  background:var(--papier);
+  color:var(--encre);
+  font-family:"Instrument Sans",system-ui,-apple-system,sans-serif;
+  font-size:16px;line-height:1.5;
+  -webkit-font-smoothing:antialiased;
+  -webkit-text-size-adjust:100%;
+}
+/* grain d'impression trÃ¨s lÃ©ger */
+body::before{
+  content:"";position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.045;
+  background-image:radial-gradient(var(--encre) .6px,transparent .6px);
+  background-size:3px 3px;
+}
+.hidden{display:none !important}
+button{font:inherit;color:inherit;cursor:pointer}
+input,textarea{font:inherit;color:inherit}
+
+/* ---------- typographie ---------- */
+.display{
+  font-family:"Bricolage Grotesque",sans-serif;font-weight:800;
+  font-size:clamp(38px,11vw,56px);line-height:.94;letter-spacing:-.03em;margin:.1em 0 .35em;
+}
+.display-sm{
+  font-family:"Bricolage Grotesque",sans-serif;font-weight:800;
+  font-size:clamp(24px,6.5vw,32px);line-height:1.02;letter-spacing:-.02em;margin:2px 0 0;
+}
+.eyebrow{
+  font-family:"JetBrains Mono",monospace;font-weight:700;font-size:11px;
+  letter-spacing:.16em;text-transform:uppercase;color:var(--rouge);margin:0;
+}
+.lede{color:var(--encre-douce);margin:.5em 0 1.2em;max-width:34ch}
+.hint{font-size:13px;color:var(--encre-douce);margin:.5em 0}
+.card-title{
+  font-family:"Bricolage Grotesque",sans-serif;font-weight:800;font-size:17px;
+  letter-spacing:-.01em;margin:0 0 12px;
+}
+.empty{color:var(--encre-douce);font-size:14px;margin:14px 0 0}
+
+/* ---------- boutons ---------- */
+.btn{
+  border:2px solid var(--trait);border-radius:999px;background:var(--papier-2);
+  padding:13px 22px;font-weight:600;letter-spacing:-.01em;
+  transition:transform .12s ease, box-shadow .12s ease;
+  box-shadow:3px 3px 0 var(--trait);
+}
+.btn:active{transform:translate(3px,3px);box-shadow:0 0 0 var(--trait)}
+.btn-primary{background:var(--rouge);color:#fff;border-color:var(--trait)}
+.btn-ghost{background:transparent;box-shadow:none;border-color:var(--encre-douce);color:var(--encre-douce)}
+.btn-ghost:active{transform:none}
+.btn-danger{background:transparent;color:var(--rouge);border-color:var(--rouge);box-shadow:none}
+.btn-block{display:block;width:100%;margin:6px 0 18px}
+.btn:focus-visible,.tab:focus-visible,input:focus-visible,textarea:focus-visible{
+  outline:3px solid var(--bleu);outline-offset:2px;
+}
+
+/* ---------- onboarding ---------- */
+.onboarding{position:fixed;inset:0;z-index:20;background:var(--papier);overflow-y:auto}
+.ob-sheet{max-width:560px;margin:0 auto;padding:26px 22px 60px;position:relative}
+.ob-progress{
+  font-family:"JetBrains Mono",monospace;font-size:12px;font-weight:700;
+  color:var(--encre-douce);margin-bottom:26px;
+}
+.ob-progress #obStep{color:var(--rouge)}
+.ob-sep{margin:0 3px}
+.ob-nav{display:flex;gap:10px;margin-top:26px}
+.ob-nav .btn{flex:1}
+.stepper{display:flex;align-items:center;gap:16px;margin:14px 0 26px}
+.step-btn{
+  width:52px;height:52px;border:2px solid var(--trait);border-radius:50%;
+  background:var(--papier-2);font-size:24px;font-weight:700;line-height:1;
+}
+.step-btn:active{background:var(--rouge);color:#fff}
+.step-val{
+  font-family:"JetBrains Mono",monospace;font-weight:700;font-size:34px;min-width:2ch;text-align:center;
+}
+.budget-input{display:flex;align-items:baseline;gap:8px;border-bottom:3px solid var(--trait);padding-bottom:6px;margin:10px 0 6px}
+.budget-input input{
+  border:0;background:transparent;font-family:"JetBrains Mono",monospace;
+  font-weight:700;font-size:44px;width:100%;padding:0;
+}
+.budget-input input:focus{outline:none}
+.budget-input .unit{font-family:"JetBrains Mono",monospace;font-weight:700;font-size:26px;color:var(--rouge)}
+textarea,.field input{
+  width:100%;border:2px solid var(--trait);border-radius:var(--r);
+  background:var(--papier-2);padding:12px 14px;resize:vertical;
+}
+
+/* ---------- magasins ---------- */
+.store-list{margin-top:14px;display:flex;flex-direction:column;gap:8px}
+.store{
+  display:flex;align-items:center;gap:12px;padding:12px 14px;
+  border:2px solid var(--trait);border-radius:var(--r);background:var(--papier-2);
+}
+.store input{width:22px;height:22px;accent-color:var(--rouge);flex:none}
+.store-nom{font-weight:600}
+.store-dist{font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--encre-douce)}
+
+/* ---------- app + onglets ---------- */
+.app{position:relative;z-index:1;max-width:640px;margin:0 auto;padding:0 18px calc(96px + var(--safe-b))}
+.view{padding-top:22px}
+.topbar{margin-bottom:20px}
+.card{
+  border:2px solid var(--trait);border-radius:var(--r);background:var(--papier-2);
+  padding:var(--pad);margin-bottom:16px;
+}
+
+.tabbar{
+  position:fixed;left:0;right:0;bottom:0;z-index:10;
+  display:grid;grid-template-columns:repeat(6,1fr);
+  background:var(--papier-2);border-top:2px solid var(--trait);
+  padding:6px 2px calc(6px + var(--safe-b));
+}
+.tab{
+  background:none;border:0;padding:6px 0 4px;display:flex;flex-direction:column;
+  align-items:center;gap:3px;color:var(--encre-douce);
+}
+.tab svg{width:22px;height:22px;fill:currentColor}
+.tab span{font-size:10px;font-weight:600;letter-spacing:-.01em}
+.tab.is-active{color:var(--rouge)}
+
+/* ---------- accueil ---------- */
+.totaux{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:16px}
+.total{border:2px solid var(--trait);border-radius:var(--r);padding:14px;background:var(--papier-2)}
+.total-eco{background:var(--vert);color:#fff;border-color:var(--trait)}
+.total-label{display:block;font-family:"JetBrains Mono",monospace;font-size:11px;
+  letter-spacing:.12em;text-transform:uppercase;opacity:.75}
+.total-val{display:block;font-family:"JetBrains Mono",monospace;font-weight:700;
+  font-size:26px;letter-spacing:-.02em;margin-top:4px}
+
+.donut-wrap{position:relative;width:min(260px,72vw);margin:0 auto}
+#donut{width:100%;height:auto;display:block}
+.donut-center{
+  position:absolute;inset:0;display:flex;flex-direction:column;
+  align-items:center;justify-content:center;pointer-events:none;text-align:center;
+}
+.donut-center span{font-family:"JetBrains Mono",monospace;font-weight:700;font-size:22px}
+.donut-center small{font-size:11px;color:var(--encre-douce)}
+.legende{list-style:none;margin:18px 0 0;padding:0;display:flex;flex-direction:column;gap:7px}
+.legende li{display:flex;align-items:center;gap:10px;font-size:14px}
+.legende .pastille{width:13px;height:13px;border:1.5px solid var(--trait);border-radius:3px;flex:none}
+.legende .lg-nom{flex:1}
+.legende .lg-val{font-family:"JetBrains Mono",monospace;font-weight:700}
+
+.histo{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px}
+.histo li{display:flex;justify-content:space-between;align-items:baseline;
+  border-bottom:1px dashed var(--encre-douce);padding-bottom:8px;font-size:14px}
+.histo .h-eco{color:var(--vert);font-family:"JetBrains Mono",monospace;font-weight:700}
+
+/* ---------- promo ---------- */
+.filtres{display:flex;gap:8px;overflow-x:auto;padding-bottom:12px;margin-bottom:6px;-webkit-overflow-scrolling:touch}
+.filtre{
+  flex:none;border:2px solid var(--trait);border-radius:999px;background:var(--papier-2);
+  padding:7px 15px;font-size:13px;font-weight:600;
+}
+.filtre.is-on{background:var(--encre);color:var(--papier)}
+.promo-liste{display:flex;flex-direction:column;gap:10px}
+.promo{
+  border:2px solid var(--trait);border-radius:var(--r);background:var(--papier-2);
+  padding:14px;display:flex;gap:14px;align-items:flex-start;
+}
+.promo.hidden{display:none}
+.promo-txt{flex:1;min-width:0}
+.promo-ens{font-family:"JetBrains Mono",monospace;font-size:11px;font-weight:700;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--encre-douce)}
+.promo-nom{font-weight:600;margin:2px 0 4px;line-height:1.25}
+.promo-meta{font-size:12px;color:var(--encre-douce)}
+/* signature : le prix barrÃ© du prospectus */
+.prix{font-family:"JetBrains Mono",monospace;text-align:right;flex:none}
+.prix-avant{display:block;font-size:13px;color:var(--encre-douce);text-decoration:line-through;
+  text-decoration-color:var(--rouge);text-decoration-thickness:2px}
+.prix-apres{display:block;font-weight:700;font-size:21px;color:var(--rouge);letter-spacing:-.02em}
+.badge-remise{
+  display:inline-block;background:var(--rouge);color:#fff;font-family:"JetBrains Mono",monospace;
+  font-weight:700;font-size:11px;padding:3px 7px;border-radius:4px;margin-top:5px;
+}
+.badge-coupon{background:var(--bleu)}
+
+/* ---------- menu ---------- */
+.jauge-head{display:flex;align-items:baseline;gap:8px;font-family:"JetBrains Mono",monospace}
+.jauge-head #jaugeCout{font-weight:700;font-size:26px}
+.jauge-max{font-size:13px;color:var(--encre-douce)}
+.jauge{height:14px;border:2px solid var(--trait);border-radius:999px;background:var(--papier);margin:10px 0 8px;overflow:hidden}
+.jauge-fill{height:100%;width:0;background:var(--vert);transition:width .5s cubic-bezier(.2,.7,.2,1)}
+.jauge-fill.over{background:var(--rouge)}
+.jauge-eco{margin:0;font-size:13px;color:var(--vert);font-weight:600}
+
+.menu-liste{display:flex;flex-direction:column;gap:12px}
+.plat{border:2px solid var(--trait);border-radius:var(--r);background:var(--papier-2);padding:14px}
+.plat-head{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
+.plat-jour{font-family:"JetBrains Mono",monospace;font-size:11px;font-weight:700;
+  letter-spacing:.12em;text-transform:uppercase;color:var(--rouge)}
+.plat-nom{font-family:"Bricolage Grotesque",sans-serif;font-weight:800;font-size:19px;
+  letter-spacing:-.01em;margin:3px 0 6px;line-height:1.15}
+.plat-meta{font-size:12px;color:var(--encre-douce)}
+.plat-actions{margin-top:12px;display:flex;gap:8px}
+.mini{
+  border:2px solid var(--trait);border-radius:999px;background:transparent;
+  padding:7px 14px;font-size:13px;font-weight:600;
+}
+.mini-swap{background:var(--encre);color:var(--papier)}
+.plat.pop{animation:pop .35s cubic-bezier(.2,.8,.2,1)}
+@keyframes pop{from{transform:scale(.97);opacity:.4}to{transform:none;opacity:1}}
+
+/* ---------- liste ---------- */
+.liste-courses{display:flex;flex-direction:column;gap:16px}
+.rayon{border:2px solid var(--trait);border-radius:var(--r);background:var(--papier-2);overflow:hidden}
+.rayon-head{display:flex;justify-content:space-between;align-items:center;
+  background:var(--encre);color:var(--papier);padding:10px 14px}
+.rayon-nom{font-family:"Bricolage Grotesque",sans-serif;font-weight:800;font-size:15px;letter-spacing:.01em}
+.rayon-total{font-family:"JetBrains Mono",monospace;font-weight:700;font-size:14px}
+.rayon ul{list-style:none;margin:0;padding:6px 14px 12px}
+.rayon li{display:flex;align-items:center;gap:11px;padding:9px 0;border-bottom:1px dashed rgba(20,18,15,.18)}
+.rayon li:last-child{border-bottom:0}
+.rayon input[type=checkbox]{width:21px;height:21px;accent-color:var(--vert);flex:none}
+.art-nom{flex:1;font-size:14px;line-height:1.3}
+.art-qte{font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--encre-douce);display:block}
+.coche{opacity:.42;text-decoration:line-through}
+
+/* ---------- recettes ---------- */
+.recettes{display:flex;flex-direction:column;gap:12px}
+.recette{border:2px solid var(--trait);border-radius:var(--r);background:var(--papier-2);overflow:hidden}
+.recette-head{width:100%;text-align:left;background:none;border:0;padding:15px;display:flex;
+  justify-content:space-between;align-items:center;gap:12px}
+.recette-nom{font-family:"Bricolage Grotesque",sans-serif;font-weight:800;font-size:17px;letter-spacing:-.01em}
+.recette-temps{font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--encre-douce);flex:none}
+.recette-corps{padding:0 15px 16px;border-top:1px dashed rgba(20,18,15,.2);margin-top:-2px}
+.recette-corps h4{font-family:"JetBrains Mono",monospace;font-size:11px;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--rouge);margin:15px 0 7px}
+.recette-corps ul,.recette-corps ol{margin:0;padding-left:18px;font-size:14.5px}
+.recette-corps li{margin-bottom:6px}
+
+/* ---------- champs rÃ©glages ---------- */
+.field{display:block;margin-bottom:14px}
+.field span{display:block;font-size:13px;font-weight:600;margin-bottom:5px}
+
+/* ---------- toast ---------- */
+.toast{
+  position:fixed;left:50%;bottom:calc(86px + var(--safe-b));transform:translate(-50%,14px);
+  background:var(--encre);color:var(--papier);padding:11px 18px;border-radius:999px;
+  font-size:14px;font-weight:600;opacity:0;pointer-events:none;transition:all .25s ease;z-index:30;
+  max-width:88vw;text-align:center;
+}
+.toast.on{opacity:1;transform:translate(-50%,0)}
+
+@media (prefers-reduced-motion:reduce){
+  *{animation:none !important;transition:none !important}
+}
+
+/* ============================================================
+   AJOUTS APP â€” Ã©lÃ©ments introduits par les Ã©crans branchÃ©s
+   ============================================================ */
+
+/* â€” Promo : rayon, ajout, coÃ»t rÃ©el â€” */
+.promo-tags{display:flex;gap:6px;flex-wrap:wrap;margin:7px 0 0}
+.promo-tag{font-family:"JetBrains Mono",monospace;font-size:10px;font-weight:700;letter-spacing:.04em;padding:3px 8px;border-radius:5px}
+.promo-tag.rayon{background:var(--encre);color:var(--papier)}
+.promo-tag.menu{background:var(--vert);color:#fff}
+.promo-tag.best{background:transparent;color:var(--rouge);border:1.5px solid var(--rouge)}
+.art-liens{display:flex;gap:6px;flex-wrap:wrap;margin-top:9px;align-items:center}
+.lien{display:inline-flex;align-items:center;gap:6px;font-size:11.5px;font-weight:600;border:1.5px solid var(--trait);border-radius:9px;padding:5px 9px;background:var(--papier);text-decoration:none;color:var(--encre)}
+.lien:active{transform:translateY(1px)}
+.lien .pt{width:7px;height:7px;border-radius:50%;flex:none;background:var(--bleu)}
+.lien.odr .pt{background:var(--rouge)}
+.lien .fleche{color:var(--encre-douce);font-family:"JetBrains Mono",monospace}
+.reel-pill{display:inline-flex;align-items:center;gap:5px;background:var(--vert);color:#fff;font-family:"JetBrains Mono",monospace;font-weight:700;font-size:11px;padding:5px 9px;border-radius:8px}
+.promo-add{display:inline-flex;align-items:center;gap:7px;margin-top:10px;border:2px solid var(--trait);border-radius:999px;background:var(--papier);padding:8px 14px;font-size:12.5px;font-weight:600;box-shadow:2px 2px 0 var(--trait);transition:transform .1s,box-shadow .1s}
+.promo-add:active{transform:translate(2px,2px);box-shadow:0 0 0 var(--trait)}
+.promo-add.on{background:var(--vert);color:#fff}
+.promo-add.lock{box-shadow:none;cursor:default;opacity:.92}
+.promo-add:disabled{cursor:default}
+.promo-add .ic{font-family:"Bricolage Grotesque",sans-serif;font-weight:800;font-size:16px;line-height:0}
+.promo-vide{color:var(--encre-douce);font-size:14px;text-align:center;padding:24px 0}
+.promo-vide.hidden{display:none}
+
+/* â€” Menu : coÃ»t par repas, anti-gaspi â€” */
+.plat-prix{font-family:"JetBrains Mono",monospace;text-align:right;flex:none;line-height:1.15}
+.plat-prix .val{font-weight:700;font-size:18px;letter-spacing:-.02em}
+.plat-prix .val .t{color:var(--encre-douce)}
+.plat-prix .par{display:block;font-size:10px;color:var(--encre-douce);margin-top:1px}
+.plat-prix .cnt{display:block;font-size:10px;font-weight:700;margin-top:4px}
+.plat-prix .cnt.promo{color:var(--rouge)}
+.plat-prix .cnt.est{color:var(--encre-douce)}
+.ing-promo{color:var(--rouge);font-weight:600}
+.plat-flag{display:inline-flex;align-items:center;gap:5px;background:var(--vert);color:#fff;font-family:"JetBrains Mono",monospace;font-weight:700;font-size:10px;letter-spacing:.04em;padding:3px 8px;border-radius:5px;margin:0 0 8px}
+
+/* â€” Liste : prix en ligne, ajout, bilan deux coÃ»ts â€” */
+.rayon li.riche{align-items:flex-start}
+.rayon li{align-items:flex-start}
+.art-prix{font-family:"JetBrains Mono",monospace;text-align:right;flex:none;line-height:1.18}
+.art-prix .avant{display:block;font-size:11px;color:var(--encre-douce);text-decoration:line-through;text-decoration-color:var(--rouge);text-decoration-thickness:2px}
+.art-prix .apres{display:block;font-weight:700;font-size:15px;color:var(--rouge);letter-spacing:-.02em}
+.art-prix.est{color:var(--encre-douce);font-weight:500;font-size:13.5px}
+.art-prix.est .val{border-bottom:1.5px dashed var(--encre-douce);padding-bottom:1px}
+.art-prix.absent{color:var(--encre-douce);font-size:15px;font-weight:700}
+.tag-ajoute{font-family:"JetBrains Mono",monospace;font-size:9.5px;font-weight:700;color:var(--bleu);border:1.5px solid var(--bleu);border-radius:4px;padding:1px 5px;margin-left:6px;vertical-align:middle}
+.art-suppr{border:0;background:none;color:var(--encre-douce);font-size:20px;line-height:1;padding:0 2px;flex:none}
+.ajout-btn{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;border:2px dashed var(--trait);border-radius:var(--r);background:transparent;padding:14px;font-weight:600;font-size:15px;box-shadow:none}
+.ajout-btn:active{background:var(--papier-2)}
+.ajout-btn .plus{font-family:"Bricolage Grotesque",sans-serif;font-weight:800;font-size:20px;line-height:0}
+.ajout-form{border:2px solid var(--trait);border-radius:var(--r);background:var(--papier-2);padding:14px;display:none;box-shadow:4px 4px 0 var(--trait)}
+.ajout-form.on{display:block}
+.ajout-form h4{font-family:"JetBrains Mono",monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--rouge);margin:0 0 10px}
+.ajout-champ{display:block;margin-bottom:10px}
+.ajout-champ span{display:block;font-size:12px;font-weight:600;margin-bottom:4px}
+.ajout-form input,.ajout-form select{width:100%;border:2px solid var(--trait);border-radius:10px;background:var(--papier);padding:11px 12px;font:inherit}
+.ajout-form .row2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.ajout-actions{display:flex;gap:10px;margin-top:6px}
+.ajout-actions .btn{flex:1;box-shadow:2px 2px 0 var(--trait)}
+
+.bilan{border:2px solid var(--trait);border-radius:var(--r);background:var(--papier-2);padding:2px 16px 16px;box-shadow:4px 4px 0 var(--trait)}
+.bilan-titre{font-family:"JetBrains Mono",monospace;font-weight:700;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--encre-douce);margin:16px 0 2px}
+.bilan-ligne{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;padding:12px 0;border-bottom:1px dashed rgba(20,18,15,.2)}
+.bl-lab{font-weight:600;font-size:14px}
+.bl-lab.promo{color:var(--rouge)}
+.bl-sub{display:block;font-family:"JetBrains Mono",monospace;font-size:10.5px;font-weight:500;color:var(--encre-douce);margin-top:4px;letter-spacing:.02em}
+.bl-val{font-family:"JetBrains Mono",monospace;font-weight:700;font-size:17px;white-space:nowrap}
+.bl-val.promo{color:var(--rouge)}
+.bl-val.est{color:var(--encre-douce);font-weight:500}
+.bl-val .t{color:var(--encre-douce)}
+.info-i{display:inline-flex;align-items:center;justify-content:center;width:16px;height:16px;border-radius:50%;border:1.5px solid var(--encre-douce);color:var(--encre-douce);font-family:"Bricolage Grotesque",sans-serif;font-weight:800;font-size:10px;margin-left:6px;vertical-align:middle;line-height:1;cursor:pointer}
+.bilan-total{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;padding-top:14px;margin-top:2px;border-top:2px solid var(--trait)}
+.bilan-total .bl-lab{font-family:"Bricolage Grotesque",sans-serif;font-weight:800;font-size:17px}
+.bilan-total .bl-val{font-size:23px;color:var(--encre)}
+.bilan-budget{font-size:13px;font-weight:600;text-align:right;margin:12px 0 0}
+.bilan-note{display:none;margin-top:12px;font-size:12.5px;line-height:1.55;color:var(--encre-douce);background:var(--papier);border:1.5px dashed var(--encre-douce);border-radius:11px;padding:12px 13px}
+.bilan-note.on{display:block}
+.bilan-note b{color:var(--encre);font-weight:600}
+
+/* â€” Accueil : mention sous Ã©conomisÃ©, historique â€” */
+.total-note{display:block;font-family:"JetBrains Mono",monospace;font-size:11px;margin-top:6px;opacity:.85}
+.histo .h-left{display:flex;align-items:baseline}
+.histo .h-sem{color:var(--encre-douce);font-family:"JetBrains Mono",monospace;font-size:12px;margin-left:8px}
