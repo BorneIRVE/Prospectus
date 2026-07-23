@@ -1,8 +1,8 @@
 /* ============================================================
-   Prospectus â€” direction visuelle
-   Papier de catalogue : fond crÃ¨me imprimÃ©, encre profonde,
-   rouge Â« prix choc Â», vert d'Ã©conomie. Prix en mono, toujours
-   barrÃ©s quand une promo s'applique : c'est la signature.
+   Prospectus — direction visuelle
+   Papier de catalogue : fond crème imprimé, encre profonde,
+   rouge « prix choc », vert d'économie. Prix en mono, toujours
+   barrés quand une promo s'applique : c'est la signature.
    ============================================================ */
 
 :root{
@@ -30,7 +30,7 @@ body{
   -webkit-font-smoothing:antialiased;
   -webkit-text-size-adjust:100%;
 }
-/* grain d'impression trÃ¨s lÃ©ger */
+/* grain d'impression très léger */
 body::before{
   content:"";position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.045;
   background-image:radial-gradient(var(--encre) .6px,transparent .6px);
@@ -189,7 +189,7 @@ textarea,.field input{
   letter-spacing:.1em;text-transform:uppercase;color:var(--encre-douce)}
 .promo-nom{font-weight:600;margin:2px 0 4px;line-height:1.25}
 .promo-meta{font-size:12px;color:var(--encre-douce)}
-/* signature : le prix barrÃ© du prospectus */
+/* signature : le prix barré du prospectus */
 .prix{font-family:"JetBrains Mono",monospace;text-align:right;flex:none}
 .prix-avant{display:block;font-size:13px;color:var(--encre-douce);text-decoration:line-through;
   text-decoration-color:var(--rouge);text-decoration-thickness:2px}
@@ -254,7 +254,7 @@ textarea,.field input{
 .recette-corps ul,.recette-corps ol{margin:0;padding-left:18px;font-size:14.5px}
 .recette-corps li{margin-bottom:6px}
 
-/* ---------- champs rÃ©glages ---------- */
+/* ---------- champs réglages ---------- */
 .field{display:block;margin-bottom:14px}
 .field span{display:block;font-size:13px;font-weight:600;margin-bottom:5px}
 
@@ -272,10 +272,10 @@ textarea,.field input{
 }
 
 /* ============================================================
-   AJOUTS APP â€” Ã©lÃ©ments introduits par les Ã©crans branchÃ©s
+   AJOUTS APP — éléments introduits par les écrans branchés
    ============================================================ */
 
-/* â€” Promo : rayon, ajout, coÃ»t rÃ©el â€” */
+/* — Promo : rayon, ajout, coût réel — */
 .promo-tags{display:flex;gap:6px;flex-wrap:wrap;margin:7px 0 0}
 .promo-tag{font-family:"JetBrains Mono",monospace;font-size:10px;font-weight:700;letter-spacing:.04em;padding:3px 8px;border-radius:5px}
 .promo-tag.rayon{background:var(--encre);color:var(--papier)}
@@ -286,6 +286,10 @@ textarea,.field input{
 .lien:active{transform:translateY(1px)}
 .lien .pt{width:7px;height:7px;border-radius:50%;flex:none;background:var(--bleu)}
 .lien.odr .pt{background:var(--rouge)}
+.lien.page{background:var(--encre);color:var(--papier);border-color:var(--trait)}
+.lien.page .pt{background:var(--papier)}
+.lien.page .fleche{color:var(--papier)}
+.lien.pdf .pt{background:var(--vert)}
 .lien .fleche{color:var(--encre-douce);font-family:"JetBrains Mono",monospace}
 .reel-pill{display:inline-flex;align-items:center;gap:5px;background:var(--vert);color:#fff;font-family:"JetBrains Mono",monospace;font-weight:700;font-size:11px;padding:5px 9px;border-radius:8px}
 .promo-add{display:inline-flex;align-items:center;gap:7px;margin-top:10px;border:2px solid var(--trait);border-radius:999px;background:var(--papier);padding:8px 14px;font-size:12.5px;font-weight:600;box-shadow:2px 2px 0 var(--trait);transition:transform .1s,box-shadow .1s}
@@ -297,7 +301,29 @@ textarea,.field input{
 .promo-vide{color:var(--encre-douce);font-size:14px;text-align:center;padding:24px 0}
 .promo-vide.hidden{display:none}
 
-/* â€” Menu : coÃ»t par repas, anti-gaspi â€” */
+/* — Promo : quantité à acheter + détail du prix — */
+.badge-meca{background:var(--bleu)}
+.promo-achat{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:5px 0 2px}
+.qte-pill{font-family:"JetBrains Mono",monospace;font-size:11px;font-weight:700;letter-spacing:.04em;
+  border:2px solid var(--trait);border-radius:5px;padding:2px 8px;background:var(--papier)}
+.unitaire{font-family:"JetBrains Mono",monospace;font-size:11px;color:var(--encre-douce)}
+.promo-detail{margin-top:9px;border-top:1px dashed rgba(20,18,15,.25);padding-top:7px}
+.detail-l{display:flex;justify-content:space-between;gap:10px;font-family:"JetBrains Mono",monospace;
+  font-size:11.5px;color:var(--encre-douce);padding:2px 0}
+.detail-l.magasin span:last-child{color:var(--rouge);font-weight:700}
+.detail-l.magasin span:first-child{color:var(--encre)}
+.detail-l.bon span:last-child{color:var(--bleu);font-weight:700}
+.detail-l.bon span:first-child{color:var(--encre)}
+.detail-l.total{border-top:1.5px solid var(--trait);margin-top:5px;padding-top:5px;color:var(--encre);font-weight:700}
+.detail-l.total span:last-child{color:var(--vert)}
+.detail-l.equiv{font-size:10.5px;font-style:italic;padding:0 0 2px}
+.meca{font-weight:700;color:var(--rouge)}
+.meca.deduit{border-bottom:1.5px dotted var(--rouge);padding-bottom:1px}
+.promo-legende{font-size:11.5px;line-height:1.5;color:var(--encre-douce);margin:0 2px 4px;
+  border-left:3px solid var(--encre-douce);padding-left:10px}
+.promo-legende .meca.deduit{color:var(--encre-douce);border-bottom-color:var(--encre-douce)}
+
+/* — Menu : coût par repas, anti-gaspi — */
 .plat-prix{font-family:"JetBrains Mono",monospace;text-align:right;flex:none;line-height:1.15}
 .plat-prix .val{font-weight:700;font-size:18px;letter-spacing:-.02em}
 .plat-prix .val .t{color:var(--encre-douce)}
@@ -308,7 +334,7 @@ textarea,.field input{
 .ing-promo{color:var(--rouge);font-weight:600}
 .plat-flag{display:inline-flex;align-items:center;gap:5px;background:var(--vert);color:#fff;font-family:"JetBrains Mono",monospace;font-weight:700;font-size:10px;letter-spacing:.04em;padding:3px 8px;border-radius:5px;margin:0 0 8px}
 
-/* â€” Liste : prix en ligne, ajout, bilan deux coÃ»ts â€” */
+/* — Liste : prix en ligne, ajout, bilan deux coûts — */
 .rayon li.riche{align-items:flex-start}
 .rayon li{align-items:flex-start}
 .art-prix{font-family:"JetBrains Mono",monospace;text-align:right;flex:none;line-height:1.18}
@@ -351,7 +377,7 @@ textarea,.field input{
 .bilan-note.on{display:block}
 .bilan-note b{color:var(--encre);font-weight:600}
 
-/* â€” Accueil : mention sous Ã©conomisÃ©, historique â€” */
+/* — Accueil : mention sous économisé, historique — */
 .total-note{display:block;font-family:"JetBrains Mono",monospace;font-size:11px;margin-top:6px;opacity:.85}
 .histo .h-left{display:flex;align-items:baseline}
 .histo .h-sem{color:var(--encre-douce);font-family:"JetBrains Mono",monospace;font-size:12px;margin-left:8px}
