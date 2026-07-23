@@ -111,9 +111,9 @@
     }).join("");
 
     // la référence : la page du prospectus, où la mécanique est imprimée
-    if (o.page_url) {
-      liens = '<a class="lien page" href="' + esc(o.page_url) + '" target="_blank" rel="noopener">' +
-        '<span class="pt"></span>Voir la page' + (o.page ? " " + o.page : "") + ' du catalogue <span class="fleche">↗</span></a>' + liens;
+    if (o.page_image || o.page_url) {
+      liens = '<button class="lien page" data-page="' + esc(o.id) + '">' +
+        '<span class="pt"></span>Voir la page' + (o.page ? " " + o.page : "") + ' du catalogue</button>' + liens;
     }
     if (o.pdf_url) {
       liens += '<a class="lien pdf" href="' + esc(o.pdf_url) + '" target="_blank" rel="noopener">' +
@@ -132,6 +132,37 @@
       "</div>" +
       '<div class="prix"><span class="prix-avant">' + avant + '</span><span class="prix-apres">' + final + "</span>" + badge + "</div>" +
       "</div>";
+  }
+
+  // ---- visionneuse : affiche l'image de la page du prospectus ----
+  function visionneuse(o) {
+    var m = document.getElementById("pageViewer");
+    if (!m) {
+      m = document.createElement("div");
+      m.id = "pageViewer";
+      m.className = "viewer";
+      document.body.appendChild(m);
+    }
+    var titre = (o.page ? "Page " + o.page + " · " : "") + o.enseigne;
+    var corps = o.page_image
+      ? '<img src="' + esc(o.page_image) + '" alt="' + esc(titre) + '" loading="lazy">'
+      : '<p class="viewer-vide">L\'image de cette page n\'a pas pu être récupérée.<br>' +
+        "Ouvrez le prospectus sur anti-crise pour la consulter.</p>";
+    m.innerHTML =
+      '<div class="viewer-bar"><span class="viewer-t">' + esc(titre) + "</span>" +
+      '<button class="viewer-x" aria-label="Fermer">×</button></div>' +
+      '<div class="viewer-body">' + corps + "</div>" +
+      '<div class="viewer-foot"><span class="viewer-src">source : anti-crise.fr</span>' +
+      '<a class="btn btn-primary" href="' + esc(o.page_url || o.catalogue_url || "#") +
+      '" target="_blank" rel="noopener">Ouvrir le prospectus ↗</a></div>';
+    m.classList.add("on");
+    document.body.classList.add("no-scroll");
+    function fermer() { m.classList.remove("on"); document.body.classList.remove("no-scroll"); }
+    m.querySelector(".viewer-x").addEventListener("click", fermer);
+    m.addEventListener("click", function (e) { if (e.target === m) fermer(); });
+    document.addEventListener("keydown", function esc2(e) {
+      if (e.key === "Escape") { fermer(); document.removeEventListener("keydown", esc2); }
+    });
   }
 
   function init(opts) {
@@ -186,6 +217,11 @@
 
   function brancher(offres, parId, filtres, liste, onAjout) {
     var vide = document.getElementById("promoVide");
+
+    // ouverture de la page du prospectus
+    liste.querySelectorAll("[data-page]").forEach(function (b) {
+      b.addEventListener("click", function () { visionneuse(parId[b.dataset.page]); });
+    });
 
     // filtres
     if (filtres) {
