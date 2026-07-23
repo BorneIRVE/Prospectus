@@ -74,6 +74,15 @@ _date_range_re = re.compile(r"(\d{2}/\d{2}/\d{4})\s*[-–]\s*(\d{2}/\d{2}/\d{4})
 _pct_re = re.compile(r"(\d{1,3})\s*%")
 # lien « Version PDF » éventuel sur la page catalogue
 _pdf_re = re.compile(r'href=["\']([^"\']+\.pdf(?:\?[^"\']*)?)["\']', re.I)
+# images des pages du prospectus (CDN d'anti-crise), y compris celles
+# injectées par le JS du feuilletoir : on balaie tout le HTML brut.
+_img_re = re.compile(
+    r'https?://media\.anti-crise\.fr/[^\s"\'<>\\)]+?\.(?:jpe?g|png|webp)', re.I)
+# vignettes, logos, icônes, images de partage : à écarter
+_img_skip = re.compile(
+    r"og-image|logo|icon|cropped|avatar|banner|coupon-network|-\d{2,3}x\d{2,3}\.", re.I)
+# numéro de page déduit du nom de fichier (…-12.jpg, …_p12.jpg, …page12.jpg)
+_img_num = re.compile(r"(?:page|_p|-)(\d{1,3})\.(?:jpe?g|png|webp)$", re.I)
 # mécaniques magasin écrites en clair : « 2+1 », « 1+1 gratuit », « lot de 3 »…
 _meca_re = re.compile(
     r"\d\s*\+\s*\d(?:\s*(?:gratuit|offert)s?)?|lot\s+de\s+\d+|par\s+\d+\s+achet[ée]s?",
@@ -166,6 +175,7 @@ class Catalogue:
     debut: str | None
     fin: str | None
     url: str
+    pages: dict = dataclasses.field(default_factory=dict)
 
 
 def parse_listing(html: str) -> list[Catalogue]:
@@ -214,6 +224,51 @@ def _colmap(header_cells) -> dict:
     return idx
 
 
+def extraire_pages(html: str, soup) -> dict:
+    """Retrouve les images des pages du prospectus.
+
+    Le feuilletoir injecte ses images en JS : on balaie donc à la fois les
+    balises <img> (avec leurs attributs de lazy-loading) et le HTML brut.
+    Retourne {numero_de_page: url}. Si les noms de fichiers ne portent pas de
+    numéro, on retombe sur l'ordre d'apparition dans le document.
+    """
+    urls, vus = [], set()
+
+    def ajouter(u):
+        if not u:
+            return
+        u = u.split("?")[0]
+        if "media.anti-crise.fr" not in u or _img_skip.search(u) or u in vus:
+            return
+        vus.add(u)
+        urls.append(u)
+
+    # 1) balises <img>, y compris lazy-load et srcset
+    for img in soup.find_all("img"):
+        for attr in ("src", "data-src", "data-lazy-src", "data-original", "data-large"):
+            ajouter(img.get(attr))
+        srcset = img.get("srcset") or img.get("data-srcset") or ""
+        for part in srcset.split(","):
+            ajouter(part.strip().split(" ")[0])
+    # 2) URLs présentes dans le HTML brut (tableaux JS du feuilletoir)
+    for m in _img_re.finditer(html):
+        ajouter(m.group(0))
+
+    if not urls:
+        return {}
+
+    # numérotation d'après le nom de fichier quand elle existe
+    numerotees = {}
+    for u in urls:
+        m = _img_num.search(u)
+        if m:
+            numerotees.setdefault(int(m.group(1)), u)
+    if len(numerotees) >= max(3, len(urls) // 2):
+        return numerotees
+    # sinon : ordre d'apparition = ordre des pages
+    return {i + 1: u for i, u in enumerate(urls)}
+
+
 def parse_catalogue(html: str, cat: Catalogue) -> list[dict]:
     """Extrait les lignes du tableau 'Les optimisations'."""
     soup = BeautifulSoup(html, "html.parser")
@@ -222,6 +277,14 @@ def parse_catalogue(html: str, cat: Catalogue) -> list[dict]:
     # le bouton est parfois généré en JS, auquel cas on n'aura rien).
     m_pdf = _pdf_re.search(html)
     cat_pdf = urljoin(BASE, m_pdf.group(1)) if m_pdf else None
+
+    # images des pages du prospectus (pour la visionneuse de l'app)
+    pages_img = extraire_pages(html, soup)
+    cat.pages = pages_img
+    if pages_img:
+        print(f"      {len(pages_img)} images de pages trouvées")
+    else:
+        print("      [!] aucune image de page trouvée (feuilletoir JS ?)")
 
     table = None
     for t in soup.find_all("table"):
@@ -287,6 +350,7 @@ def parse_catalogue(html: str, cat: Catalogue) -> list[dict]:
             # lien profond vers la page du prospectus où figure l'offre :
             # c'est LA source qui montre la mécanique en toutes lettres.
             "page_url": (cat.url + "#page" + str(page)) if page else cat.url,
+            "page_image": pages_img.get(page) if page else None,
             "pdf_url": cat_pdf,
             "debut": cat.debut,
             "fin": cat.fin,
