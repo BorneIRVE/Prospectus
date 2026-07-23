@@ -80,9 +80,14 @@ _pdf_any = re.compile(r'https?://[^\s"\'<>]+?\.pdf(?:\?[^\s"\'<>]*)?', re.I)
 # injectées par le JS du feuilletoir : on balaie tout le HTML brut.
 _img_re = re.compile(
     r'https?://media\.anti-crise\.fr/[^\s"\'<>\\)]+?\.(?:jpe?g|png|webp)', re.I)
-# vignettes, logos, icônes, images de partage : à écarter
+# vignettes, logos, icônes, images de partage, pubs : à écarter
 _img_skip = re.compile(
-    r"og-image|logo|icon|cropped|avatar|banner|coupon-network|-\d{2,3}x\d{2,3}\.", re.I)
+    r"og-image|logo|icon|cropped|avatar|banner|coupon-network|arrow|push-|"
+    r"wp-content/themes|wp-content/plugins|forum|smiley|emoji|placeholder|"
+    r"-\d{2,3}x\d{2,3}\.", re.I)
+# en dessous de ce nombre d'images, ce n'est pas un prospectus : on préfère
+# ne rien afficher plutôt que des bandeaux du site (faux positifs).
+_MIN_PAGES = 6
 # numéro de page déduit du nom de fichier (…-12.jpg, …_p12.jpg, …page12.jpg)
 _img_num = re.compile(r"(?:page|_p|-)(\d{1,3})\.(?:jpe?g|png|webp)$", re.I)
 # mécaniques magasin écrites en clair : « 2+1 », « 1+1 gratuit », « lot de 3 »…
@@ -256,7 +261,9 @@ def extraire_pages(html: str, soup) -> dict:
     for m in _img_re.finditer(html):
         ajouter(m.group(0))
 
-    if not urls:
+    if len(urls) < _MIN_PAGES:
+        # trop peu d'images : ce sont des éléments du site, pas des pages de
+        # prospectus. Mieux vaut ne rien afficher que d'afficher n'importe quoi.
         return {}
 
     # numérotation d'après le nom de fichier quand elle existe
@@ -299,7 +306,8 @@ def parse_catalogue(html: str, cat: Catalogue) -> list[dict]:
     if pages_img:
         print(f"      {len(pages_img)} images de pages trouvées")
     else:
-        print("      [!] aucune image de page trouvée (feuilletoir JS ?)")
+        print("      pages : non trouvées dans le HTML "
+              "(feuilletoir chargé en JS — voir scraper/diagnostic.py)")
 
     table = None
     for t in soup.find_all("table"):
