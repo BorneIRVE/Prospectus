@@ -134,8 +134,13 @@
       "</div>";
   }
 
-  // ---- visionneuse : affiche l'image de la page du prospectus ----
+  // ---- visionneuse : image de la page, ou PDF du prospectus ----
   function visionneuse(o) {
+    var lien = o.page_url || o.catalogue_url || "#";
+    // rien à afficher : on ouvre directement la source plutôt qu'une fenêtre vide
+    if (!o.page_image && !o.pdf_url) { window.open(lien, "_blank", "noopener"); return; }
+
+    var pdf = o.pdf_url ? (o.pdf_url + (o.page ? "#page=" + o.page : "")) : null;
     var m = document.getElementById("pageViewer");
     if (!m) {
       m = document.createElement("div");
@@ -144,17 +149,20 @@
       document.body.appendChild(m);
     }
     var titre = (o.page ? "Page " + o.page + " · " : "") + o.enseigne;
-    var corps = o.page_image
-      ? '<img src="' + esc(o.page_image) + '" alt="' + esc(titre) + '" loading="lazy">'
-      : '<p class="viewer-vide">L\'image de cette page n\'a pas pu être récupérée.<br>' +
-        "Ouvrez le prospectus sur anti-crise pour la consulter.</p>";
+    var corps, pied;
+    if (o.page_image) {
+      corps = '<img src="' + esc(o.page_image) + '" alt="' + esc(titre) + '" loading="lazy">';
+      pied = '<a class="btn btn-primary" href="' + esc(lien) + '" target="_blank" rel="noopener">Ouvrir le prospectus ↗</a>';
+    } else {
+      corps = '<iframe class="viewer-pdf" src="' + esc(pdf) + '" title="' + esc(titre) + '"></iframe>' +
+        '<p class="viewer-astuce">Le PDF ne s\'affiche pas ? Touchez « Ouvrir le PDF ».</p>';
+      pied = '<a class="btn btn-primary" href="' + esc(pdf) + '" target="_blank" rel="noopener">Ouvrir le PDF ↗</a>';
+    }
     m.innerHTML =
       '<div class="viewer-bar"><span class="viewer-t">' + esc(titre) + "</span>" +
       '<button class="viewer-x" aria-label="Fermer">×</button></div>' +
       '<div class="viewer-body">' + corps + "</div>" +
-      '<div class="viewer-foot"><span class="viewer-src">source : anti-crise.fr</span>' +
-      '<a class="btn btn-primary" href="' + esc(o.page_url || o.catalogue_url || "#") +
-      '" target="_blank" rel="noopener">Ouvrir le prospectus ↗</a></div>';
+      '<div class="viewer-foot"><span class="viewer-src">source : anti-crise.fr</span>' + pied + "</div>";
     m.classList.add("on");
     document.body.classList.add("no-scroll");
     function fermer() { m.classList.remove("on"); document.body.classList.remove("no-scroll"); }
