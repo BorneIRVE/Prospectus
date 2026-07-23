@@ -1,2489 +1,352 @@
 {
-  "genere_le": "2026-07-22T17:04:28",
+  "genere_le": "2026-07-22T08:00:00",
   "source": "anti-crise.fr/les-catalogues-avec-optimisations",
-  "avertissement": "Données agrégées depuis anti-crise.fr — source secondaire et remplaçable. Vérifiez la disponibilité en magasin.",
-  "nb_offres": 101,
+  "avertissement": "Données d'amorçage — seront remplacées au prochain passage du scraper (mardi).",
+  "nb_offres": 13,
   "catalogues": [
     {
-      "enseigne": "Aldi",
-      "titre": "Cap sur le soleil",
-      "debut": "2026-07-28",
-      "fin": "2026-08-03",
-      "url": "https://anti-crise.fr/catalogue/catalogue-aldi-du-28-juillet-au-03-aout-2026/",
-      "nb_offres": 2
-    },
-    {
-      "enseigne": "Auchan",
-      "titre": "Offres du moment",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "url": "https://anti-crise.fr/catalogue/catalogue-auchan-du-28-juillet-au-09-aout-2026/",
-      "nb_offres": 6
-    },
-    {
-      "enseigne": "Auchan Supermarché",
-      "titre": "Offres du moment",
-      "debut": "2026-07-28",
-      "fin": "2026-08-08",
-      "url": "https://anti-crise.fr/catalogue/catalogue-auchan-supermarche-du-28-juillet-au-08-aout-2026/",
-      "nb_offres": 5
-    },
-    {
-      "enseigne": "Carrefour",
-      "titre": "Petits prix",
-      "debut": "2026-07-28",
-      "fin": "2026-08-10",
-      "url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-28-juillet-au-10-aout-2026/",
-      "nb_offres": 21
-    },
-    {
-      "enseigne": "Carrefour Market",
-      "titre": "Les cocktails",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-28-juillet-au-09-aout-2026/",
-      "nb_offres": 21
-    },
-    {
-      "enseigne": "Hyper U",
-      "titre": "2ème à -60%",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "url": "https://anti-crise.fr/catalogue/catalogue-hyper-u-du-28-juillet-au-09-aout-2026/",
-      "nb_offres": 10
-    },
-    {
-      "enseigne": "Intermarché",
-      "titre": "Version Super",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "url": "https://anti-crise.fr/catalogue/catalogue-intermarche-du-28-juillet-au-09-aout-2026-version-super/",
-      "nb_offres": 19
-    },
-    {
-      "enseigne": "Super U",
-      "titre": "2ème à -60%",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "url": "https://anti-crise.fr/catalogue/catalogue-super-u-du-28-juillet-au-09-aout-2026/",
-      "nb_offres": 10
-    },
-    {
       "enseigne": "Leclerc",
-      "titre": "Glaces",
-      "debut": "2026-07-21",
-      "fin": "2026-08-01",
-      "url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-21-juillet-au-01-aout-2026/",
-      "nb_offres": 10
+      "titre": "Promos",
+      "debut": "2026-07-14",
+      "fin": "2026-07-25",
+      "url": "https://anti-crise.fr/catalogue/",
+      "nb_offres": 8
     },
     {
       "enseigne": "Lidl",
-      "titre": "l'été imbattable",
+      "titre": "L'été imbattable",
       "debut": "2026-07-16",
       "fin": "2026-07-22",
-      "url": "https://anti-crise.fr/catalogue/catalogue-lidl-du-16-au-22-juillet-2026/",
+      "url": "https://anti-crise.fr/catalogue/",
+      "nb_offres": 2
+    },
+    {
+      "enseigne": "Carrefour",
+      "titre": "Le mois fou",
+      "debut": "2026-07-21",
+      "fin": "2026-08-03",
+      "url": "https://anti-crise.fr/catalogue/",
       "nb_offres": 2
     }
   ],
   "offres": [
     {
-      "id": "c21adc561694",
-      "enseigne": "Aldi",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-aldi-du-28-juillet-au-03-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-03",
-      "page": 13,
-      "marque": "la Laitière",
-      "produit": "Riz au lait",
-      "quantite": "1",
-      "prix": 1.57,
-      "promo": 0.0,
-      "opti": -0.5,
-      "prix_final": 1.07,
-      "remise_pct": 32,
-      "sources": [
-        {
-          "label": "EDBM (Remb)",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/la-laitiere-0-5-e-de-reduction-jusquau-31-12-2025-offre-de-remboursement-sur-pc-sur-edbm-remb-2/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "c6110c9b93a4",
-      "enseigne": "Auchan",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-auchan-du-28-juillet-au-09-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 6,
-      "marque": "Bonduelle",
-      "produit": "Taboulé",
-      "quantite": "2",
-      "prix": 4.78,
-      "promo": -1.63,
-      "opti": -0.8,
-      "prix_final": 2.35,
-      "remise_pct": 51,
-      "sources": [
-        {
-          "label": "Bon Magasin",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-en-magasin-sur-la-marque-bonduelle-de-0-4-euro-2/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "4578fd981bc7",
-      "enseigne": "Auchan",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-auchan-du-28-juillet-au-09-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 20,
-      "marque": "Maître CoQ",
-      "produit": "Wings party",
-      "quantite": "1",
-      "prix": 4.29,
-      "promo": -0.86,
-      "opti": -0.75,
-      "prix_final": 2.68,
-      "remise_pct": 37,
-      "sources": [
-        {
-          "label": "Maître Coq",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-maitre-coq-de-0-75-euro-avec-maitre-coq-10/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "96762479b51e",
-      "enseigne": "Auchan",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-auchan-du-28-juillet-au-09-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 26,
-      "marque": "Salakis",
-      "produit": "Fromage de brebis",
-      "quantite": "2",
-      "prix": 5.3,
-      "promo": -1.59,
-      "opti": -1.2,
-      "prix_final": 2.51,
-      "remise_pct": 53,
-      "sources": [
-        {
-          "label": "EDBM",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-salakis-de-0-6-euro-avec-envie-de-bien-manger-3/"
-        },
-        {
-          "label": "EDBM (Remb)",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/salakis-0-6-e-de-reduction-jusquau-31-12-2026-offre-de-remboursement-sur-pc-sur-edbm-remb/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "72fe4f69c806",
-      "enseigne": "Auchan",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-auchan-du-28-juillet-au-09-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 28,
-      "marque": "CROUSTIPATE",
-      "produit": "Pinsa",
-      "quantite": "3",
-      "prix": 8.37,
-      "promo": -2.79,
-      "opti": -0.3,
-      "prix_final": 5.28,
-      "remise_pct": 37,
-      "sources": [
-        {
-          "label": "Croustipate",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-croustipate-de-0-3-euro-avec-croustipate/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "d7b3b328fbe6",
-      "enseigne": "Auchan",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-auchan-du-28-juillet-au-09-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 30,
-      "marque": "DAUNAT",
-      "produit": "Salade composée",
-      "quantite": "2",
-      "prix": 7.98,
-      "promo": -2.71,
-      "opti": -1.6,
-      "prix_final": 3.67,
-      "remise_pct": 54,
-      "sources": [
-        {
-          "label": "Bon Magasin",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-en-magasin-sur-la-marque-daunat-de-0-8-euro-8/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "3bdeb0f60039",
-      "enseigne": "Auchan",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-auchan-du-28-juillet-au-09-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 36,
-      "marque": "Bref",
-      "produit": "Bloc wc",
-      "quantite": "1",
-      "prix": 5.9,
-      "promo": 0.0,
-      "opti": -0.7,
-      "prix_final": 5.2,
-      "remise_pct": 12,
-      "sources": [
-        {
-          "label": "La Belle Adresse",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-bref-de-0-7-euro-avec-la-belle-adresse/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "8b8303df3b40",
-      "enseigne": "Auchan Supermarché",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-auchan-supermarche-du-28-juillet-au-08-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-08",
-      "page": 12,
-      "marque": "Maître CoQ",
-      "produit": "Wings party",
-      "quantite": "1",
-      "prix": 4.29,
-      "promo": -0.86,
-      "opti": -0.75,
-      "prix_final": 2.68,
-      "remise_pct": 37,
-      "sources": [
-        {
-          "label": "Maître Coq",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-maitre-coq-de-0-75-euro-avec-maitre-coq-10/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "025dd766ae9e",
-      "enseigne": "Auchan Supermarché",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-auchan-supermarche-du-28-juillet-au-08-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-08",
-      "page": 2,
-      "marque": "Salakis",
-      "produit": "Fromage de brebis",
-      "quantite": "2",
-      "prix": 5.3,
-      "promo": -1.59,
-      "opti": -1.2,
-      "prix_final": 2.51,
-      "remise_pct": 53,
-      "sources": [
-        {
-          "label": "EDBM",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-salakis-de-0-6-euro-avec-envie-de-bien-manger-3/"
-        },
-        {
-          "label": "EDBM (Remb)",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/salakis-0-6-e-de-reduction-jusquau-31-12-2026-offre-de-remboursement-sur-pc-sur-edbm-remb/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "e734c20292b9",
-      "enseigne": "Auchan Supermarché",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-auchan-supermarche-du-28-juillet-au-08-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-08",
-      "page": 16,
-      "marque": "CROUSTIPATE",
-      "produit": "Pinsa",
-      "quantite": "3",
-      "prix": 8.37,
-      "promo": -2.79,
-      "opti": -0.3,
-      "prix_final": 5.28,
-      "remise_pct": 37,
-      "sources": [
-        {
-          "label": "Croustipate",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-croustipate-de-0-3-euro-avec-croustipate/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "2065e734ea72",
-      "enseigne": "Auchan Supermarché",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-auchan-supermarche-du-28-juillet-au-08-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-08",
-      "page": 15,
-      "marque": "DAUNAT",
-      "produit": "Salade composée",
-      "quantite": "2",
-      "prix": 7.98,
-      "promo": -2.71,
-      "opti": -1.6,
-      "prix_final": 3.67,
-      "remise_pct": 54,
-      "sources": [
-        {
-          "label": "Bon Magasin",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-en-magasin-sur-la-marque-daunat-de-0-8-euro-8/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "73673c5ca28c",
-      "enseigne": "Auchan Supermarché",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-auchan-supermarche-du-28-juillet-au-08-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-08",
-      "page": 26,
-      "marque": "Bref",
-      "produit": "Bloc wc",
-      "quantite": "1",
-      "prix": 5.9,
-      "promo": 0.0,
-      "opti": -0.7,
-      "prix_final": 5.2,
-      "remise_pct": 12,
-      "sources": [
-        {
-          "label": "La Belle Adresse",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-bref-de-0-7-euro-avec-la-belle-adresse/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "556e4e9f1340",
-      "enseigne": "Carrefour",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-28-juillet-au-10-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-10",
-      "page": 5,
-      "marque": "CARTE NOIRE",
-      "produit": "Café en capsules",
-      "quantite": "2",
-      "prix": 17.5,
-      "promo": -5.25,
-      "opti": -2.0,
-      "prix_final": 10.25,
-      "remise_pct": 41,
-      "sources": [
-        {
-          "label": "Bon Magasin",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-en-magasin-sur-la-marque-carte-noire-de-1-euro-12/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "867c1c872d07",
-      "enseigne": "Carrefour",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-28-juillet-au-10-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-10",
+      "id": "lec-carpaccio",
+      "enseigne": "Leclerc",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-21-juillet-au-01-aout-2026/",
+      "debut": "2026-07-14",
+      "fin": "2026-07-25",
       "page": 7,
-      "marque": "NAPOLITAIN",
-      "produit": "Biscuits moelleux",
-      "quantite": "4",
-      "prix": 13.56,
-      "promo": -4.07,
-      "opti": -1.5,
-      "prix_final": 7.99,
-      "remise_pct": 41,
-      "sources": [
-        {
-          "label": "MVEC",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-napolitain-de-1-5-euro-avec-ma-vie-en-couleurs/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "1a4148e5cbb2",
-      "enseigne": "Carrefour",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-28-juillet-au-10-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-10",
-      "page": 8,
-      "marque": "BeLiN",
-      "produit": "Biscuits apéritif Croustilles",
-      "quantite": "4",
-      "prix": 17.4,
-      "promo": -5.22,
-      "opti": -1.5,
-      "prix_final": 10.68,
-      "remise_pct": 39,
-      "sources": [
-        {
-          "label": "MVEC",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-belin-de-1-5-euro-avec-ma-vie-en-couleurs/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "5bbbb7fabbbe",
-      "enseigne": "Carrefour",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-28-juillet-au-10-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-10",
-      "page": 12,
-      "marque": "Herta",
-      "produit": "Jambon",
-      "quantite": "3",
-      "prix": 17.94,
-      "promo": 0.0,
-      "opti": -4.5,
-      "prix_final": 13.44,
-      "remise_pct": 25,
-      "sources": [
-        {
-          "label": "Bon Magasin",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-en-magasin-sur-la-marque-herta-de-1-5-euro-4/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "54de1860e731",
-      "enseigne": "Carrefour",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-28-juillet-au-10-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-10",
-      "page": 12,
-      "marque": "Herta",
-      "produit": "Knacki",
-      "quantite": "3",
-      "prix": 16.11,
-      "promo": 0.0,
-      "opti": -1.5,
-      "prix_final": 14.61,
-      "remise_pct": 9,
-      "sources": [
-        {
-          "label": "Bon Magasin",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-en-magasin-sur-la-marque-herta-de-1-5-euro-4/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "a758585a6b27",
-      "enseigne": "Carrefour",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-28-juillet-au-10-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-10",
-      "page": 13,
-      "marque": "Lustucru",
-      "produit": "Gnocchi à poêler",
-      "quantite": "1",
-      "prix": 4.39,
-      "promo": 0.0,
-      "opti": -0.5,
-      "prix_final": 3.89,
-      "remise_pct": 11,
-      "sources": [
-        {
-          "label": "Bon Magasin",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-en-magasin-sur-la-marque-lustucru-de-0-5-euro-14/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "e353ba3a3712",
-      "enseigne": "Carrefour",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-28-juillet-au-10-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-10",
-      "page": 13,
-      "marque": "Herta",
-      "produit": "Pâte à tarte",
-      "quantite": "4",
-      "prix": 14.32,
-      "promo": -4.87,
-      "opti": -1.5,
-      "prix_final": 7.95,
-      "remise_pct": 44,
-      "sources": [
-        {
-          "label": "Bon Magasin",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-en-magasin-sur-la-marque-herta-de-1-5-euro-4/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "30b3e6c0f5fb",
-      "enseigne": "Carrefour",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-28-juillet-au-10-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-10",
-      "page": 14,
       "marque": "CHARAL",
-      "produit": "Steacks hachés",
+      "produit": "Carpaccio de bœuf",
       "quantite": "2",
-      "prix": 43.98,
-      "promo": 0.0,
-      "opti": -1.3,
-      "prix_final": 42.68,
-      "remise_pct": 3,
-      "sources": [
-        {
-          "label": "Charal",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-charal-de-1-3-euro-avec-charal-11/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "385d35c257a7",
-      "enseigne": "Carrefour",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-28-juillet-au-10-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-10",
-      "page": 15,
-      "marque": "LEERDAMMER",
-      "produit": "Fromage",
-      "quantite": "3",
-      "prix": 16.95,
-      "promo": -5.65,
-      "opti": -1.0,
-      "prix_final": 10.3,
-      "remise_pct": 39,
-      "sources": [
-        {
-          "label": "EDBM",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-leerdammer-de-0-5-euro-avec-envie-de-bien-manger/"
-        },
-        {
-          "label": "EDBM (Remb)",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/leerdammer-0-5-e-de-reduction-jusquau-31-12-2024-offre-de-remboursement-sur-pc-sur-edbm-remb/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "a38cdfd78a9a",
-      "enseigne": "Carrefour",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-28-juillet-au-10-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-10",
-      "page": 15,
-      "marque": "SOCIETE",
-      "produit": "Roquefort",
-      "quantite": "3",
-      "prix": 8.97,
-      "promo": -2.99,
-      "opti": -1.6,
-      "prix_final": 4.38,
-      "remise_pct": 51,
-      "sources": [
-        {
-          "label": "EDBM",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-societe-de-0-8-euro-avec-envie-de-bien-manger/"
-        },
-        {
-          "label": "EDBM (Remb)",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/societe-0-8-e-de-reduction-jusquau-31-12-2024-offre-de-remboursement-sur-pc-sur-edbm-remb/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "940f719e597e",
-      "enseigne": "Carrefour",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-28-juillet-au-10-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-10",
-      "page": 16,
-      "marque": "Primevère",
-      "produit": "Margarine",
-      "quantite": "1",
-      "prix": 3.45,
-      "promo": 0.0,
-      "opti": -1.0,
-      "prix_final": 2.45,
-      "remise_pct": 29,
-      "sources": [
-        {
-          "label": "EDBM",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-primevere-de-0-5-euro-avec-envie-de-bien-manger/"
-        },
-        {
-          "label": "EDBM (Remb)",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/primevere-0-5-e-de-reduction-jusquau-31-12-2024-offre-de-remboursement-sur-pc-sur-edbm-remb/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "2ede4f4af954",
-      "enseigne": "Carrefour",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-28-juillet-au-10-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-10",
-      "page": 19,
-      "marque": "joker",
-      "produit": "Jus de fruits",
-      "quantite": "2",
-      "prix": 18.9,
-      "promo": -4.73,
-      "opti": -1.5,
-      "prix_final": 12.68,
-      "remise_pct": 33,
-      "sources": [
-        {
-          "label": "Bon Magasin",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-en-magasin-sur-la-marque-joker-de-0-5-euro-5/"
-        },
-        {
-          "label": "fidme",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-pc-et-application-sur-la-marque-joker-de-0-5-euro-avec-fidme-courses-7/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "778f4b352b8f",
-      "enseigne": "Carrefour",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-28-juillet-au-10-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-10",
-      "page": 21,
-      "marque": "Heineken",
-      "produit": "Pack de bière",
-      "quantite": "1",
-      "prix": 12.44,
-      "promo": -3.73,
-      "opti": -1.8,
-      "prix_final": 6.91,
-      "remise_pct": 44,
-      "sources": [
-        {
-          "label": "Appli CN",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-pc-et-application-sur-la-marque-heineken-de-1-8-euro-avec-coupon-network-appli/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "a0036b2ec3ae",
-      "enseigne": "Carrefour",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-28-juillet-au-10-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-10",
-      "page": 34,
-      "marque": "iSTARA",
-      "produit": "Ossau Iraty part 150g",
-      "quantite": "1",
-      "prix": 3.44,
-      "promo": 0.0,
-      "opti": -1.0,
-      "prix_final": 2.44,
-      "remise_pct": 29,
-      "sources": [
-        {
-          "label": "Emilien",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-istara-de-1-euro-avec-emilien/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "66ee2ae63d20",
-      "enseigne": "Carrefour",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-28-juillet-au-10-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-10",
-      "page": 37,
-      "marque": "Herta",
-      "produit": "Le fuet",
-      "quantite": "3",
-      "prix": 9.45,
-      "promo": -3.15,
-      "opti": -1.5,
-      "prix_final": 4.8,
-      "remise_pct": 49,
-      "sources": [
-        {
-          "label": "Bon Magasin",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-en-magasin-sur-la-marque-herta-de-1-5-euro-4/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "f0786c7d54a1",
-      "enseigne": "Carrefour",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-28-juillet-au-10-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-10",
-      "page": 37,
-      "marque": "LABEYRIE",
-      "produit": "Saucisson",
-      "quantite": "3",
-      "prix": 8.97,
-      "promo": -2.24,
-      "opti": -2.0,
-      "prix_final": 4.73,
-      "remise_pct": 47,
-      "sources": [
-        {
-          "label": "LABEYRIE (IG)",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-labeyrie-de-2-euro-avec-labeyrie-ig/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "169b8f122db1",
-      "enseigne": "Carrefour",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-28-juillet-au-10-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-10",
-      "page": 38,
-      "marque": "Maître CoQ",
-      "produit": "Coq'Ailes",
-      "quantite": "2",
-      "prix": 6.4,
-      "promo": -1.6,
-      "opti": -0.5,
-      "prix_final": 4.3,
-      "remise_pct": 33,
-      "sources": [
-        {
-          "label": "Maître Coq",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-maitre-coq-de-0-5-euro-avec-maitre-coq-12/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "2be1c5e011c5",
-      "enseigne": "Carrefour",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-28-juillet-au-10-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-10",
-      "page": 40,
-      "marque": "NESCAFE",
-      "produit": "Boisson latte",
-      "quantite": "3",
-      "prix": 5.37,
-      "promo": -1.79,
-      "opti": -0.8,
-      "prix_final": 2.78,
-      "remise_pct": 48,
-      "sources": [
-        {
-          "label": "EDBM (Remb)",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-pc-sur-la-marque-nescafe-de-0-4-euro-avec-edbm-remb/"
-        },
-        {
-          "label": "EDBM",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-nescafe-de-0-4-euro-avec-envie-de-bien-manger/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "a5e32e6687c5",
-      "enseigne": "Carrefour",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-28-juillet-au-10-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-10",
-      "page": 42,
-      "marque": "Milka",
-      "produit": "Biscuits Cake & Choc",
-      "quantite": "3",
-      "prix": 10.35,
-      "promo": -2.59,
-      "opti": -1.6,
-      "prix_final": 6.16,
-      "remise_pct": 40,
-      "sources": [
-        {
-          "label": "MVEC",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-milka-de-1-6-euro-avec-ma-vie-en-couleurs-5/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "465bef478489",
-      "enseigne": "Carrefour",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-28-juillet-au-10-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-10",
-      "page": 46,
-      "marque": "fuzetea",
-      "produit": "Thé glacé",
-      "quantite": "3",
-      "prix": 4.95,
-      "promo": -1.65,
-      "opti": -0.6,
-      "prix_final": 2.7,
-      "remise_pct": 45,
-      "sources": [
-        {
-          "label": "Bon Magasin",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-en-magasin-sur-la-marque-fuzetea-de-0-2-euro/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "c44e48c51bce",
-      "enseigne": "Carrefour Market",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-28-juillet-au-09-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 8,
-      "marque": "LA PERRUCHE",
-      "produit": "Cassonade",
-      "quantite": "1",
-      "prix": 2.85,
-      "promo": -0.97,
-      "opti": -0.7,
-      "prix_final": 1.18,
-      "remise_pct": 59,
-      "sources": [
-        {
-          "label": "fidme",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-pc-et-application-sur-la-marque-la-perruche-de-0-3-euro-avec-fidme-courses/"
-        },
-        {
-          "label": "Appli CN",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-pc-et-application-sur-la-marque-la-perruche-de-0-4-euro-avec-coupon-network-appli/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "465a07b093aa",
-      "enseigne": "Carrefour Market",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-28-juillet-au-09-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 9,
-      "marque": "CLAN CAMPBELL",
-      "produit": "Smooth Shot",
-      "quantite": "1",
-      "prix": 13.39,
-      "promo": -2.0,
-      "opti": -2.0,
-      "prix_final": 9.39,
-      "remise_pct": 30,
-      "sources": [
-        {
-          "label": "fidme",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-pc-et-application-sur-la-marque-clan-campbell-de-2-euro-avec-fidme-courses/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "39f7fd3be055",
-      "enseigne": "Carrefour Market",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-28-juillet-au-09-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 17,
-      "marque": "Lipton",
-      "produit": "Thé glacé pétillant",
-      "quantite": "1",
-      "prix": 1.7,
-      "promo": -0.51,
-      "opti": -0.95,
-      "prix_final": 0.24,
-      "remise_pct": 86,
-      "sources": [
-        {
-          "label": "fidme",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-pc-et-application-sur-la-marque-lipton-de-0-45-euro-avec-fidme-courses/"
-        },
-        {
-          "label": "Bon Magasin",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-en-magasin-sur-la-marque-lipton-de-0-5-euro-8/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "1dd5273f8b0c",
-      "enseigne": "Carrefour Market",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-28-juillet-au-09-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 18,
-      "marque": "fuzetea",
-      "produit": "Thé glacé",
-      "quantite": "3",
-      "prix": 4.95,
-      "promo": -1.65,
-      "opti": -0.6,
-      "prix_final": 2.7,
-      "remise_pct": 45,
-      "sources": [
-        {
-          "label": "Bon Magasin",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-en-magasin-sur-la-marque-fuzetea-de-0-2-euro/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "3c365eeb3ded",
-      "enseigne": "Carrefour Market",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-28-juillet-au-09-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 21,
-      "marque": "Le Roitelet",
-      "produit": "Brie part 200g",
-      "quantite": "1",
-      "prix": 2.38,
-      "promo": 0.0,
-      "opti": -1.0,
-      "prix_final": 1.38,
-      "remise_pct": 42,
-      "sources": [
-        {
-          "label": "Emilien",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-le-roitelet-de-1-euro-avec-emilien/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "ab097b10572a",
-      "enseigne": "Carrefour Market",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-28-juillet-au-09-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 22,
-      "marque": "CHARAL",
-      "produit": "Pavés marinés",
-      "quantite": "1",
-      "prix": 5.99,
-      "promo": 0.0,
-      "opti": -1.0,
-      "prix_final": 4.99,
-      "remise_pct": 17,
-      "sources": [
-        {
-          "label": "Charal",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-charal-de-1-euro-avec-charal-31/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "e6a5b5c75bf9",
-      "enseigne": "Carrefour Market",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-28-juillet-au-09-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 22,
-      "marque": "CHARAL",
-      "produit": "Viande hachée",
-      "quantite": "1",
-      "prix": 10.45,
-      "promo": 0.0,
-      "opti": -1.0,
-      "prix_final": 9.45,
-      "remise_pct": 10,
-      "sources": [
-        {
-          "label": "Charal",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-charal-de-1-euro-avec-charal-3/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "1ab711dd1ffc",
-      "enseigne": "Carrefour Market",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-28-juillet-au-09-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 23,
-      "marque": "BIGARD",
-      "produit": "Plateau grill",
-      "quantite": "1",
-      "prix": 10.69,
-      "promo": 0.0,
-      "opti": -2.65,
-      "prix_final": 8.04,
-      "remise_pct": 25,
-      "sources": [
-        {
-          "label": "Bigard",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-bigard-de-2-65-euro-avec-bigard/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "999fe0bf6cab",
-      "enseigne": "Carrefour Market",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-28-juillet-au-09-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 28,
-      "marque": "la Laitière",
-      "produit": "Yaourt pâtissier",
-      "quantite": "1",
-      "prix": 4.69,
-      "promo": -1.41,
-      "opti": -1.2,
-      "prix_final": 2.08,
-      "remise_pct": 56,
-      "sources": [
-        {
-          "label": "EDBM",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-la-laitiere-de-0-6-euro-avec-envie-de-bien-manger-6/"
-        },
-        {
-          "label": "EDBM (Remb)",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/la-laitiere-0-6-e-de-reduction-jusquau-31-12-2024-offre-de-remboursement-sur-pc-sur-edbm-remb-2/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "4eec810b34a5",
-      "enseigne": "Carrefour Market",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-28-juillet-au-09-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 32,
-      "marque": "Maître CoQ",
-      "produit": "Coq'Ailes",
-      "quantite": "2",
-      "prix": 6.4,
-      "promo": -1.6,
-      "opti": -0.5,
-      "prix_final": 4.3,
-      "remise_pct": 33,
-      "sources": [
-        {
-          "label": "Maître Coq",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-maitre-coq-de-0-5-euro-avec-maitre-coq-12/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "c58cf53aa0fe",
-      "enseigne": "Carrefour Market",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-28-juillet-au-09-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 32,
-      "marque": "Herta",
-      "produit": "Allumettes fumées",
-      "quantite": "3",
-      "prix": 5.67,
-      "promo": 0.0,
-      "opti": -1.5,
-      "prix_final": 4.17,
-      "remise_pct": 26,
-      "sources": [
-        {
-          "label": "Bon Magasin",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-en-magasin-sur-la-marque-herta-de-1-5-euro-4/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "5d707726ddd1",
-      "enseigne": "Carrefour Market",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-28-juillet-au-09-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 33,
-      "marque": "LABEYRIE",
-      "produit": "Saumon fumé",
-      "quantite": "2",
-      "prix": 9.18,
-      "promo": -1.84,
-      "opti": -2.0,
-      "prix_final": 5.34,
-      "remise_pct": 42,
-      "sources": [
-        {
-          "label": "LABEYRIE (IG)",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-labeyrie-de-2-euro-avec-labeyrie-ig/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "81d591fd8a16",
-      "enseigne": "Carrefour Market",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-28-juillet-au-09-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 33,
-      "marque": "LABEYRIE",
-      "produit": "Truite fumée",
-      "quantite": "2",
-      "prix": 10.98,
-      "promo": -2.2,
-      "opti": -2.0,
-      "prix_final": 6.78,
-      "remise_pct": 38,
-      "sources": [
-        {
-          "label": "LABEYRIE (IG)",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-labeyrie-de-2-euro-avec-labeyrie-ig/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "421bfb5a7255",
-      "enseigne": "Carrefour Market",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-28-juillet-au-09-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 34,
-      "marque": "BeLiN",
-      "produit": "Biscuits apéritif crackers",
-      "quantite": "6",
-      "prix": 11.7,
-      "promo": -2.93,
-      "opti": -1.4,
-      "prix_final": 7.38,
-      "remise_pct": 37,
-      "sources": [
-        {
-          "label": "MVEC",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-belin-de-1-4-euro-avec-ma-vie-en-couleurs-3/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "1f45c8436b75",
-      "enseigne": "Carrefour Market",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-28-juillet-au-09-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 34,
-      "marque": "BeLiN",
-      "produit": "Chipster",
-      "quantite": "4",
-      "prix": 5.8,
-      "promo": -1.45,
+      "prix": 11.5,
+      "promo": -2.88,
       "opti": -1.1,
-      "prix_final": 3.25,
-      "remise_pct": 44,
+      "prix_final": 7.53,
+      "remise_pct": 35,
       "sources": [
         {
-          "label": "MVEC",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-belin-de-1-1-euro-avec-ma-vie-en-couleurs-14/"
+          "label": "Charal",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/"
         }
       ],
-      "vu_le": "2026-07-22"
+      "vu_le": "2026-07-22",
+      "mecanique": null,
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-21-juillet-au-01-aout-2026/#page7",
+      "pdf_url": null
     },
     {
-      "id": "c899371bbac4",
-      "enseigne": "Carrefour Market",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-28-juillet-au-09-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 37,
-      "marque": "MIKADO",
-      "produit": "Biscuits enrobés",
-      "quantite": "4",
-      "prix": 22.6,
-      "promo": -5.65,
-      "opti": -2.0,
-      "prix_final": 14.95,
-      "remise_pct": 34,
-      "sources": [
-        {
-          "label": "MVEC",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-mikado-de-2-euro-avec-ma-vie-en-couleurs-2/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "3d5f6484fe70",
-      "enseigne": "Carrefour Market",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-28-juillet-au-09-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 37,
-      "marque": "OREO",
-      "produit": "Biscuits enrobés",
-      "quantite": "4",
-      "prix": 25.56,
-      "promo": -6.39,
-      "opti": -2.2,
-      "prix_final": 16.97,
-      "remise_pct": 34,
-      "sources": [
-        {
-          "label": "MVEC",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-oreo-de-2-2-euro-avec-ma-vie-en-couleurs/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "1dc10d404885",
-      "enseigne": "Carrefour Market",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-28-juillet-au-09-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 37,
-      "marque": "LULU",
-      "produit": "Biscuits lulu l'ourson",
-      "quantite": "4",
-      "prix": 10.6,
-      "promo": -2.65,
-      "opti": -1.4,
-      "prix_final": 6.55,
-      "remise_pct": 38,
-      "sources": [
-        {
-          "label": "MVEC",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-lulu-de-1-4-euro-avec-ma-vie-en-couleurs-2/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "2bf6bfc21a32",
-      "enseigne": "Carrefour Market",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-28-juillet-au-09-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 38,
-      "marque": "PRINCE",
-      "produit": "Biscuits fourrés",
-      "quantite": "6",
-      "prix": 33.3,
-      "promo": -8.33,
-      "opti": -2.0,
-      "prix_final": 22.98,
-      "remise_pct": 31,
-      "sources": [
-        {
-          "label": "MVEC",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-prince-de-2-euro-avec-ma-vie-en-couleurs-3/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "c2f2a55176f9",
-      "enseigne": "Carrefour Market",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-28-juillet-au-09-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 39,
-      "marque": "PURINA",
-      "produit": "Croquettes pour chiens",
-      "quantite": "1",
-      "prix": 24.39,
-      "promo": -7.32,
-      "opti": -4.0,
-      "prix_final": 13.07,
-      "remise_pct": 46,
-      "sources": [
-        {
-          "label": "Bon Magasin",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-en-magasin-sur-la-marque-purina-de-4-euro/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "5d0ca822491b",
-      "enseigne": "Hyper U",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-hyper-u-du-28-juillet-au-09-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 4,
-      "marque": "BeLiN",
-      "produit": "Biscuits apéritif crackers",
-      "quantite": "6",
-      "prix": 6.9,
-      "promo": -2.3,
-      "opti": -1.4,
-      "prix_final": 3.2,
-      "remise_pct": 54,
-      "sources": [
-        {
-          "label": "MVEC",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-belin-de-1-4-euro-avec-ma-vie-en-couleurs-3/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "4d5de95b2646",
-      "enseigne": "Hyper U",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-hyper-u-du-28-juillet-au-09-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 4,
-      "marque": "MONSTER",
-      "produit": "Boisson énergisante",
-      "quantite": "2",
-      "prix": 2.74,
-      "promo": -0.69,
-      "opti": -0.4,
-      "prix_final": 1.66,
-      "remise_pct": 40,
-      "sources": [
-        {
-          "label": "fidme",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-pc-et-application-sur-la-marque-monster-de-0-2-euro-avec-fidme-courses-2/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "0f537f6235ab",
-      "enseigne": "Hyper U",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-hyper-u-du-28-juillet-au-09-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 6,
-      "marque": "NAPOLITAIN",
-      "produit": "Biscuits moelleux",
-      "quantite": "4",
-      "prix": 12.0,
-      "promo": -3.0,
-      "opti": -1.5,
-      "prix_final": 7.5,
-      "remise_pct": 38,
-      "sources": [
-        {
-          "label": "MVEC",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-napolitain-de-1-5-euro-avec-ma-vie-en-couleurs/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "adfa83b18669",
-      "enseigne": "Hyper U",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-hyper-u-du-28-juillet-au-09-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 6,
-      "marque": "PRINCE",
-      "produit": "Biscuits fourrés",
-      "quantite": "6",
-      "prix": 30.0,
-      "promo": -7.5,
-      "opti": -2.0,
-      "prix_final": 20.5,
-      "remise_pct": 32,
-      "sources": [
-        {
-          "label": "MVEC",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-prince-de-2-euro-avec-ma-vie-en-couleurs-3/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "e0c78f62ca63",
-      "enseigne": "Hyper U",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-hyper-u-du-28-juillet-au-09-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 7,
-      "marque": "Barilla",
-      "produit": "Pâtes protein+",
-      "quantite": "1",
-      "prix": 2.09,
-      "promo": -0.71,
-      "opti": -0.72,
-      "prix_final": 0.66,
-      "remise_pct": 68,
-      "sources": [
-        {
-          "label": "Appli CN",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-pc-et-application-sur-la-marque-barilla-de-0-3-euro-avec-coupon-network-appli-5/"
-        },
-        {
-          "label": "Shopmium",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-application-sur-la-marque-barilla-de-30-pourcent-avec-shopmium-appli/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "ac7a2bbccd60",
-      "enseigne": "Hyper U",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-hyper-u-du-28-juillet-au-09-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
+      "id": "lec-brochettes",
+      "enseigne": "Leclerc",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-21-juillet-au-01-aout-2026/",
+      "debut": "2026-07-14",
+      "fin": "2026-07-25",
       "page": 8,
-      "marque": "BORDEAU CHESNEL",
-      "produit": "Rillettes de poulet",
+      "marque": "BIGARD",
+      "produit": "Brochettes de bœuf",
       "quantite": "1",
-      "prix": 2.35,
-      "promo": -0.8,
-      "opti": -0.4,
-      "prix_final": 1.15,
-      "remise_pct": 51,
-      "sources": [
-        {
-          "label": "Appli CN",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-pc-et-application-sur-la-marque-bordeau-chesnel-de-0-4-euro-avec-coupon-network-appli-4/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "4114982ad12c",
-      "enseigne": "Hyper U",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-hyper-u-du-28-juillet-au-09-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 8,
-      "marque": "LABEYRIE",
-      "produit": "Saumon fumé",
-      "quantite": "1",
-      "prix": 9.99,
-      "promo": -3.4,
-      "opti": -2.0,
-      "prix_final": 4.59,
-      "remise_pct": 54,
-      "sources": [
-        {
-          "label": "LABEYRIE (IG)",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-labeyrie-de-2-euro-avec-labeyrie-ig/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "bdbaf87768ee",
-      "enseigne": "Hyper U",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-hyper-u-du-28-juillet-au-09-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 9,
-      "marque": "PRESIDENT",
-      "produit": "Crème fouettée",
-      "quantite": "2",
-      "prix": 5.96,
-      "promo": -1.79,
-      "opti": -1.4,
-      "prix_final": 2.77,
-      "remise_pct": 53,
-      "sources": [
-        {
-          "label": "EDBM",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-president-de-0-7-euro-avec-envie-de-bien-manger-6/"
-        },
-        {
-          "label": "EDBM (Remb)",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/president-0-7-e-de-reduction-jusquau-31-12-2026-offre-de-remboursement-sur-pc-sur-edbm-remb/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "5b02a00ff0f1",
-      "enseigne": "Hyper U",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-hyper-u-du-28-juillet-au-09-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 10,
-      "marque": "Pom Bistro",
-      "produit": "Plat cuisiné",
-      "quantite": "1",
-      "prix": 8.45,
-      "promo": -2.54,
-      "opti": -1.0,
-      "prix_final": 4.92,
-      "remise_pct": 42,
-      "sources": [
-        {
-          "label": "Pom Bistro",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/pom-bistro-1-e-de-reduction-jusquau-31-12-2023-bon-de-reduction-a-imprimer-sur-pom-bistro/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "af262592e457",
-      "enseigne": "Hyper U",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-hyper-u-du-28-juillet-au-09-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 12,
-      "marque": "MONT BLANC",
-      "produit": "Eau minérale",
-      "quantite": "3",
-      "prix": 8.67,
-      "promo": -2.89,
-      "opti": -0.5,
-      "prix_final": 5.28,
-      "remise_pct": 39,
-      "sources": [
-        {
-          "label": "Appli CN",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-pc-et-application-sur-la-marque-mont-blanc-de-0-5-euro-avec-coupon-network-appli-3/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "3354b72cd9b8",
-      "enseigne": "Intermarché",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-intermarche-du-28-juillet-au-09-aout-2026-version-super/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 12,
-      "marque": "Herta",
-      "produit": "Le fuet",
-      "quantite": "3",
-      "prix": 8.07,
-      "promo": -2.74,
-      "opti": -1.5,
-      "prix_final": 3.83,
-      "remise_pct": 53,
-      "sources": [
-        {
-          "label": "Bon Magasin",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-en-magasin-sur-la-marque-herta-de-1-5-euro-4/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "cfdd004bdc1d",
-      "enseigne": "Intermarché",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-intermarche-du-28-juillet-au-09-aout-2026-version-super/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 12,
-      "marque": "Herta",
-      "produit": "Filet de poulet",
-      "quantite": "3",
-      "prix": 6.48,
-      "promo": 0.0,
-      "opti": -1.5,
-      "prix_final": 4.98,
+      "prix": 11.77,
+      "promo": 0,
+      "opti": -2.65,
+      "prix_final": 9.12,
       "remise_pct": 23,
       "sources": [
         {
-          "label": "Bon Magasin",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-en-magasin-sur-la-marque-herta-de-1-5-euro-4/"
+          "label": "Bigard",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/"
         }
       ],
-      "vu_le": "2026-07-22"
+      "vu_le": "2026-07-22",
+      "mecanique": null,
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-21-juillet-au-01-aout-2026/#page8",
+      "pdf_url": null
     },
     {
-      "id": "f2472ddb3665",
-      "enseigne": "Intermarché",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-intermarche-du-28-juillet-au-09-aout-2026-version-super/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 13,
-      "marque": "LABEYRIE",
-      "produit": "Saumon fumé",
-      "quantite": "1",
-      "prix": 9.28,
-      "promo": -3.16,
-      "opti": -2.0,
-      "prix_final": 4.12,
-      "remise_pct": 56,
-      "sources": [
-        {
-          "label": "LABEYRIE (IG)",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-labeyrie-de-2-euro-avec-labeyrie-ig/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "6b2c8e331c08",
-      "enseigne": "Intermarché",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-intermarche-du-28-juillet-au-09-aout-2026-version-super/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 15,
-      "marque": "PRESIDENT",
-      "produit": "Beurre",
-      "quantite": "1",
-      "prix": 6.24,
-      "promo": -2.12,
-      "opti": -1.2,
-      "prix_final": 2.92,
-      "remise_pct": 53,
-      "sources": [
-        {
-          "label": "EDBM",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-president-de-0-6-euro-avec-envie-de-bien-manger-2/"
-        },
-        {
-          "label": "EDBM (Remb)",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/president-0-6-e-de-reduction-jusquau-31-12-2024-offre-de-remboursement-sur-pc-sur-edbm-remb/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "959777878a94",
-      "enseigne": "Intermarché",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-intermarche-du-28-juillet-au-09-aout-2026-version-super/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 16,
-      "marque": "nutella",
-      "produit": "Pâte à tartiner",
-      "quantite": "3",
-      "prix": 15.6,
-      "promo": -5.3,
-      "opti": -1.0,
-      "prix_final": 9.3,
-      "remise_pct": 40,
-      "sources": [
-        {
-          "label": "Mes Défis Gagnants",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/nutella-de-1-00e-a-1-00e-de-reduction-jusquau-31-07-2026-offre-de-remboursement-sur-pc-et-application-sur-mes-defis-gagnants/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "e549a04fe468",
-      "enseigne": "Intermarché",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-intermarche-du-28-juillet-au-09-aout-2026-version-super/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 17,
-      "marque": "Harrys",
-      "produit": "Gâteaux Chocalin",
-      "quantite": "1",
-      "prix": 3.25,
-      "promo": -0.98,
-      "opti": -0.7,
-      "prix_final": 1.58,
-      "remise_pct": 52,
-      "sources": [
-        {
-          "label": "Bonus",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bonus-video-quizz-sur-la-marque-harrys-de-0-2-euro-avec-coupon-network-appli-bonus-16/"
-        },
-        {
-          "label": "Appli CN",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-pc-et-application-sur-la-marque-harrys-de-0-5-euro-avec-coupon-network-appli-7/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "94b53ac5b3c9",
-      "enseigne": "Intermarché",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-intermarche-du-28-juillet-au-09-aout-2026-version-super/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 17,
-      "marque": "belVita",
-      "produit": "Biscuits moelleux",
-      "quantite": "4",
-      "prix": 8.96,
-      "promo": -2.24,
-      "opti": -1.0,
-      "prix_final": 5.72,
-      "remise_pct": 36,
-      "sources": [
-        {
-          "label": "Mes Défis Gagnants",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/belvita-de-1-00e-a-1-00e-de-reduction-jusquau-31-07-2026-offre-de-remboursement-sur-pc-et-application-sur-mes-defis-gagnants/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "3b172a1e1c9b",
-      "enseigne": "Intermarché",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-intermarche-du-28-juillet-au-09-aout-2026-version-super/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 17,
-      "marque": "Lutti",
-      "produit": "Bonbons",
-      "quantite": "3",
-      "prix": 6.87,
-      "promo": -2.29,
-      "opti": -1.0,
-      "prix_final": 3.58,
-      "remise_pct": 48,
-      "sources": [
-        {
-          "label": "Mes Défis Gagnants",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/lutti-de-1-00e-a-1-00e-de-reduction-jusquau-31-07-2026-offre-de-remboursement-sur-pc-et-application-sur-mes-defis-gagnants/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "306f1acfecb8",
-      "enseigne": "Intermarché",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-intermarche-du-28-juillet-au-09-aout-2026-version-super/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 18,
-      "marque": "PANZANI",
-      "produit": "Pâtes",
-      "quantite": "3",
-      "prix": 6.39,
-      "promo": 0.0,
-      "opti": -1.0,
-      "prix_final": 5.39,
-      "remise_pct": 16,
-      "sources": [
-        {
-          "label": "Mes Défis Gagnants",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/panzani-de-1-00e-a-1-00e-de-reduction-jusquau-31-07-2026-offre-de-remboursement-sur-pc-et-application-sur-mes-defis-gagnants/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "27c4e69bcb0c",
-      "enseigne": "Intermarché",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-intermarche-du-28-juillet-au-09-aout-2026-version-super/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 19,
-      "marque": "LE SAVOUREUX",
-      "produit": "Tartinable de thon",
-      "quantite": "1",
-      "prix": 1.99,
-      "promo": -0.68,
-      "opti": -0.8,
-      "prix_final": 0.51,
-      "remise_pct": 74,
-      "sources": [
-        {
-          "label": "fidme",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-pc-et-application-sur-la-marque-le-savoureux-de-0-4-euro-avec-fidme-courses/"
-        },
-        {
-          "label": "Bon Magasin",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-en-magasin-sur-la-marque-le-savoureux-de-0-4-euro/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "67e5620c8903",
-      "enseigne": "Intermarché",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-intermarche-du-28-juillet-au-09-aout-2026-version-super/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 19,
-      "marque": "Vico",
-      "produit": "Monster munch",
-      "quantite": "3",
-      "prix": 7.95,
-      "promo": -2.65,
-      "opti": -2.0,
-      "prix_final": 3.3,
-      "remise_pct": 58,
-      "sources": [
-        {
-          "label": "Mes Défis Gagnants",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/vico-de-2-00e-a-2-00e-de-reduction-jusquau-31-07-2026-offre-de-remboursement-sur-pc-et-application-sur-mes-defis-gagnants/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "fdbdbf7c6813",
-      "enseigne": "Intermarché",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-intermarche-du-28-juillet-au-09-aout-2026-version-super/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 22,
-      "marque": "Heineken",
-      "produit": "Pack de bière",
-      "quantite": "2",
-      "prix": 14.98,
-      "promo": -3.75,
-      "opti": -1.8,
-      "prix_final": 9.44,
-      "remise_pct": 37,
-      "sources": [
-        {
-          "label": "Appli CN",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-pc-et-application-sur-la-marque-heineken-de-1-8-euro-avec-coupon-network-appli/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "0e87c985b3d5",
-      "enseigne": "Intermarché",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-intermarche-du-28-juillet-au-09-aout-2026-version-super/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 22,
-      "marque": "PEL!CAN",
-      "produit": "Pack de bière",
-      "quantite": "1",
-      "prix": 7.7,
-      "promo": -2.62,
-      "opti": -1.2,
-      "prix_final": 3.88,
-      "remise_pct": 50,
-      "sources": [
-        {
-          "label": "Appli CN",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-pc-et-application-sur-la-marque-pelcan-de-1-2-euro-avec-coupon-network-appli-2/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "0733c8257e9e",
-      "enseigne": "Intermarché",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-intermarche-du-28-juillet-au-09-aout-2026-version-super/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 24,
-      "marque": "Revesco",
-      "produit": "Vin effervescent",
-      "quantite": "1",
-      "prix": 5.39,
-      "promo": -1.83,
-      "opti": -0.9,
-      "prix_final": 2.66,
-      "remise_pct": 51,
-      "sources": [
-        {
-          "label": "Appli CN",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-pc-et-application-sur-la-marque-revesco-de-0-9-euro-avec-coupon-network-appli/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "e48fdb2d1e6d",
-      "enseigne": "Intermarché",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-intermarche-du-28-juillet-au-09-aout-2026-version-super/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 25,
-      "marque": "Coca-Cola",
-      "produit": "Pack de soda",
-      "quantite": "1",
-      "prix": 14.58,
-      "promo": -1.46,
-      "opti": -2.0,
-      "prix_final": 11.12,
-      "remise_pct": 24,
-      "sources": [
-        {
-          "label": "Mes Défis Gagnants",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/coca-cola-de-2-00e-a-2-00e-de-reduction-jusquau-31-07-2026-offre-de-remboursement-sur-pc-et-application-sur-mes-defis-gagnants/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "725bf1334985",
-      "enseigne": "Intermarché",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-intermarche-du-28-juillet-au-09-aout-2026-version-super/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 25,
-      "marque": "Oasis",
-      "produit": "Boisson aux fruits",
-      "quantite": "4",
-      "prix": 6.84,
-      "promo": -1.71,
-      "opti": -1.0,
-      "prix_final": 4.13,
-      "remise_pct": 40,
-      "sources": [
-        {
-          "label": "Mes Défis Gagnants",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-pc-et-application-sur-la-marque-oasis-de-1-euro-avec-mes-defis-gagnants/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "83ece2141016",
-      "enseigne": "Intermarché",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-intermarche-du-28-juillet-au-09-aout-2026-version-super/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 26,
-      "marque": "taft",
-      "produit": "Cire coiffante",
-      "quantite": "1",
-      "prix": 3.19,
-      "promo": -1.28,
-      "opti": -1.5,
-      "prix_final": 0.41,
-      "remise_pct": 87,
-      "sources": [
-        {
-          "label": "La Belle Adresse",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-taft-de-1-5-euro-avec-la-belle-adresse/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "950e6c7a1659",
-      "enseigne": "Intermarché",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-intermarche-du-28-juillet-au-09-aout-2026-version-super/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 26,
-      "marque": "Signal",
-      "produit": "Dentifrice",
-      "quantite": "2",
-      "prix": 9.98,
-      "promo": -2.99,
-      "opti": -1.5,
-      "prix_final": 5.49,
-      "remise_pct": 45,
-      "sources": [
-        {
-          "label": "Mes Défis Gagnants",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-pc-et-application-sur-la-marque-signal-de-1-5-euro-avec-mes-defis-gagnants/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "aa60c35786f8",
-      "enseigne": "Super U",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-super-u-du-28-juillet-au-09-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 4,
-      "marque": "BeLiN",
-      "produit": "Biscuits apéritif crackers",
-      "quantite": "6",
-      "prix": 6.9,
-      "promo": -2.3,
-      "opti": -1.4,
-      "prix_final": 3.2,
-      "remise_pct": 54,
-      "sources": [
-        {
-          "label": "MVEC",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-belin-de-1-4-euro-avec-ma-vie-en-couleurs-3/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "b8628fee9209",
-      "enseigne": "Super U",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-super-u-du-28-juillet-au-09-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 4,
-      "marque": "MONSTER",
-      "produit": "Boisson énergisante",
-      "quantite": "2",
-      "prix": 2.74,
-      "promo": -0.69,
-      "opti": -0.4,
-      "prix_final": 1.66,
-      "remise_pct": 40,
-      "sources": [
-        {
-          "label": "fidme",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-pc-et-application-sur-la-marque-monster-de-0-2-euro-avec-fidme-courses-2/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "c49170fd1318",
-      "enseigne": "Super U",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-super-u-du-28-juillet-au-09-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 6,
-      "marque": "NAPOLITAIN",
-      "produit": "Biscuits moelleux",
-      "quantite": "4",
-      "prix": 12.0,
-      "promo": -3.0,
-      "opti": -1.5,
-      "prix_final": 7.5,
-      "remise_pct": 38,
-      "sources": [
-        {
-          "label": "MVEC",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-napolitain-de-1-5-euro-avec-ma-vie-en-couleurs/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "227fd5bdb7cc",
-      "enseigne": "Super U",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-super-u-du-28-juillet-au-09-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 6,
-      "marque": "PRINCE",
-      "produit": "Biscuits fourrés",
-      "quantite": "6",
-      "prix": 30.0,
-      "promo": -7.5,
-      "opti": -2.0,
-      "prix_final": 20.5,
-      "remise_pct": 32,
-      "sources": [
-        {
-          "label": "MVEC",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-prince-de-2-euro-avec-ma-vie-en-couleurs-3/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "7bdb0f7b3414",
-      "enseigne": "Super U",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-super-u-du-28-juillet-au-09-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 7,
-      "marque": "Barilla",
-      "produit": "Pâtes protein+",
-      "quantite": "1",
-      "prix": 2.09,
-      "promo": -0.71,
-      "opti": -0.72,
-      "prix_final": 0.66,
-      "remise_pct": 68,
-      "sources": [
-        {
-          "label": "Appli CN",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-pc-et-application-sur-la-marque-barilla-de-0-3-euro-avec-coupon-network-appli-5/"
-        },
-        {
-          "label": "Shopmium",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-application-sur-la-marque-barilla-de-30-pourcent-avec-shopmium-appli/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "5e4f29705c91",
-      "enseigne": "Super U",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-super-u-du-28-juillet-au-09-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 8,
-      "marque": "BORDEAU CHESNEL",
-      "produit": "Rillettes de poulet",
-      "quantite": "1",
-      "prix": 2.35,
-      "promo": -0.8,
-      "opti": -0.4,
-      "prix_final": 1.15,
-      "remise_pct": 51,
-      "sources": [
-        {
-          "label": "Appli CN",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-pc-et-application-sur-la-marque-bordeau-chesnel-de-0-4-euro-avec-coupon-network-appli-4/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "9a3d35a06228",
-      "enseigne": "Super U",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-super-u-du-28-juillet-au-09-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 8,
-      "marque": "LABEYRIE",
-      "produit": "Saumon fumé",
-      "quantite": "1",
-      "prix": 9.99,
-      "promo": -3.4,
-      "opti": -2.0,
-      "prix_final": 4.59,
-      "remise_pct": 54,
-      "sources": [
-        {
-          "label": "LABEYRIE (IG)",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-labeyrie-de-2-euro-avec-labeyrie-ig/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "8c447654dc5c",
-      "enseigne": "Super U",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-super-u-du-28-juillet-au-09-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 9,
-      "marque": "PRESIDENT",
-      "produit": "Crème fouettée",
-      "quantite": "2",
-      "prix": 5.96,
-      "promo": -1.79,
-      "opti": -1.4,
-      "prix_final": 2.77,
-      "remise_pct": 53,
-      "sources": [
-        {
-          "label": "EDBM",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-president-de-0-7-euro-avec-envie-de-bien-manger-6/"
-        },
-        {
-          "label": "EDBM (Remb)",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/president-0-7-e-de-reduction-jusquau-31-12-2026-offre-de-remboursement-sur-pc-sur-edbm-remb/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "38db9a7565d7",
-      "enseigne": "Super U",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-super-u-du-28-juillet-au-09-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 10,
+      "id": "lec-frites",
+      "enseigne": "Leclerc",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-21-juillet-au-01-aout-2026/",
+      "debut": "2026-07-14",
+      "fin": "2026-07-25",
+      "page": 11,
       "marque": "Pom Bistro",
-      "produit": "Plat cuisiné",
+      "produit": "Frites surgelées",
       "quantite": "1",
-      "prix": 8.45,
-      "promo": -2.54,
+      "prix": 4.84,
+      "promo": -1.45,
       "opti": -1.0,
-      "prix_final": 4.92,
-      "remise_pct": 42,
+      "prix_final": 2.39,
+      "remise_pct": 51,
       "sources": [
         {
           "label": "Pom Bistro",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/pom-bistro-1-e-de-reduction-jusquau-31-12-2023-bon-de-reduction-a-imprimer-sur-pom-bistro/"
+          "url": "https://anti-crise.fr/les-bons-de-reduction/"
         }
       ],
-      "vu_le": "2026-07-22"
+      "vu_le": "2026-07-22",
+      "mecanique": null,
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-21-juillet-au-01-aout-2026/#page11",
+      "pdf_url": null
     },
     {
-      "id": "c3b4de8c944c",
-      "enseigne": "Super U",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-super-u-du-28-juillet-au-09-aout-2026/",
-      "debut": "2026-07-28",
-      "fin": "2026-08-09",
-      "page": 12,
-      "marque": "MONT BLANC",
-      "produit": "Eau minérale",
-      "quantite": "3",
-      "prix": 8.67,
-      "promo": -2.89,
-      "opti": -0.5,
-      "prix_final": 5.28,
-      "remise_pct": 39,
-      "sources": [
-        {
-          "label": "Appli CN",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-pc-et-application-sur-la-marque-mont-blanc-de-0-5-euro-avec-coupon-network-appli-3/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "0cba69f2db6e",
+      "id": "lec-compote",
       "enseigne": "Leclerc",
       "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-21-juillet-au-01-aout-2026/",
-      "debut": "2026-07-21",
-      "fin": "2026-08-01",
-      "page": 6,
-      "marque": "Siggi's",
-      "produit": "Skyr",
-      "quantite": "3",
-      "prix": 5.97,
-      "promo": -1.99,
-      "opti": -1.0,
-      "prix_final": 2.98,
-      "remise_pct": 50,
-      "sources": [
-        {
-          "label": "EDBM",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-siggis-de-0-5-euro-avec-envie-de-bien-manger-2/"
-        },
-        {
-          "label": "EDBM (Remb)",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/copie-de-siggis-0-5-e-de-reduction-jusquau-31-12-2024-bon-de-reduction-a-imprimer-sur-envie-de-bien-manger/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "97485dd52171",
-      "enseigne": "Leclerc",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-21-juillet-au-01-aout-2026/",
-      "debut": "2026-07-21",
-      "fin": "2026-08-01",
-      "page": 7,
-      "marque": "Herta",
-      "produit": "Bacon fumé",
+      "debut": "2026-07-14",
+      "fin": "2026-07-25",
+      "page": 28,
+      "marque": "Charles & Alice",
+      "produit": "Gourdes compote",
       "quantite": "2",
-      "prix": 4.56,
-      "promo": -1.55,
-      "opti": -1.0,
-      "prix_final": 2.01,
-      "remise_pct": 56,
-      "sources": [
-        {
-          "label": "Bon Magasin",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-en-magasin-sur-la-marque-herta-de-1-euro-7/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "27734f7fb8ea",
-      "enseigne": "Leclerc",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-21-juillet-au-01-aout-2026/",
-      "debut": "2026-07-21",
-      "fin": "2026-08-01",
-      "page": 10,
-      "marque": "BIGARD",
-      "produit": "Carpaccio de bœuf",
-      "quantite": "2",
-      "prix": 9.74,
-      "promo": -2.92,
-      "opti": -1.3,
-      "prix_final": 5.52,
-      "remise_pct": 43,
-      "sources": [
-        {
-          "label": "Bigard",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bigard-1-30-e-de-reduction-jusquau-31-12-2024-bon-de-reduction-a-imprimer-sur-bigard/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "8def6892deb6",
-      "enseigne": "Leclerc",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-21-juillet-au-01-aout-2026/",
-      "debut": "2026-07-21",
-      "fin": "2026-08-01",
-      "page": 10,
-      "marque": "Maître CoQ",
-      "produit": "Cordons bleus",
-      "quantite": "1",
-      "prix": 6.43,
-      "promo": -1.29,
-      "opti": -1.0,
-      "prix_final": 4.14,
-      "remise_pct": 36,
-      "sources": [
-        {
-          "label": "Maître Coq",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/maitre-coq-1-e-de-reduction-jusquau-31-12-2026-bon-de-reduction-a-imprimer-sur-maitre-coq/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "b655da2797cc",
-      "enseigne": "Leclerc",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-21-juillet-au-01-aout-2026/",
-      "debut": "2026-07-21",
-      "fin": "2026-08-01",
-      "page": 14,
-      "marque": "CARTE NOIRE",
-      "produit": "Café en capsules",
-      "quantite": "3",
-      "prix": 9.57,
-      "promo": -3.19,
-      "opti": -3.0,
-      "prix_final": 3.38,
-      "remise_pct": 65,
-      "sources": [
-        {
-          "label": "Bon Magasin",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-en-magasin-sur-la-marque-carte-noire-de-1-euro-12/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "efc4f832e2cf",
-      "enseigne": "Leclerc",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-21-juillet-au-01-aout-2026/",
-      "debut": "2026-07-21",
-      "fin": "2026-08-01",
-      "page": 18,
-      "marque": "fuzetea",
-      "produit": "Thé glacé",
-      "quantite": "1",
-      "prix": 6.1,
-      "promo": -1.83,
-      "opti": -0.4,
-      "prix_final": 3.87,
-      "remise_pct": 37,
-      "sources": [
-        {
-          "label": "Bon Magasin",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-en-magasin-sur-la-marque-fuzetea-de-0-2-euro/"
-        },
-        {
-          "label": "fidme",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-pc-et-application-sur-la-marque-fuzetea-de-0-2-euro-avec-fidme-courses-2/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "21f0267f2c61",
-      "enseigne": "Leclerc",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-21-juillet-au-01-aout-2026/",
-      "debut": "2026-07-21",
-      "fin": "2026-08-01",
-      "page": 21,
-      "marque": "LE CHAT",
-      "produit": "Lessive liquide",
-      "quantite": "2",
-      "prix": 29.0,
-      "promo": -11.6,
-      "opti": -3.0,
-      "prix_final": 14.4,
-      "remise_pct": 50,
-      "sources": [
-        {
-          "label": "La Belle Adresse",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-le-chat-de-3-euro-avec-la-belle-adresse-12/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "1347533a63d3",
-      "enseigne": "Leclerc",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-21-juillet-au-01-aout-2026/",
-      "debut": "2026-07-21",
-      "fin": "2026-08-01",
-      "page": 22,
-      "marque": "head & shoulders",
-      "produit": "Shampoing",
-      "quantite": "1",
-      "prix": 8.25,
-      "promo": -3.3,
-      "opti": -1.0,
-      "prix_final": 3.95,
-      "remise_pct": 52,
-      "sources": [
-        {
-          "label": "Envie de Plus",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-head-shoulders-de-1-euro-avec-envie-de-plus-2/"
-        }
-      ],
-      "vu_le": "2026-07-22"
-    },
-    {
-      "id": "ee2c90b47f77",
-      "enseigne": "Leclerc",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-21-juillet-au-01-aout-2026/",
-      "debut": "2026-07-21",
-      "fin": "2026-08-01",
-      "page": 22,
-      "marque": "Pampers",
-      "produit": "Couches Baby-Dry",
-      "quantite": "1",
-      "prix": 29.96,
-      "promo": -11.98,
+      "prix": 11.7,
+      "promo": -3.51,
       "opti": -2.0,
-      "prix_final": 15.98,
+      "prix_final": 6.19,
       "remise_pct": 47,
       "sources": [
         {
-          "label": "Envie de Plus",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-pampers-de-2-euro-avec-envie-de-plus-4/"
+          "label": "Bon Magasin",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/"
         }
       ],
-      "vu_le": "2026-07-22"
+      "vu_le": "2026-07-22",
+      "mecanique": null,
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-21-juillet-au-01-aout-2026/#page28",
+      "pdf_url": null
     },
     {
-      "id": "741f705c60ea",
-      "enseigne": "Lidl",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-lidl-du-16-au-22-juillet-2026/",
-      "debut": "2026-07-16",
-      "fin": "2026-07-22",
-      "page": 14,
-      "marque": "la Laitière",
-      "produit": "Yaourt aromatisé",
+      "id": "lec-dash",
+      "enseigne": "Leclerc",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-21-juillet-au-01-aout-2026/",
+      "debut": "2026-07-14",
+      "fin": "2026-07-25",
+      "page": 37,
+      "marque": "Dash",
+      "produit": "Lessive liquide",
       "quantite": "1",
-      "prix": 2.36,
-      "promo": 0.0,
-      "opti": -0.6,
-      "prix_final": 1.76,
-      "remise_pct": 25,
+      "prix": 19.8,
+      "promo": -7.92,
+      "opti": -3.0,
+      "prix_final": 8.88,
+      "remise_pct": 55,
       "sources": [
         {
-          "label": "EDBM (Remb)",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/la-laitiere-0-6-e-de-reduction-jusquau-31-12-2024-offre-de-remboursement-sur-pc-sur-edbm-remb/"
+          "label": "Envie de Plus",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/"
         }
       ],
-      "vu_le": "2026-07-22"
+      "vu_le": "2026-07-22",
+      "mecanique": null,
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-21-juillet-au-01-aout-2026/#page37",
+      "pdf_url": null
     },
     {
-      "id": "a9a3cf99a88c",
-      "enseigne": "Lidl",
-      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-lidl-du-16-au-22-juillet-2026/",
-      "debut": "2026-07-16",
-      "fin": "2026-07-22",
-      "page": 15,
-      "marque": "MONSTER",
-      "produit": "Boisson énergisante",
+      "id": "lec-fairy",
+      "enseigne": "Leclerc",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-21-juillet-au-01-aout-2026/",
+      "debut": "2026-07-14",
+      "fin": "2026-07-25",
+      "page": 37,
+      "marque": "FAIRY",
+      "produit": "Capsules lave-vaisselle",
       "quantite": "2",
-      "prix": 2.7,
-      "promo": -0.68,
-      "opti": -0.4,
-      "prix_final": 1.63,
-      "remise_pct": 40,
+      "prix": 23.72,
+      "promo": -9.49,
+      "opti": -2.0,
+      "prix_final": 12.23,
+      "remise_pct": 48,
       "sources": [
         {
-          "label": "fidme",
-          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-pc-et-application-sur-la-marque-monster-de-0-2-euro-avec-fidme-courses-2/"
+          "label": "Envie de Plus",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/"
         }
       ],
-      "vu_le": "2026-07-22"
+      "vu_le": "2026-07-22",
+      "mecanique": null,
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-21-juillet-au-01-aout-2026/#page37",
+      "pdf_url": null
+    },
+    {
+      "id": "lec-pampers",
+      "enseigne": "Leclerc",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-21-juillet-au-01-aout-2026/",
+      "debut": "2026-07-14",
+      "fin": "2026-07-25",
+      "page": 38,
+      "marque": "Pampers",
+      "produit": "Couches Baby-Dry",
+      "quantite": "1",
+      "prix": 39.5,
+      "promo": -15.8,
+      "opti": -2.0,
+      "prix_final": 21.7,
+      "remise_pct": 45,
+      "sources": [
+        {
+          "label": "Envie de Plus",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/"
+        }
+      ],
+      "vu_le": "2026-07-22",
+      "mecanique": null,
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-21-juillet-au-01-aout-2026/#page38",
+      "pdf_url": null
+    },
+    {
+      "id": "lec-always",
+      "enseigne": "Leclerc",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-21-juillet-au-01-aout-2026/",
+      "debut": "2026-07-14",
+      "fin": "2026-07-25",
+      "page": 39,
+      "marque": "always",
+      "produit": "Serviettes hygiéniques",
+      "quantite": "2",
+      "prix": 14.74,
+      "promo": -5.9,
+      "opti": -2.2,
+      "prix_final": 6.64,
+      "remise_pct": 55,
+      "sources": [
+        {
+          "label": "Envie de Plus",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/"
+        }
+      ],
+      "vu_le": "2026-07-22",
+      "mecanique": null,
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-21-juillet-au-01-aout-2026/#page39",
+      "pdf_url": null
+    },
+    {
+      "id": "lid-poireaux",
+      "enseigne": "Lidl",
+      "catalogue_url": "https://anti-crise.fr/catalogue/",
+      "debut": "2026-07-16",
+      "fin": "2026-07-22",
+      "page": 3,
+      "marque": "",
+      "produit": "Poireaux 1 kg",
+      "quantite": "1",
+      "prix": 1.65,
+      "promo": -0.66,
+      "opti": 0,
+      "prix_final": 0.99,
+      "remise_pct": 40,
+      "sources": [],
+      "vu_le": "2026-07-22",
+      "mecanique": null,
+      "page_url": "https://anti-crise.fr/catalogue/#page3",
+      "pdf_url": null
+    },
+    {
+      "id": "lid-saumon",
+      "enseigne": "Lidl",
+      "catalogue_url": "https://anti-crise.fr/catalogue/",
+      "debut": "2026-07-16",
+      "fin": "2026-07-22",
+      "page": 5,
+      "marque": "",
+      "produit": "Saumon frais 2 pavés",
+      "quantite": "1",
+      "prix": 8.7,
+      "promo": -2.2,
+      "opti": 0,
+      "prix_final": 6.5,
+      "remise_pct": 25,
+      "sources": [],
+      "vu_le": "2026-07-22",
+      "mecanique": null,
+      "page_url": "https://anti-crise.fr/catalogue/#page5",
+      "pdf_url": null
+    },
+    {
+      "id": "car-yaourts",
+      "enseigne": "Carrefour",
+      "catalogue_url": "https://anti-crise.fr/catalogue/",
+      "debut": "2026-07-21",
+      "fin": "2026-08-03",
+      "page": 12,
+      "marque": "",
+      "produit": "Yaourts nature x8",
+      "quantite": "1",
+      "prix": 2.15,
+      "promo": -0.55,
+      "opti": 0,
+      "prix_final": 1.6,
+      "remise_pct": 26,
+      "sources": [],
+      "vu_le": "2026-07-22",
+      "mecanique": null,
+      "page_url": "https://anti-crise.fr/catalogue/#page12",
+      "pdf_url": null
+    },
+    {
+      "id": "car-pates",
+      "enseigne": "Carrefour",
+      "catalogue_url": "https://anti-crise.fr/catalogue/",
+      "debut": "2026-07-21",
+      "fin": "2026-08-03",
+      "page": 14,
+      "marque": "Barilla",
+      "produit": "Pâtes 500 g",
+      "quantite": "3",
+      "prix": 2.55,
+      "promo": -0.85,
+      "opti": 0,
+      "prix_final": 1.7,
+      "remise_pct": 33,
+      "sources": [
+        {
+          "label": "Coupon Network",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/"
+        }
+      ],
+      "vu_le": "2026-07-22",
+      "mecanique": "2+1 offert",
+      "page_url": "https://anti-crise.fr/catalogue/#page14",
+      "pdf_url": null
+    },
+    {
+      "id": "car-sodas",
+      "enseigne": "Carrefour",
+      "catalogue_url": "https://anti-crise.fr/catalogue/",
+      "debut": "2026-07-21",
+      "fin": "2026-08-03",
+      "page": 18,
+      "marque": "",
+      "produit": "Jus d'orange 1 L",
+      "quantite": "2",
+      "prix": 4.3,
+      "promo": -2.15,
+      "mecanique": "1+1 offert",
+      "opti": 0,
+      "prix_final": 2.15,
+      "remise_pct": 50,
+      "sources": [],
+      "vu_le": "2026-07-22",
+      "page_url": "https://anti-crise.fr/catalogue/#page18",
+      "pdf_url": null
     }
   ]
 }
