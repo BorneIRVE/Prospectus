@@ -88,6 +88,15 @@ _img_skip = re.compile(
 # en dessous de ce nombre d'images, ce n'est pas un prospectus : on préfère
 # ne rien afficher plutôt que des bandeaux du site (faux positifs).
 _MIN_PAGES = 6
+# le plugin real3d-flipbook injecte sa config en JSON ÉCHAPPÉ dans le HTML
+# (\/ au lieu de /, \" au lieu de ") : il faut la déséchapper avant de chercher.
+_pages_json = re.compile(r'"pages"\s*:\s*\[(.{20,40000}?)\]', re.S)
+_src_json = re.compile(r'"(?:src|source|img|image|thumb)"\s*:\s*"([^"]+?\.(?:jpe?g|png|webp))"', re.I)
+
+
+def deshabiller(txt: str) -> str:
+    """Déséchappe le JSON inclus dans le HTML : \\/ -> / et \\" -> "."""
+    return txt.replace("\\/", "/").replace('\\"', '"').replace("\\u0026", "&")
 # numéro de page déduit du nom de fichier (…-12.jpg, …_p12.jpg, …page12.jpg)
 _img_num = re.compile(r"(?:page|_p|-)(\d{1,3})\.(?:jpe?g|png|webp)$", re.I)
 # mécaniques magasin écrites en clair : « 2+1 », « 1+1 gratuit », « lot de 3 »…
@@ -148,6 +157,22 @@ class Source:
             return self.robots.can_fetch(UA, url)
         except Exception:
             return True
+
+    def existe(self, url: str) -> bool:
+        """Vrai si l'URL répond 200 (requête HEAD, légère). Utilisé pour
+        vérifier les images de pages déduites : rien d'inventé n'est conservé."""
+        if not self.autorise(url):
+            return False
+        wait = 0.4 - (time.time() - self._last)     # cadence allégée pour les HEAD
+        if wait > 0:
+            time.sleep(wait)
+        try:
+            r = self.sess.head(url, timeout=12, allow_redirects=True)
+            self._last = time.time()
+            return r.status_code == 200
+        except Exception:
+            self._last = time.time()
+            return False
 
     def get(self, url: str, slug: str) -> str | None:
         """Retourne le HTML : cache du jour -> réseau. Archive le brut."""
@@ -231,42 +256,69 @@ def _colmap(header_cells) -> dict:
     return idx
 
 
-def extraire_pages(html: str, soup) -> dict:
-    """Retrouve les images des pages du prospectus.
+def extraire_pages(html: str, soup, src=None) -> dict:
+    """Retrouve les images des pages du prospectus (plugin real3d-flipbook).
 
-    Le feuilletoir injecte ses images en JS : on balaie donc à la fois les
-    balises <img> (avec leurs attributs de lazy-loading) et le HTML brut.
-    Retourne {numero_de_page: url}. Si les noms de fichiers ne portent pas de
-    numéro, on retombe sur l'ordre d'apparition dans le document.
+    Trois stratégies, dans l'ordre :
+      1. config JSON du flipbook, une fois déséchappée (\\/ -> /) ;
+      2. balises <img> et URLs présentes dans le HTML déséchappé ;
+      3. déduction depuis og:image (…-1-og-image.jpg -> …-N.jpg) avec
+         VÉRIFICATION HTTP de chaque page : on ne garde que ce qui existe.
+    Retourne {numero_de_page: url}.
     """
+    plat = deshabiller(html)
+
+    def propre(u):
+        u = (u or "").split("?")[0]
+        if not u or "media.anti-crise.fr" not in u or _img_skip.search(u):
+            return None
+        return u
+
+    # --- 1. config du flipbook ---
+    for bloc in _pages_json.finditer(plat):
+        urls = []
+        for m in _src_json.finditer(bloc.group(1)):
+            u = propre(m.group(1))
+            if u and u not in urls:
+                urls.append(u)
+        if len(urls) >= _MIN_PAGES:
+            print(f"      pages : {len(urls)} (config flipbook)")
+            return _numeroter(urls)
+
+    # --- 2. balises img + HTML déséchappé ---
     urls, vus = [], set()
 
     def ajouter(u):
-        if not u:
-            return
-        u = u.split("?")[0]
-        if "media.anti-crise.fr" not in u or _img_skip.search(u) or u in vus:
-            return
-        vus.add(u)
-        urls.append(u)
+        u = propre(u)
+        if u and u not in vus:
+            vus.add(u)
+            urls.append(u)
 
-    # 1) balises <img>, y compris lazy-load et srcset
     for img in soup.find_all("img"):
         for attr in ("src", "data-src", "data-lazy-src", "data-original", "data-large"):
             ajouter(img.get(attr))
         srcset = img.get("srcset") or img.get("data-srcset") or ""
         for part in srcset.split(","):
             ajouter(part.strip().split(" ")[0])
-    # 2) URLs présentes dans le HTML brut (tableaux JS du feuilletoir)
-    for m in _img_re.finditer(html):
+    for m in _img_re.finditer(plat):
         ajouter(m.group(0))
+    if len(urls) >= _MIN_PAGES:
+        print(f"      pages : {len(urls)} (HTML déséchappé)")
+        return _numeroter(urls)
 
-    if len(urls) < _MIN_PAGES:
-        # trop peu d'images : ce sont des éléments du site, pas des pages de
-        # prospectus. Mieux vaut ne rien afficher que d'afficher n'importe quoi.
-        return {}
+    # --- 3. déduction depuis og:image, vérifiée page par page ---
+    og = soup.find("meta", attrs={"property": "og:image"})
+    if og and og.get("content") and src is not None:
+        pages = _sonder_depuis_og(og["content"], src)
+        if pages:
+            print(f"      pages : {len(pages)} (déduites d'og:image et vérifiées)")
+            return pages
 
-    # numérotation d'après le nom de fichier quand elle existe
+    return {}
+
+
+def _numeroter(urls: list) -> dict:
+    """Numérote d'après le nom de fichier si possible, sinon par ordre."""
     numerotees = {}
     for u in urls:
         m = _img_num.search(u)
@@ -274,11 +326,41 @@ def extraire_pages(html: str, soup) -> dict:
             numerotees.setdefault(int(m.group(1)), u)
     if len(numerotees) >= max(3, len(urls) // 2):
         return numerotees
-    # sinon : ordre d'apparition = ordre des pages
     return {i + 1: u for i, u in enumerate(urls)}
 
 
-def parse_catalogue(html: str, cat: Catalogue) -> list[dict]:
+def _sonder_depuis_og(og_url: str, src, maxi: int = 60) -> dict:
+    """…/nom-1-og-image.jpg -> teste …/nom-1.jpg, -2.jpg… tant qu'elles existent.
+
+    Chaque URL est vérifiée en HEAD : on ne garde que celles qui répondent 200,
+    donc aucune image inventée ne peut se retrouver dans le JSON.
+    """
+    base = og_url.split("?")[0]
+    m = re.match(r"^(.*?)-(\d{1,3})-og-image(\.(?:jpe?g|png|webp))$", base, re.I)
+    if not m:
+        m = re.match(r"^(.*?)-og-image(\.(?:jpe?g|png|webp))$", base, re.I)
+        if not m:
+            return {}
+        racine, ext = m.group(1), m.group(2)
+    else:
+        racine, ext = m.group(1), m.group(3)
+
+    pages, manques = {}, 0
+    for n in range(1, maxi + 1):
+        u = f"{racine}-{n}{ext}"
+        if src.existe(u):
+            pages[n] = u
+            manques = 0
+        else:
+            manques += 1
+            if manques >= 2 and pages:      # deux trous d'affilée : fin du prospectus
+                break
+            if manques >= 3 and not pages:  # rien dès le départ : mauvais motif
+                return {}
+    return pages if len(pages) >= _MIN_PAGES else {}
+
+
+def parse_catalogue(html: str, cat: Catalogue, src=None) -> list[dict]:
     """Extrait les lignes du tableau 'Les optimisations'."""
     soup = BeautifulSoup(html, "html.parser")
 
@@ -301,13 +383,10 @@ def parse_catalogue(html: str, cat: Catalogue) -> list[dict]:
     print(f"      PDF : {cat_pdf or 'introuvable'}")
 
     # images des pages du prospectus (pour la visionneuse de l'app)
-    pages_img = extraire_pages(html, soup)
+    pages_img = extraire_pages(html, soup, src)
     cat.pages = pages_img
-    if pages_img:
-        print(f"      {len(pages_img)} images de pages trouvées")
-    else:
-        print("      pages : non trouvées dans le HTML "
-              "(feuilletoir chargé en JS — voir scraper/diagnostic.py)")
+    if not pages_img:
+        print("      pages : introuvables (voir scraper/diagnostic.py)")
 
     table = None
     for t in soup.find_all("table"):
@@ -432,7 +511,7 @@ def main() -> int:
         page = src.get(c.url, slug)
         if not page:
             continue
-        lignes = parse_catalogue(page, c)
+        lignes = parse_catalogue(page, c, src)
         if not lignes:
             vides.append(c.enseigne)
         offres.extend(lignes)

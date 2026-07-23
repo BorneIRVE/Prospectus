@@ -110,7 +110,21 @@ def main():
     for s in soup.find_all("script", src=True):
         print("  " + s["src"][:140])
 
-    titre("6. MOTS-CLÉS PRÉSENTS DANS LE HTML")
+    titre("6. CONFIG DU FEUILLETOIR (real3d-flipbook), JSON déséchappé")
+    plat = html.replace("\\/", "/").replace('\\"', '"')
+    urls_p = list(dict.fromkeys(IMG_EXT.findall(plat)))
+    nouvelles = [u for u in urls_p if u not in urls]
+    print(f"{len(nouvelles)} URL(s) d'images apparaissent APRÈS déséchappement :")
+    for u in nouvelles[:30]:
+        print("  " + u[:150])
+    m = re.search(r'"pages"\s*:\s*\[(.{0,3000})', plat, re.S)
+    if m:
+        print("\nExtrait du bloc \"pages\" :")
+        print("  " + m.group(1)[:1500].replace("\n", " "))
+    else:
+        print("\naucun bloc \"pages\" trouvé dans la config")
+
+    titre("7. MOTS-CLÉS PRÉSENTS DANS LE HTML")
     bas = html.lower()
     for m in MOTS:
         n = bas.count(m)
