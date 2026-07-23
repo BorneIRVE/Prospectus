@@ -54,7 +54,8 @@
       "vu_le": "2026-07-22",
       "mecanique": null,
       "page_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-21-juillet-au-01-aout-2026/#page7",
-      "pdf_url": null
+      "pdf_url": null,
+      "page_image": null
     },
     {
       "id": "lec-brochettes",
@@ -80,7 +81,8 @@
       "vu_le": "2026-07-22",
       "mecanique": null,
       "page_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-21-juillet-au-01-aout-2026/#page8",
-      "pdf_url": null
+      "pdf_url": null,
+      "page_image": null
     },
     {
       "id": "lec-frites",
@@ -106,7 +108,8 @@
       "vu_le": "2026-07-22",
       "mecanique": null,
       "page_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-21-juillet-au-01-aout-2026/#page11",
-      "pdf_url": null
+      "pdf_url": null,
+      "page_image": null
     },
     {
       "id": "lec-compote",
@@ -132,7 +135,8 @@
       "vu_le": "2026-07-22",
       "mecanique": null,
       "page_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-21-juillet-au-01-aout-2026/#page28",
-      "pdf_url": null
+      "pdf_url": null,
+      "page_image": null
     },
     {
       "id": "lec-dash",
@@ -158,7 +162,8 @@
       "vu_le": "2026-07-22",
       "mecanique": null,
       "page_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-21-juillet-au-01-aout-2026/#page37",
-      "pdf_url": null
+      "pdf_url": null,
+      "page_image": null
     },
     {
       "id": "lec-fairy",
@@ -184,7 +189,8 @@
       "vu_le": "2026-07-22",
       "mecanique": null,
       "page_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-21-juillet-au-01-aout-2026/#page37",
-      "pdf_url": null
+      "pdf_url": null,
+      "page_image": null
     },
     {
       "id": "lec-pampers",
@@ -210,7 +216,8 @@
       "vu_le": "2026-07-22",
       "mecanique": null,
       "page_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-21-juillet-au-01-aout-2026/#page38",
-      "pdf_url": null
+      "pdf_url": null,
+      "page_image": null
     },
     {
       "id": "lec-always",
@@ -236,7 +243,8 @@
       "vu_le": "2026-07-22",
       "mecanique": null,
       "page_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-21-juillet-au-01-aout-2026/#page39",
-      "pdf_url": null
+      "pdf_url": null,
+      "page_image": null
     },
     {
       "id": "lid-poireaux",
@@ -257,7 +265,8 @@
       "vu_le": "2026-07-22",
       "mecanique": null,
       "page_url": "https://anti-crise.fr/catalogue/#page3",
-      "pdf_url": null
+      "pdf_url": null,
+      "page_image": null
     },
     {
       "id": "lid-saumon",
@@ -278,7 +287,8 @@
       "vu_le": "2026-07-22",
       "mecanique": null,
       "page_url": "https://anti-crise.fr/catalogue/#page5",
-      "pdf_url": null
+      "pdf_url": null,
+      "page_image": null
     },
     {
       "id": "car-yaourts",
@@ -299,7 +309,8 @@
       "vu_le": "2026-07-22",
       "mecanique": null,
       "page_url": "https://anti-crise.fr/catalogue/#page12",
-      "pdf_url": null
+      "pdf_url": null,
+      "page_image": null
     },
     {
       "id": "car-pates",
@@ -325,7 +336,8 @@
       "vu_le": "2026-07-22",
       "mecanique": "2+1 offert",
       "page_url": "https://anti-crise.fr/catalogue/#page14",
-      "pdf_url": null
+      "pdf_url": null,
+      "page_image": null
     },
     {
       "id": "car-sodas",
@@ -346,7 +358,8 @@
       "sources": [],
       "vu_le": "2026-07-22",
       "page_url": "https://anti-crise.fr/catalogue/#page18",
-      "pdf_url": null
+      "pdf_url": null,
+      "page_image": null
     }
   ]
 }
