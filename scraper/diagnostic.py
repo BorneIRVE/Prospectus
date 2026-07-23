@@ -46,9 +46,12 @@ def premier_catalogue():
 
 
 def main():
-    url = sys.argv[1] if len(sys.argv) > 1 else premier_catalogue()
+    # le workflow passe une chaîne vide quand le champ est laissé libre :
+    # on la traite comme une absence d'argument.
+    arg = sys.argv[1].strip() if len(sys.argv) > 1 else ""
+    url = arg or premier_catalogue()
     if not url:
-        print("Aucun catalogue trouvé.")
+        print("Aucun catalogue trouvé sur le listing.")
         return 1
     print(f"Analyse de : {url}")
     r = requests.get(url, headers={"User-Agent": UA}, timeout=30)
