@@ -72,6 +72,13 @@ AUJ = dt.date.today()
 _money_re = re.compile(r"-?\d[\d\s]*,\d{2}")
 _date_range_re = re.compile(r"(\d{2}/\d{2}/\d{4})\s*[-–]\s*(\d{2}/\d{2}/\d{4})")
 _pct_re = re.compile(r"(\d{1,3})\s*%")
+# lien « Version PDF » éventuel sur la page catalogue
+_pdf_re = re.compile(r'href=["\']([^"\']+\.pdf(?:\?[^"\']*)?)["\']', re.I)
+# mécaniques magasin écrites en clair : « 2+1 », « 1+1 gratuit », « lot de 3 »…
+_meca_re = re.compile(
+    r"\d\s*\+\s*\d(?:\s*(?:gratuit|offert)s?)?|lot\s+de\s+\d+|par\s+\d+\s+achet[ée]s?",
+    re.I,
+)
 
 
 def money(txt: str):
@@ -210,6 +217,12 @@ def _colmap(header_cells) -> dict:
 def parse_catalogue(html: str, cat: Catalogue) -> list[dict]:
     """Extrait les lignes du tableau 'Les optimisations'."""
     soup = BeautifulSoup(html, "html.parser")
+
+    # « Version PDF » si le lien est présent dans le HTML brut (opportuniste :
+    # le bouton est parfois généré en JS, auquel cas on n'aura rien).
+    m_pdf = _pdf_re.search(html)
+    cat_pdf = urljoin(BASE, m_pdf.group(1)) if m_pdf else None
+
     table = None
     for t in soup.find_all("table"):
         head = t.get_text(" ").upper()
@@ -256,6 +269,13 @@ def parse_catalogue(html: str, cat: Catalogue) -> list[dict]:
         pct_txt = txt(cells, "R%")
         remise = int(_pct_re.search(pct_txt).group(1)) if _pct_re.search(pct_txt) else None
 
+        # mécanique magasin si elle est écrite en toutes lettres (2+1, lot de 3, x2…)
+        mecanique = None
+        libelle = f"{txt(cells, 'MARQUE')} {produit}"
+        m_meca = _meca_re.search(libelle)
+        if m_meca:
+            mecanique = clean(m_meca.group(0))
+
         oid = hashlib.sha1(
             f"{cat.enseigne}|{produit}|{cat.debut}|{prix}".encode("utf-8")
         ).hexdigest()[:12]
@@ -264,6 +284,10 @@ def parse_catalogue(html: str, cat: Catalogue) -> list[dict]:
             "id": oid,
             "enseigne": cat.enseigne,
             "catalogue_url": cat.url,
+            # lien profond vers la page du prospectus où figure l'offre :
+            # c'est LA source qui montre la mécanique en toutes lettres.
+            "page_url": (cat.url + "#page" + str(page)) if page else cat.url,
+            "pdf_url": cat_pdf,
             "debut": cat.debut,
             "fin": cat.fin,
             "page": page,
@@ -271,7 +295,8 @@ def parse_catalogue(html: str, cat: Catalogue) -> list[dict]:
             "produit": produit,
             "quantite": txt(cells, "Q") or None,
             "prix": prix,                                   # prix rayon (pour Q)
-            "promo": money(txt(cells, "PROMO")),            # remise immédiate
+            "promo": money(txt(cells, "PROMO")),            # remise immédiate magasin
+            "mecanique": mecanique,                         # « 2+1 », « lot de 3 »… si écrit
             "opti": money(txt(cells, "OPTI")),              # bon / coupon
             "prix_final": money(txt(cells, "PRIX FINAL")),  # coût réel
             "remise_pct": remise,
