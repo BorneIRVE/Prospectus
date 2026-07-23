@@ -10,6 +10,12 @@
   "use strict";
   var R = global.Rayons;
 
+  // Afficher les mécaniques DÉDUITES du calcul (« −60 % sur le 2ᵉ »…) ?
+  // false par défaut : elles ne sont pas certaines (« −60 % sur le 2ᵉ » et
+  // « −30 % sur les 2 » donnent le même total). La page du catalogue, elle,
+  // affiche la vraie mécanique — c'est le lien « Voir la page N ».
+  var MECANIQUE_DEDUITE = false;
+
   function eur(v) { return v == null ? "—" : v.toFixed(2).replace(".", ",") + " €"; }
   function frdate(iso) { if (!iso) return ""; var p = iso.split("-"); return p[2] + "/" + p[1]; }
   function esc(s) { return (s || "").replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
@@ -37,15 +43,82 @@
     });
   }
 
+  // quantité à acheter (la colonne Q du catalogue) — 1 par défaut
+  function qte(o) { var q = parseInt(o.quantite, 10); return (q && q > 0) ? q : 1; }
+
+  // Mécanique magasin.
+  // Renvoie { label, deduit } — deduit=true quand elle vient du calcul et non
+  // du libellé. Base : Q (quantité à acheter) et la part que représente la
+  // remise. Si la remise vaut t/Q du total, c'est un taux t sur le Qe article.
+  function mecanique(o) {
+    if (o.mecanique) return { label: o.mecanique, deduit: false };
+    var q = qte(o);
+    if (!o.prix || !o.promo) return null;
+    var r = Math.abs(o.promo) / o.prix;          // part de remise sur le total
+    var pct = Math.round(r * 100);
+    if (q < 2) return { label: "−" + pct + " %", deduit: false };
+    // au-delà de Q=1, la mécanique exacte n'est pas dans les données :
+    // on n'affiche que le certain, sauf si la déduction est activée.
+    if (!MECANIQUE_DEDUITE) return { label: "−" + pct + " % sur " + q, deduit: false };
+
+    var t = r * q;                                // taux appliqué au Qe article
+    if (Math.abs(t - 1) < 0.02) return { label: (q - 1) + "+1 offert", deduit: true };
+    if (t < 1.01) {
+      var t5 = Math.round(t * 20) / 20;           // arrondi au multiple de 5 %
+      if (Math.abs(t - t5) < 0.02 && t5 >= 0.1) {
+        return { label: "−" + Math.round(t5 * 100) + " % sur le " + q + "ᵉ", deduit: true,
+                 equiv: "−" + pct + " % sur les " + q };
+      }
+    }
+    return { label: "−" + pct + " % sur " + q + " achetés", deduit: true };
+  }
+
   function carte(o) {
     var avant = eur(o.prix), final = eur(o.prix_final);
-    var remise = o.remise_pct != null ? '<span class="badge-remise">−' + o.remise_pct + " %</span>" : "";
+    var q = qte(o), meca = mecanique(o);
+    var remisePct = (o.prix && o.promo) ? Math.round(Math.abs(o.promo) / o.prix * 100) : null;
+    var clsD = (meca && meca.deduit) ? " deduit" : "";
+
+    // badge principal : la mécanique
+    var badge = meca ? '<span class="badge-remise' + (meca.deduit ? " badge-meca" : "") + '">' + esc(meca.label) + "</span>" : "";
+
+    // ce qu'il faut acheter pour obtenir ce prix
+    var achat = '<div class="promo-achat">' +
+      '<span class="qte-pill">' + (q > 1 ? "Achetez " + q : "1 unité") + "</span>" +
+      (q > 1 && o.prix_final != null ? '<span class="unitaire">soit ' + eur(o.prix_final / q) + "/u</span>" : "") +
+      "</div>";
+
+    // détail du prix : rayon → remise magasin → bon/ODR → coût réel
+    var lignes = '<div class="detail-l"><span>Prix rayon' + (q > 1 ? " (x" + q + ")" : "") + "</span><span>" + avant + "</span></div>";
+    if (o.promo && o.promo < 0) {
+      var libMeca = meca ? '<span class="meca' + clsD + '">' + esc(meca.label) + "</span>" : "";
+      lignes += '<div class="detail-l magasin"><span>Remise magasin' + (libMeca ? " · " + libMeca : "") +
+        "</span><span>" + eur(o.promo) + "</span></div>";
+      if (meca && meca.equiv) {
+        lignes += '<div class="detail-l equiv"><span>équivaut à ' + esc(meca.equiv) + "</span><span></span></div>";
+      }
+    }
+    if (o.opti && o.opti < 0) {
+      var nomBon = (o.sources && o.sources[0] && o.sources[0].label) ? o.sources[0].label : "Bon / ODR";
+      lignes += '<div class="detail-l bon"><span>' + esc(nomBon) + "</span><span>" + eur(o.opti) + "</span></div>";
+    }
+    lignes += '<div class="detail-l total"><span>Coût réel</span><span>' + final + "</span></div>";
+    var detail = '<div class="promo-detail">' + lignes + "</div>";
+
     var liens = (o.sources || []).map(function (s) {
       return '<a class="lien coupon" href="' + esc(s.url) + '" target="_blank" rel="noopener">' +
         '<span class="pt"></span>' + esc(s.label) + ' <span class="fleche">↗</span></a>';
     }).join("");
-    var reel = (o.prix_final != null && o.opti && o.opti < 0)
-      ? '<span class="reel-pill">réel ' + final + "</span>" : "";
+
+    // la référence : la page du prospectus, où la mécanique est imprimée
+    if (o.page_url) {
+      liens = '<a class="lien page" href="' + esc(o.page_url) + '" target="_blank" rel="noopener">' +
+        '<span class="pt"></span>Voir la page' + (o.page ? " " + o.page : "") + ' du catalogue <span class="fleche">↗</span></a>' + liens;
+    }
+    if (o.pdf_url) {
+      liens += '<a class="lien pdf" href="' + esc(o.pdf_url) + '" target="_blank" rel="noopener">' +
+        '<span class="pt"></span>PDF <span class="fleche">↗</span></a>';
+    }
     var tags = '<div class="promo-tags"><span class="promo-tag rayon">' + esc(o.rayon) + "</span>" +
       (o.dansMenu ? '<span class="promo-tag menu">Dans mon menu</span>' : "") + "</div>";
     return '<div class="promo" data-ens="' + esc(o.enseigne) + '" data-coupon="' + (o.coupon ? 1 : 0) +
@@ -54,11 +127,10 @@
       '<div class="promo-txt">' +
       '<div class="promo-ens">' + esc(o.enseigne) + (o.vu_le ? " · vu " + frdate(o.vu_le) : "") + "</div>" +
       '<div class="promo-nom">' + (o.marque ? esc(o.marque) + " — " : "") + esc(o.produit) + "</div>" +
-      '<div class="promo-meta">' + (o.quantite ? "x" + esc(o.quantite) + " · " : "") + avant + "</div>" +
-      tags +
-      '<div class="art-liens">' + liens + reel + "</div>" +
+      achat + tags + detail +
+      (liens ? '<div class="art-liens">' + liens + "</div>" : "") +
       "</div>" +
-      '<div class="prix"><span class="prix-avant">' + avant + '</span><span class="prix-apres">' + final + "</span>" + remise + "</div>" +
+      '<div class="prix"><span class="prix-avant">' + avant + '</span><span class="prix-apres">' + final + "</span>" + badge + "</div>" +
       "</div>";
   }
 
@@ -104,7 +176,8 @@
         }).join("");
       }
 
-      liste.innerHTML = offres.map(carte).join("") +
+      liste.innerHTML = '<p class="promo-legende">Montants et quantités viennent du catalogue. Pour la mécanique exacte (2+1, −50 % sur le 2ᵉ…), ouvrez <b>la page du prospectus</b> indiquée sur chaque offre.</p>' +
+        offres.map(carte).join("") +
         '<p class="promo-vide hidden" id="promoVide">Aucune promo dans ce filtre cette semaine.</p>';
 
       brancher(offres, parId, filtres, liste, onAjout);
