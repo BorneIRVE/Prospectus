@@ -72,8 +72,10 @@ AUJ = dt.date.today()
 _money_re = re.compile(r"-?\d[\d\s]*,\d{2}")
 _date_range_re = re.compile(r"(\d{2}/\d{2}/\d{4})\s*[-–]\s*(\d{2}/\d{2}/\d{4})")
 _pct_re = re.compile(r"(\d{1,3})\s*%")
-# lien « Version PDF » éventuel sur la page catalogue
+# « Version PDF » : on cherche large — href explicite, puis toute URL .pdf
+# présente dans le HTML (le bouton est parfois construit en JS).
 _pdf_re = re.compile(r'href=["\']([^"\']+\.pdf(?:\?[^"\']*)?)["\']', re.I)
+_pdf_any = re.compile(r'https?://[^\s"\'<>]+?\.pdf(?:\?[^\s"\'<>]*)?', re.I)
 # images des pages du prospectus (CDN d'anti-crise), y compris celles
 # injectées par le JS du feuilletoir : on balaie tout le HTML brut.
 _img_re = re.compile(
@@ -275,8 +277,21 @@ def parse_catalogue(html: str, cat: Catalogue) -> list[dict]:
 
     # « Version PDF » si le lien est présent dans le HTML brut (opportuniste :
     # le bouton est parfois généré en JS, auquel cas on n'aura rien).
-    m_pdf = _pdf_re.search(html)
-    cat_pdf = urljoin(BASE, m_pdf.group(1)) if m_pdf else None
+    # « Version PDF » : trois stratégies, de la plus fiable à la plus large
+    cat_pdf = None
+    for a in soup.find_all("a"):                       # 1) lien dont le texte dit PDF
+        if "pdf" in clean(a.get_text()).lower() and a.get("href"):
+            cat_pdf = urljoin(BASE, a["href"])
+            break
+    if not cat_pdf:                                    # 2) href se terminant par .pdf
+        m_pdf = _pdf_re.search(html)
+        if m_pdf:
+            cat_pdf = urljoin(BASE, m_pdf.group(1))
+    if not cat_pdf:                                    # 3) URL .pdf n'importe où
+        m_any = _pdf_any.search(html)
+        if m_any:
+            cat_pdf = m_any.group(0)
+    print(f"      PDF : {cat_pdf or 'introuvable'}")
 
     # images des pages du prospectus (pour la visionneuse de l'app)
     pages_img = extraire_pages(html, soup)
