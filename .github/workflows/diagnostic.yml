@@ -1,0 +1,23 @@
+name: Diagnostic catalogue
+
+# Lancement manuel uniquement : Actions -> Diagnostic catalogue -> Run workflow
+# Affiche dans le journal où se trouvent les images du feuilletoir.
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        description: "URL d'une page catalogue (laisser vide = premier catalogue trouvé)"
+        required: false
+        default: ""
+
+jobs:
+  diagnostic:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r scraper/requirements.txt
+      - name: Analyser la page catalogue
+        run: python scraper/diagnostic.py "${{ github.event.inputs.url }}"
