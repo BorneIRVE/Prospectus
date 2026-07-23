@@ -290,6 +290,25 @@ textarea,.field input{
 .lien.page .pt{background:var(--papier)}
 .lien.page .fleche{color:var(--papier)}
 .lien.pdf .pt{background:var(--vert)}
+
+/* — visionneuse de page de prospectus — */
+.no-scroll{overflow:hidden}
+.viewer{position:fixed;inset:0;z-index:60;display:none;flex-direction:column;
+  background:rgba(20,18,15,.92);padding:0}
+.viewer.on{display:flex}
+.viewer-bar{display:flex;align-items:center;justify-content:space-between;gap:12px;
+  padding:calc(10px + env(safe-area-inset-top)) 16px 10px;background:var(--encre);color:var(--papier);
+  border-bottom:2px solid var(--papier)}
+.viewer-t{font-family:"Bricolage Grotesque",sans-serif;font-weight:800;font-size:15px}
+.viewer-x{background:none;border:0;color:var(--papier);font-size:30px;line-height:1;padding:0 4px}
+.viewer-body{flex:1;overflow:auto;-webkit-overflow-scrolling:touch;display:flex;
+  align-items:flex-start;justify-content:center;padding:12px}
+.viewer-body img{max-width:100%;height:auto;border:2px solid var(--trait);border-radius:8px;background:var(--papier-2)}
+.viewer-vide{color:var(--papier);text-align:center;font-size:14px;line-height:1.6;margin:40px 20px;opacity:.85}
+.viewer-foot{display:flex;align-items:center;justify-content:space-between;gap:12px;
+  padding:12px 16px calc(12px + var(--safe-b));background:var(--papier);border-top:2px solid var(--trait)}
+.viewer-src{font-family:"JetBrains Mono",monospace;font-size:10.5px;color:var(--encre-douce)}
+.viewer-foot .btn{padding:10px 16px;font-size:13.5px}
 .lien .fleche{color:var(--encre-douce);font-family:"JetBrains Mono",monospace}
 .reel-pill{display:inline-flex;align-items:center;gap:5px;background:var(--vert);color:#fff;font-family:"JetBrains Mono",monospace;font-weight:700;font-size:11px;padding:5px 9px;border-radius:8px}
 .promo-add{display:inline-flex;align-items:center;gap:7px;margin-top:10px;border:2px solid var(--trait);border-radius:999px;background:var(--papier);padding:8px 14px;font-size:12.5px;font-weight:600;box-shadow:2px 2px 0 var(--trait);transition:transform .1s,box-shadow .1s}
