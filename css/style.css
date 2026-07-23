@@ -304,6 +304,9 @@ textarea,.field input{
 .viewer-body{flex:1;overflow:auto;-webkit-overflow-scrolling:touch;display:flex;
   align-items:flex-start;justify-content:center;padding:12px}
 .viewer-body img{max-width:100%;height:auto;border:2px solid var(--trait);border-radius:8px;background:var(--papier-2)}
+.viewer-pdf{width:100%;height:100%;min-height:70vh;border:2px solid var(--trait);border-radius:8px;background:var(--papier-2)}
+.viewer-astuce{position:absolute;bottom:8px;left:0;right:0;text-align:center;font-size:11.5px;color:var(--papier);opacity:.8;margin:0;pointer-events:none}
+.viewer-body{position:relative}
 .viewer-vide{color:var(--papier);text-align:center;font-size:14px;line-height:1.6;margin:40px 20px;opacity:.85}
 .viewer-foot{display:flex;align-items:center;justify-content:space-between;gap:12px;
   padding:12px 16px calc(12px + var(--safe-b));background:var(--papier);border-top:2px solid var(--trait)}
