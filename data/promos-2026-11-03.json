@@ -1,0 +1,3616 @@
+{
+  "genere_le": "2026-11-03T13:09:06",
+  "source": "anti-crise.fr/les-catalogues-avec-optimisations",
+  "avertissement": "Données agrégées depuis anti-crise.fr — source secondaire et remplaçable. Vérifiez la disponibilité en magasin.",
+  "nb_offres": 126,
+  "catalogues": [
+    {
+      "enseigne": "Aldi",
+      "titre": "Préparez vos fêtes",
+      "debut": "2026-11-10",
+      "fin": "2026-11-16",
+      "url": "https://anti-crise.fr/catalogue/catalogue-aldi-du-10-au-16-novembre-2026/",
+      "nb_offres": 3
+    },
+    {
+      "enseigne": "Auchan",
+      "titre": "25 jours Auchan",
+      "debut": "2026-11-10",
+      "fin": "2026-11-15",
+      "url": "https://anti-crise.fr/catalogue/catalogue-auchan-du-10-au-15-novembre-2026/",
+      "nb_offres": 17
+    },
+    {
+      "enseigne": "Auchan Supermarché",
+      "titre": "25 jours Auchan",
+      "debut": "2026-11-10",
+      "fin": "2026-11-14",
+      "url": "https://anti-crise.fr/catalogue/catalogue-auchan-supermarche-du-10-au-14-novembre-2026/",
+      "nb_offres": 12
+    },
+    {
+      "enseigne": "Carrefour",
+      "titre": "Gûuter en famille",
+      "debut": "2026-11-10",
+      "fin": "2026-11-23",
+      "url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-10-au-23-novembre-2026/",
+      "nb_offres": 31
+    },
+    {
+      "enseigne": "Carrefour Market",
+      "titre": "Petit déjeuner",
+      "debut": "2026-11-10",
+      "fin": "2026-11-22",
+      "url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-10-au-22-novembre-2026/",
+      "nb_offres": 30
+    },
+    {
+      "enseigne": "Hyper U",
+      "titre": "Sud",
+      "debut": "2026-11-10",
+      "fin": "2026-11-15",
+      "url": "https://anti-crise.fr/catalogue/catalogue-hyper-u-du-10-au-15-novembre-2026-sud/",
+      "nb_offres": 6
+    },
+    {
+      "enseigne": "Intermarché",
+      "titre": "Version Super",
+      "debut": "2026-11-10",
+      "fin": "2026-11-22",
+      "url": "https://anti-crise.fr/catalogue/catalogue-intermarche-du-10-au-22-novembre-2026-version-super/",
+      "nb_offres": 15
+    },
+    {
+      "enseigne": "Super U",
+      "titre": "Sud",
+      "debut": "2026-11-10",
+      "fin": "2026-11-15",
+      "url": "https://anti-crise.fr/catalogue/catalogue-super-u-du-10-au-15-novembre-2026-sud/",
+      "nb_offres": 6
+    },
+    {
+      "enseigne": "Lidl",
+      "titre": "Décomptez sans compter",
+      "debut": "2026-11-05",
+      "fin": "2026-11-11",
+      "url": "https://anti-crise.fr/catalogue/catalogue-lidl-du-05-au-11-novembre-2026/",
+      "nb_offres": 2
+    },
+    {
+      "enseigne": "Leclerc",
+      "titre": "Super pouvoirs dachat",
+      "debut": "2026-11-03",
+      "fin": "2026-11-14",
+      "url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-03-au-14-novembre-2026/",
+      "nb_offres": 17
+    }
+  ],
+  "offres": [
+    {
+      "id": "8e9e4d3074ce",
+      "enseigne": "Aldi",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-aldi-du-10-au-16-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-aldi-du-10-au-16-novembre-2026/#page8",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/11\\\\/juin2025aldi1011202616112026S0C0preparez-vos-fetes-8.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-16",
+      "page": 8,
+      "marque": "Herta",
+      "produit": "Jambon",
+      "quantite": "2",
+      "prix": 4.38,
+      "promo": 0.0,
+      "mecanique": null,
+      "opti": -1.0,
+      "prix_final": 3.38,
+      "remise_pct": 23,
+      "sources": [
+        {
+          "label": "fidme",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-pc-et-application-sur-la-marque-herta-de-1-euro-avec-fidme-courses-3/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "5320c616ecf7",
+      "enseigne": "Aldi",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-aldi-du-10-au-16-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-aldi-du-10-au-16-novembre-2026/#page29",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/11\\\\/juin2025aldi1011202616112026S0C0preparez-vos-fetes-29.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-16",
+      "page": 29,
+      "marque": "GOURMET",
+      "produit": "Les filettines",
+      "quantite": "1",
+      "prix": 10.49,
+      "promo": 0.0,
+      "mecanique": null,
+      "opti": -0.4,
+      "prix_final": 10.09,
+      "remise_pct": 4,
+      "sources": [
+        {
+          "label": "fidme",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/gourmet-0-4-e-de-reduction-jusquau-31-12-2026-offre-de-remboursement-sur-pc-et-application-sur-fidme-courses/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "25999e5c2425",
+      "enseigne": "Aldi",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-aldi-du-10-au-16-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-aldi-du-10-au-16-novembre-2026/#page29",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/11\\\\/juin2025aldi1011202616112026S0C0preparez-vos-fetes-29.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-16",
+      "page": 29,
+      "marque": "FIDO",
+      "produit": "Friandises chiens",
+      "quantite": "2",
+      "prix": 9.5,
+      "promo": -2.85,
+      "mecanique": null,
+      "opti": -0.8,
+      "prix_final": 5.85,
+      "remise_pct": 38,
+      "sources": [
+        {
+          "label": "fidme",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/fido-0-4-e-de-reduction-jusquau-31-12-2026-offre-de-remboursement-sur-pc-et-application-sur-fidme-courses/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "4d52c4ebbf36",
+      "enseigne": "Auchan",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-auchan-du-10-au-15-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-auchan-du-10-au-15-novembre-2026/#page6",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025auchan1011202615112026S0C025-jours-Auchan-6.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-15",
+      "page": 6,
+      "marque": "Kinder",
+      "produit": "Barres Bueno",
+      "quantite": "4",
+      "prix": 15.92,
+      "promo": -4.78,
+      "mecanique": null,
+      "opti": -1.1,
+      "prix_final": 10.04,
+      "remise_pct": 37,
+      "sources": [
+        {
+          "label": "Défis Waaoh!",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/kinder-de-1-10e-a-1-10e-de-reduction-jusquau-31-12-2026-offre-de-remboursement-sur-pc-et-application-sur-defis-waaoh/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "eaae5d71dbe1",
+      "enseigne": "Auchan",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-auchan-du-10-au-15-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-auchan-du-10-au-15-novembre-2026/#page6",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025auchan1011202615112026S0C025-jours-Auchan-6.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-15",
+      "page": 6,
+      "marque": "PURINA",
+      "produit": "Croquettes bifensis",
+      "quantite": "2",
+      "prix": 13.98,
+      "promo": -4.19,
+      "mecanique": null,
+      "opti": -4.0,
+      "prix_final": 5.79,
+      "remise_pct": 59,
+      "sources": [
+        {
+          "label": "fidme",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-pc-et-application-sur-la-marque-purina-de-1-euro-avec-fidme-courses-6/"
+        },
+        {
+          "label": "Bon Magasin",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-en-magasin-sur-la-marque-purina-de-1-euro-17/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "a6632b3474b0",
+      "enseigne": "Auchan",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-auchan-du-10-au-15-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-auchan-du-10-au-15-novembre-2026/#page9",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025auchan1011202615112026S0C025-jours-Auchan-9.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-15",
+      "page": 9,
+      "marque": "le Gaulois",
+      "produit": "Grignottes de poulet",
+      "quantite": "3",
+      "prix": 8.97,
+      "promo": -2.99,
+      "mecanique": null,
+      "opti": -0.5,
+      "prix_final": 5.48,
+      "remise_pct": 39,
+      "sources": [
+        {
+          "label": "Le Gaulois",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-le-gaulois-de-0-5-euro-avec-le-gaulois-13/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "025caac79df8",
+      "enseigne": "Auchan",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-auchan-du-10-au-15-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-auchan-du-10-au-15-novembre-2026/#page9",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025auchan1011202615112026S0C025-jours-Auchan-9.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-15",
+      "page": 9,
+      "marque": "Maître CoQ",
+      "produit": "Tender de poulet",
+      "quantite": "2",
+      "prix": 9.98,
+      "promo": -2.5,
+      "mecanique": null,
+      "opti": -1.5,
+      "prix_final": 5.99,
+      "remise_pct": 40,
+      "sources": [
+        {
+          "label": "Maître Coq",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-maitre-coq-de-1-5-euro-avec-maitre-coq-8/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "6c6729ffba48",
+      "enseigne": "Auchan",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-auchan-du-10-au-15-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-auchan-du-10-au-15-novembre-2026/#page11",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025auchan1011202615112026S0C025-jours-Auchan-11.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-15",
+      "page": 11,
+      "marque": "BIGARD",
+      "produit": "Joue de boeuf",
+      "quantite": "1",
+      "prix": 7.99,
+      "promo": 0.0,
+      "mecanique": null,
+      "opti": -2.2,
+      "prix_final": 5.79,
+      "remise_pct": 28,
+      "sources": [
+        {
+          "label": "Bigard",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bigard-2-20-e-de-reduction-jusquau-31-12-2024-bon-de-reduction-a-imprimer-sur-bigard/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "49e366717794",
+      "enseigne": "Auchan",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-auchan-du-10-au-15-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-auchan-du-10-au-15-novembre-2026/#page11",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025auchan1011202615112026S0C025-jours-Auchan-11.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-15",
+      "page": 11,
+      "marque": "CHARAL",
+      "produit": "Carpaccio de bœuf",
+      "quantite": "2",
+      "prix": 12.58,
+      "promo": -3.15,
+      "mecanique": null,
+      "opti": -1.1,
+      "prix_final": 8.34,
+      "remise_pct": 34,
+      "sources": [
+        {
+          "label": "Charal",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-charal-de-1-1-euro-avec-charal-6/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "bb3b19d97fc7",
+      "enseigne": "Auchan",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-auchan-du-10-au-15-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-auchan-du-10-au-15-novembre-2026/#page11",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025auchan1011202615112026S0C025-jours-Auchan-11.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-15",
+      "page": 11,
+      "marque": "Tendriade",
+      "produit": "Paupiettes",
+      "quantite": "1",
+      "prix": 15.99,
+      "promo": 0.0,
+      "mecanique": null,
+      "opti": -0.5,
+      "prix_final": 15.49,
+      "remise_pct": 3,
+      "sources": [
+        {
+          "label": "fidme",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-pc-et-application-sur-la-marque-tendriade-de-0-5-euro-avec-fidme-courses/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "bb23b79d6071",
+      "enseigne": "Auchan",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-auchan-du-10-au-15-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-auchan-du-10-au-15-novembre-2026/#page21",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025auchan1011202615112026S0C025-jours-Auchan-21.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-15",
+      "page": 21,
+      "marque": "COEUR DE LION",
+      "produit": "Coulommiers",
+      "quantite": "2",
+      "prix": 5.18,
+      "promo": 0.0,
+      "mecanique": null,
+      "opti": -0.5,
+      "prix_final": 4.68,
+      "remise_pct": 10,
+      "sources": [
+        {
+          "label": "Défis Waaoh!",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/coeur-de-lion-de-0-50e-a-0-50e-de-reduction-jusquau-31-12-2026-offre-de-remboursement-sur-pc-et-application-sur-defis-waaoh/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "bab8267a17c4",
+      "enseigne": "Auchan",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-auchan-du-10-au-15-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-auchan-du-10-au-15-novembre-2026/#page21",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025auchan1011202615112026S0C025-jours-Auchan-21.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-15",
+      "page": 21,
+      "marque": "EntreMont",
+      "produit": "Emmental râpé",
+      "quantite": "1",
+      "prix": 3.19,
+      "promo": 0.0,
+      "mecanique": null,
+      "opti": -0.4,
+      "prix_final": 2.79,
+      "remise_pct": 13,
+      "sources": [
+        {
+          "label": "EntreMont",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-entremont-de-0-4-euro-avec-entremont-14/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "5d1418299ae1",
+      "enseigne": "Auchan",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-auchan-du-10-au-15-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-auchan-du-10-au-15-novembre-2026/#page21",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025auchan1011202615112026S0C025-jours-Auchan-21.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-15",
+      "page": 21,
+      "marque": "EntreMont",
+      "produit": "Emmental râpé",
+      "quantite": "2",
+      "prix": 6.38,
+      "promo": 0.0,
+      "mecanique": null,
+      "opti": -1.0,
+      "prix_final": 5.38,
+      "remise_pct": 16,
+      "sources": [
+        {
+          "label": "EntreMont",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-entremont-de-0-4-euro-avec-entremont-14/"
+        },
+        {
+          "label": "Défis Waaoh!",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/entremont-de-0-60e-a-0-60e-de-reduction-jusquau-30-11-2026-offre-de-remboursement-sur-pc-et-application-sur-defis-waaoh/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "6a0e37b72d2c",
+      "enseigne": "Auchan",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-auchan-du-10-au-15-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-auchan-du-10-au-15-novembre-2026/#page22",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025auchan1011202615112026S0C025-jours-Auchan-22.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-15",
+      "page": 22,
+      "marque": "Fleury Michon",
+      "produit": "Les tranches végé",
+      "quantite": "1",
+      "prix": 2.09,
+      "promo": -0.71,
+      "mecanique": null,
+      "opti": -0.21,
+      "prix_final": 1.17,
+      "remise_pct": 44,
+      "sources": [
+        {
+          "label": "10%",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-application-sur-la-marque-fleury-michon-de-10-pourcent-avec-10pourcent/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "c0b32e7eab0a",
+      "enseigne": "Auchan",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-auchan-du-10-au-15-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-auchan-du-10-au-15-novembre-2026/#page24",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025auchan1011202615112026S0C025-jours-Auchan-24.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-15",
+      "page": 24,
+      "marque": "Maître CoQ",
+      "produit": "Cordons bleus",
+      "quantite": "1",
+      "prix": 5.57,
+      "promo": -1.39,
+      "mecanique": null,
+      "opti": -1.0,
+      "prix_final": 3.18,
+      "remise_pct": 43,
+      "sources": [
+        {
+          "label": "Maître Coq",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-maitre-coq-de-1-euro-avec-maitre-coq-17/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "47d2e67dfe55",
+      "enseigne": "Auchan",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-auchan-du-10-au-15-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-auchan-du-10-au-15-novembre-2026/#page25",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025auchan1011202615112026S0C025-jours-Auchan-25.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-15",
+      "page": 25,
+      "marque": "PANZANI",
+      "produit": "Sauce pesto",
+      "quantite": "2",
+      "prix": 4.5,
+      "promo": -1.35,
+      "mecanique": null,
+      "opti": -0.5,
+      "prix_final": 2.65,
+      "remise_pct": 41,
+      "sources": [
+        {
+          "label": "Défis Waaoh!",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/panzani-de-0-50e-a-0-50e-de-reduction-jusquau-31-12-2026-offre-de-remboursement-sur-pc-et-application-sur-defis-waaoh/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "bfc9dc12dbd8",
+      "enseigne": "Auchan",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-auchan-du-10-au-15-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-auchan-du-10-au-15-novembre-2026/#page38",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025auchan1011202615112026S0C025-jours-Auchan-38.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-15",
+      "page": 38,
+      "marque": "blédina",
+      "produit": "Assiette blédichef",
+      "quantite": "6",
+      "prix": 19.68,
+      "promo": -6.56,
+      "mecanique": null,
+      "opti": -1.31,
+      "prix_final": 11.81,
+      "remise_pct": 40,
+      "sources": [
+        {
+          "label": "10%",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-application-sur-la-marque-bledina-de-10-euro-avec-10pourcent/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "5a2cf056dfeb",
+      "enseigne": "Auchan",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-auchan-du-10-au-15-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-auchan-du-10-au-15-novembre-2026/#page38",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025auchan1011202615112026S0C025-jours-Auchan-38.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-15",
+      "page": 38,
+      "marque": "Gallia",
+      "produit": "Lait de croissance",
+      "quantite": "4",
+      "prix": 45.08,
+      "promo": -13.52,
+      "mecanique": null,
+      "opti": -4.51,
+      "prix_final": 27.05,
+      "remise_pct": 40,
+      "sources": [
+        {
+          "label": "10%",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-application-sur-la-marque-gallia-de-10-pourcent-avec-10pourcent/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "22427b821704",
+      "enseigne": "Auchan",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-auchan-du-10-au-15-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-auchan-du-10-au-15-novembre-2026/#page42",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025auchan1011202615112026S0C025-jours-Auchan-42.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-15",
+      "page": 42,
+      "marque": "Schwarzkopf",
+      "produit": "crème suprême",
+      "quantite": "1",
+      "prix": 11.15,
+      "promo": -4.46,
+      "mecanique": null,
+      "opti": -3.0,
+      "prix_final": 3.69,
+      "remise_pct": 67,
+      "sources": [
+        {
+          "label": "La Belle Adresse",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-schwarzkopf-de-3-euro-avec-la-belle-adresse-11/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "228558aa8331",
+      "enseigne": "Auchan Supermarché",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-auchan-supermarche-du-10-au-14-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-auchan-supermarche-du-10-au-14-novembre-2026/#page3",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025auchan-supermarche1011202614112026S0C025-jours-Auchan-3.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-14",
+      "page": 3,
+      "marque": "PURINA",
+      "produit": "Croquettes bifensis",
+      "quantite": "2",
+      "prix": 13.98,
+      "promo": -4.19,
+      "mecanique": null,
+      "opti": -4.0,
+      "prix_final": 5.79,
+      "remise_pct": 59,
+      "sources": [
+        {
+          "label": "fidme",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-pc-et-application-sur-la-marque-purina-de-1-euro-avec-fidme-courses-6/"
+        },
+        {
+          "label": "Bon Magasin",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-en-magasin-sur-la-marque-purina-de-1-euro-17/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "9506497a7e74",
+      "enseigne": "Auchan Supermarché",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-auchan-supermarche-du-10-au-14-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-auchan-supermarche-du-10-au-14-novembre-2026/#page6",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025auchan-supermarche1011202614112026S0C025-jours-Auchan-6.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-14",
+      "page": 6,
+      "marque": "le Gaulois",
+      "produit": "Grignottes de poulet",
+      "quantite": "3",
+      "prix": 8.97,
+      "promo": -2.99,
+      "mecanique": null,
+      "opti": -0.5,
+      "prix_final": 5.48,
+      "remise_pct": 39,
+      "sources": [
+        {
+          "label": "Le Gaulois",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-le-gaulois-de-0-5-euro-avec-le-gaulois-13/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "34930259b1ff",
+      "enseigne": "Auchan Supermarché",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-auchan-supermarche-du-10-au-14-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-auchan-supermarche-du-10-au-14-novembre-2026/#page7",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025auchan-supermarche1011202614112026S0C025-jours-Auchan-7.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-14",
+      "page": 7,
+      "marque": "CHARAL",
+      "produit": "Carpaccio de bœuf",
+      "quantite": "2",
+      "prix": 12.58,
+      "promo": -3.15,
+      "mecanique": null,
+      "opti": -1.1,
+      "prix_final": 8.34,
+      "remise_pct": 34,
+      "sources": [
+        {
+          "label": "Charal",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-charal-de-1-1-euro-avec-charal-6/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "d6016bb9c8a8",
+      "enseigne": "Auchan Supermarché",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-auchan-supermarche-du-10-au-14-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-auchan-supermarche-du-10-au-14-novembre-2026/#page7",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025auchan-supermarche1011202614112026S0C025-jours-Auchan-7.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-14",
+      "page": 7,
+      "marque": "Tendriade",
+      "produit": "Paupiettes",
+      "quantite": "1",
+      "prix": 15.99,
+      "promo": 0.0,
+      "mecanique": null,
+      "opti": -0.5,
+      "prix_final": 15.49,
+      "remise_pct": 3,
+      "sources": [
+        {
+          "label": "fidme",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-pc-et-application-sur-la-marque-tendriade-de-0-5-euro-avec-fidme-courses/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "e2f2adcfd1ab",
+      "enseigne": "Auchan Supermarché",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-auchan-supermarche-du-10-au-14-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-auchan-supermarche-du-10-au-14-novembre-2026/#page14",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025auchan-supermarche1011202614112026S0C025-jours-Auchan-14.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-14",
+      "page": 14,
+      "marque": "COEUR DE LION",
+      "produit": "Coulommiers",
+      "quantite": "2",
+      "prix": 5.18,
+      "promo": 0.0,
+      "mecanique": null,
+      "opti": -0.5,
+      "prix_final": 4.68,
+      "remise_pct": 10,
+      "sources": [
+        {
+          "label": "Défis Waaoh!",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/coeur-de-lion-de-0-50e-a-0-50e-de-reduction-jusquau-31-12-2026-offre-de-remboursement-sur-pc-et-application-sur-defis-waaoh/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "c69e1fea74ee",
+      "enseigne": "Auchan Supermarché",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-auchan-supermarche-du-10-au-14-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-auchan-supermarche-du-10-au-14-novembre-2026/#page14",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025auchan-supermarche1011202614112026S0C025-jours-Auchan-14.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-14",
+      "page": 14,
+      "marque": "EntreMont",
+      "produit": "Emmental râpé",
+      "quantite": "1",
+      "prix": 3.19,
+      "promo": 0.0,
+      "mecanique": null,
+      "opti": -0.4,
+      "prix_final": 2.79,
+      "remise_pct": 13,
+      "sources": [
+        {
+          "label": "EntreMont",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-entremont-de-0-4-euro-avec-entremont-14/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "45383dc45c09",
+      "enseigne": "Auchan Supermarché",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-auchan-supermarche-du-10-au-14-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-auchan-supermarche-du-10-au-14-novembre-2026/#page14",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025auchan-supermarche1011202614112026S0C025-jours-Auchan-14.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-14",
+      "page": 14,
+      "marque": "EntreMont",
+      "produit": "Emmental râpé",
+      "quantite": "2",
+      "prix": 6.38,
+      "promo": 0.0,
+      "mecanique": null,
+      "opti": -1.0,
+      "prix_final": 5.38,
+      "remise_pct": 16,
+      "sources": [
+        {
+          "label": "EntreMont",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-entremont-de-0-4-euro-avec-entremont-14/"
+        },
+        {
+          "label": "Défis Waaoh!",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/entremont-de-0-60e-a-0-60e-de-reduction-jusquau-30-11-2026-offre-de-remboursement-sur-pc-et-application-sur-defis-waaoh/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "57ac66616389",
+      "enseigne": "Auchan Supermarché",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-auchan-supermarche-du-10-au-14-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-auchan-supermarche-du-10-au-14-novembre-2026/#page16",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025auchan-supermarche1011202614112026S0C025-jours-Auchan-16.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-14",
+      "page": 16,
+      "marque": "Maître CoQ",
+      "produit": "Cordons bleus",
+      "quantite": "1",
+      "prix": 5.57,
+      "promo": -1.39,
+      "mecanique": null,
+      "opti": -1.0,
+      "prix_final": 3.18,
+      "remise_pct": 43,
+      "sources": [
+        {
+          "label": "Maître Coq",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-maitre-coq-de-1-euro-avec-maitre-coq-17/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "581f2a0baf74",
+      "enseigne": "Auchan Supermarché",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-auchan-supermarche-du-10-au-14-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-auchan-supermarche-du-10-au-14-novembre-2026/#page18",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025auchan-supermarche1011202614112026S0C025-jours-Auchan-18.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-14",
+      "page": 18,
+      "marque": "PANZANI",
+      "produit": "Sauce pesto",
+      "quantite": "2",
+      "prix": 3.2,
+      "promo": -0.96,
+      "mecanique": null,
+      "opti": -0.5,
+      "prix_final": 1.74,
+      "remise_pct": 46,
+      "sources": [
+        {
+          "label": "Défis Waaoh!",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/panzani-de-0-50e-a-0-50e-de-reduction-jusquau-31-12-2026-offre-de-remboursement-sur-pc-et-application-sur-defis-waaoh/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "322c347cd43b",
+      "enseigne": "Auchan Supermarché",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-auchan-supermarche-du-10-au-14-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-auchan-supermarche-du-10-au-14-novembre-2026/#page23",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025auchan-supermarche1011202614112026S0C025-jours-Auchan-23.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-14",
+      "page": 23,
+      "marque": "blédina",
+      "produit": "Assiette blédichef",
+      "quantite": "6",
+      "prix": 19.68,
+      "promo": -6.56,
+      "mecanique": null,
+      "opti": -1.31,
+      "prix_final": 11.81,
+      "remise_pct": 40,
+      "sources": [
+        {
+          "label": "10%",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-application-sur-la-marque-bledina-de-10-euro-avec-10pourcent/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "67485b2662ba",
+      "enseigne": "Auchan Supermarché",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-auchan-supermarche-du-10-au-14-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-auchan-supermarche-du-10-au-14-novembre-2026/#page23",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025auchan-supermarche1011202614112026S0C025-jours-Auchan-23.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-14",
+      "page": 23,
+      "marque": "Gallia",
+      "produit": "Lait de croissance",
+      "quantite": "4",
+      "prix": 45.08,
+      "promo": -13.52,
+      "mecanique": null,
+      "opti": -4.51,
+      "prix_final": 27.05,
+      "remise_pct": 40,
+      "sources": [
+        {
+          "label": "10%",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-application-sur-la-marque-gallia-de-10-pourcent-avec-10pourcent/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "8742d1273560",
+      "enseigne": "Carrefour",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-10-au-23-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-10-au-23-novembre-2026/#page32",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025carrefour1011202623112026S0C0gouter-en-famille-32.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-23",
+      "page": 32,
+      "marque": "Harrys",
+      "produit": "Gâteaux Chocalin",
+      "quantite": "1",
+      "prix": 3.49,
+      "promo": -1.05,
+      "mecanique": null,
+      "opti": -1.4,
+      "prix_final": 1.04,
+      "remise_pct": 70,
+      "sources": [
+        {
+          "label": "fidme",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-pc-et-application-sur-la-marque-harrys-de-0-7-euro-avec-fidme-courses-12/"
+        },
+        {
+          "label": "Bon Magasin",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-en-magasin-sur-la-marque-harrys-de-0-7-euro-18/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "4ceb035490eb",
+      "enseigne": "Carrefour",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-10-au-23-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-10-au-23-novembre-2026/#page35",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025carrefour1011202623112026S0C0gouter-en-famille-35.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-23",
+      "page": 35,
+      "marque": "PEPSI",
+      "produit": "Soda",
+      "quantite": "1",
+      "prix": 6.45,
+      "promo": 0.0,
+      "mecanique": null,
+      "opti": -0.4,
+      "prix_final": 6.05,
+      "remise_pct": 6,
+      "sources": [
+        {
+          "label": "Bon Magasin",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-en-magasin-sur-la-marque-pepsi-de-0-4-euro/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "be2d22d05278",
+      "enseigne": "Carrefour",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-10-au-23-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-10-au-23-novembre-2026/#page35",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025carrefour1011202623112026S0C0gouter-en-famille-35.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-23",
+      "page": 35,
+      "marque": "Lipton",
+      "produit": "Thé glacé pétillant",
+      "quantite": "1",
+      "prix": 1.7,
+      "promo": -0.51,
+      "mecanique": null,
+      "opti": -1.0,
+      "prix_final": 0.19,
+      "remise_pct": 89,
+      "sources": [
+        {
+          "label": "fidme",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-pc-et-application-sur-la-marque-lipton-de-0-5-euro-avec-fidme-courses-7/"
+        },
+        {
+          "label": "Bon Magasin",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-en-magasin-sur-la-marque-lipton-de-0-5-euro-9/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "752936a9bb14",
+      "enseigne": "Carrefour",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-10-au-23-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-10-au-23-novembre-2026/#page36",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025carrefour1011202623112026S0C0gouter-en-famille-36.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-23",
+      "page": 36,
+      "marque": "CARREFOUR",
+      "produit": "Jus de fruits",
+      "quantite": "4",
+      "prix": 13.16,
+      "promo": -1.32,
+      "mecanique": null,
+      "opti": -1.7,
+      "prix_final": 10.14,
+      "remise_pct": 23,
+      "sources": [
+        {
+          "label": "Challenge Fid",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/carrefour-de-1-70e-a-1-70e-de-reduction-jusquau-31-12-2026-offre-de-remboursement-sur-pc-et-application-sur-challenge-fid/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "39257f5071f3",
+      "enseigne": "Carrefour",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-10-au-23-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-10-au-23-novembre-2026/#page36",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025carrefour1011202623112026S0C0gouter-en-famille-36.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-23",
+      "page": 36,
+      "marque": "CARREFOUR",
+      "produit": "Jus multifruits",
+      "quantite": "6",
+      "prix": 17.7,
+      "promo": -1.77,
+      "mecanique": null,
+      "opti": -2.8,
+      "prix_final": 13.13,
+      "remise_pct": 26,
+      "sources": [
+        {
+          "label": "Challenge Fid",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/carrefour-de-2-80e-a-2-80e-de-reduction-jusquau-31-12-2026-offre-de-remboursement-sur-pc-et-application-sur-challenge-fid/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "604d73c99bca",
+      "enseigne": "Carrefour",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-10-au-23-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-10-au-23-novembre-2026/#page45",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025carrefour1011202623112026S0C0gouter-en-famille-45.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-23",
+      "page": 45,
+      "marque": "BIGARD",
+      "produit": "Viande hachée",
+      "quantite": "1",
+      "prix": 12.29,
+      "promo": 0.0,
+      "mecanique": null,
+      "opti": -1.3,
+      "prix_final": 10.99,
+      "remise_pct": 11,
+      "sources": [
+        {
+          "label": "Bigard",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bigard-1-30-e-de-reduction-jusquau-31-12-2024-bon-de-reduction-a-imprimer-sur-bigard-2/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "e1b74817e359",
+      "enseigne": "Carrefour",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-10-au-23-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-10-au-23-novembre-2026/#page45",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025carrefour1011202623112026S0C0gouter-en-famille-45.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-23",
+      "page": 45,
+      "marque": "Tendre & Plus",
+      "produit": "Saucisses",
+      "quantite": "2",
+      "prix": 15.98,
+      "promo": 0.0,
+      "mecanique": null,
+      "opti": -1.6,
+      "prix_final": 14.38,
+      "remise_pct": 10,
+      "sources": [
+        {
+          "label": "10%",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-application-sur-la-marque-tendre-plus-de-10-pourcent-avec-10pourcent/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "492b00771eb3",
+      "enseigne": "Carrefour",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-10-au-23-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-10-au-23-novembre-2026/#page45",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025carrefour1011202623112026S0C0gouter-en-famille-45.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-23",
+      "page": 45,
+      "marque": "CHARAL",
+      "produit": "Cheeseburger",
+      "quantite": "1",
+      "prix": 10.5,
+      "promo": 0.0,
+      "mecanique": null,
+      "opti": -1.0,
+      "prix_final": 9.5,
+      "remise_pct": 10,
+      "sources": [
+        {
+          "label": "Charal",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-charal-de-1-euro-avec-charal-12/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "20bb5e05315f",
+      "enseigne": "Carrefour",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-10-au-23-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-10-au-23-novembre-2026/#page54",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025carrefour1011202623112026S0C0gouter-en-famille-54.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-23",
+      "page": 54,
+      "marque": "la Laitière",
+      "produit": "Secret de mousse",
+      "quantite": "3",
+      "prix": 4.65,
+      "promo": -1.55,
+      "mecanique": null,
+      "opti": -0.8,
+      "prix_final": 2.3,
+      "remise_pct": 51,
+      "sources": [
+        {
+          "label": "EDBM",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-la-laitiere-de-0-4-euro-avec-envie-de-bien-manger-4/"
+        },
+        {
+          "label": "EDBM (Remb)",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/la-laitiere-0-4-e-de-reduction-jusquau-31-12-2024-offre-de-remboursement-sur-pc-sur-edbm-remb/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "0bee1713fefd",
+      "enseigne": "Carrefour",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-10-au-23-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-10-au-23-novembre-2026/#page55",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025carrefour1011202623112026S0C0gouter-en-famille-55.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-23",
+      "page": 55,
+      "marque": "PRESIDENT",
+      "produit": "Crème fraîche",
+      "quantite": "3",
+      "prix": 7.17,
+      "promo": -2.39,
+      "mecanique": null,
+      "opti": -0.6,
+      "prix_final": 4.18,
+      "remise_pct": 42,
+      "sources": [
+        {
+          "label": "Bon Magasin",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-en-magasin-sur-la-marque-president-de-0-6-euro-5/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "8c7a32dd1f86",
+      "enseigne": "Carrefour",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-10-au-23-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-10-au-23-novembre-2026/#page55",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025carrefour1011202623112026S0C0gouter-en-famille-55.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-23",
+      "page": 55,
+      "marque": "PRESIDENT",
+      "produit": "Beurre",
+      "quantite": "1",
+      "prix": 5.45,
+      "promo": 0.0,
+      "mecanique": null,
+      "opti": -1.2,
+      "prix_final": 4.25,
+      "remise_pct": 22,
+      "sources": [
+        {
+          "label": "EDBM",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-president-de-0-6-euro-avec-envie-de-bien-manger-2/"
+        },
+        {
+          "label": "EDBM (Remb)",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/president-0-6-e-de-reduction-jusquau-31-12-2024-offre-de-remboursement-sur-pc-sur-edbm-remb/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "7086dedad7e4",
+      "enseigne": "Carrefour",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-10-au-23-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-10-au-23-novembre-2026/#page55",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025carrefour1011202623112026S0C0gouter-en-famille-55.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-23",
+      "page": 55,
+      "marque": "Bridélice",
+      "produit": "Crème liquide",
+      "quantite": "2",
+      "prix": 5.5,
+      "promo": -1.65,
+      "mecanique": null,
+      "opti": -0.6,
+      "prix_final": 3.25,
+      "remise_pct": 41,
+      "sources": [
+        {
+          "label": "Bon Magasin",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bridelice-0-6-e-de-reduction-jusquau-28-02-2027-bon-de-reduction-en-magasin/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "932979dbf072",
+      "enseigne": "Carrefour",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-10-au-23-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-10-au-23-novembre-2026/#page56",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025carrefour1011202623112026S0C0gouter-en-famille-56.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-23",
+      "page": 56,
+      "marque": "EntreMont",
+      "produit": "Raclette",
+      "quantite": "2",
+      "prix": 9.18,
+      "promo": -3.12,
+      "mecanique": null,
+      "opti": -1.0,
+      "prix_final": 5.06,
+      "remise_pct": 45,
+      "sources": [
+        {
+          "label": "Challenge Fid",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/entremont-de-1-00e-a-1-00e-de-reduction-jusquau-15-11-2026-offre-de-remboursement-sur-pc-et-application-sur-challenge-fid/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "aa70a9f0ba9f",
+      "enseigne": "Carrefour",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-10-au-23-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-10-au-23-novembre-2026/#page56",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025carrefour1011202623112026S0C0gouter-en-famille-56.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-23",
+      "page": 56,
+      "marque": "EntreMont",
+      "produit": "Râpé 4 fromages",
+      "quantite": "2",
+      "prix": 4.98,
+      "promo": -1.49,
+      "mecanique": null,
+      "opti": -0.5,
+      "prix_final": 2.99,
+      "remise_pct": 40,
+      "sources": [
+        {
+          "label": "Challenge Fid",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/entremont-de-0-50e-a-0-50e-de-reduction-jusquau-15-11-2026-offre-de-remboursement-sur-pc-et-application-sur-challenge-fid/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "0d723df1b59e",
+      "enseigne": "Carrefour",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-10-au-23-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-10-au-23-novembre-2026/#page57",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025carrefour1011202623112026S0C0gouter-en-famille-57.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-23",
+      "page": 57,
+      "marque": "PRESIDENT",
+      "produit": "Emmental",
+      "quantite": "5",
+      "prix": 22.75,
+      "promo": 0.0,
+      "mecanique": null,
+      "opti": -2.28,
+      "prix_final": 20.48,
+      "remise_pct": 10,
+      "sources": [
+        {
+          "label": "10%",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-application-sur-la-marque-president-de-10-pourcent-avec-10pourcent/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "067d7705ebaa",
+      "enseigne": "Carrefour",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-10-au-23-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-10-au-23-novembre-2026/#page60",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025carrefour1011202623112026S0C0gouter-en-famille-60.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-23",
+      "page": 60,
+      "marque": "Herta",
+      "produit": "Lardons fumés",
+      "quantite": "2",
+      "prix": 3.98,
+      "promo": -1.0,
+      "mecanique": null,
+      "opti": -2.0,
+      "prix_final": 0.99,
+      "remise_pct": 75,
+      "sources": [
+        {
+          "label": "fidme",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-pc-et-application-sur-la-marque-herta-de-1-euro-avec-fidme-courses-3/"
+        },
+        {
+          "label": "Bon Magasin",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-en-magasin-sur-la-marque-herta-de-1-euro-8/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "7b468d6e4437",
+      "enseigne": "Carrefour",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-10-au-23-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-10-au-23-novembre-2026/#page60",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025carrefour1011202623112026S0C0gouter-en-famille-60.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-23",
+      "page": 60,
+      "marque": "Madrange",
+      "produit": "Jambon",
+      "quantite": "1",
+      "prix": 1.99,
+      "promo": 0.0,
+      "mecanique": null,
+      "opti": -0.5,
+      "prix_final": 1.49,
+      "remise_pct": 25,
+      "sources": [
+        {
+          "label": "Appli CN",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-pc-et-application-sur-la-marque-madrange-de-0-6-euro-avec-coupon-network-appli/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "de39531b76f6",
+      "enseigne": "Carrefour",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-10-au-23-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-10-au-23-novembre-2026/#page61",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025carrefour1011202623112026S0C0gouter-en-famille-61.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-23",
+      "page": 61,
+      "marque": "Justin Bridou",
+      "produit": "Bâton de Berger",
+      "quantite": "4",
+      "prix": 15.52,
+      "promo": -3.88,
+      "mecanique": null,
+      "opti": -1.4,
+      "prix_final": 10.24,
+      "remise_pct": 34,
+      "sources": [
+        {
+          "label": "Challenge Fid",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/justin-bridou-de-1-40e-a-1-40e-de-reduction-jusquau-31-12-2026-offre-de-remboursement-sur-pc-et-application-sur-challenge-fid/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "11578bd48be8",
+      "enseigne": "Carrefour",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-10-au-23-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-10-au-23-novembre-2026/#page61",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025carrefour1011202623112026S0C0gouter-en-famille-61.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-23",
+      "page": 61,
+      "marque": "Herta",
+      "produit": "Knacki",
+      "quantite": "2",
+      "prix": 3.8,
+      "promo": 0.0,
+      "mecanique": null,
+      "opti": -2.0,
+      "prix_final": 1.8,
+      "remise_pct": 53,
+      "sources": [
+        {
+          "label": "fidme",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-pc-et-application-sur-la-marque-herta-de-1-euro-avec-fidme-courses-3/"
+        },
+        {
+          "label": "Bon Magasin",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-en-magasin-sur-la-marque-herta-de-1-euro-8/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "bda884f627b1",
+      "enseigne": "Carrefour",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-10-au-23-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-10-au-23-novembre-2026/#page62",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025carrefour1011202623112026S0C0gouter-en-famille-62.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-23",
+      "page": 62,
+      "marque": "CROUSTIPATE",
+      "produit": "Pâte à tarte",
+      "quantite": "2",
+      "prix": 3.98,
+      "promo": -1.35,
+      "mecanique": null,
+      "opti": -0.3,
+      "prix_final": 2.33,
+      "remise_pct": 42,
+      "sources": [
+        {
+          "label": "Croustipate",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-croustipate-de-0-3-euro-avec-croustipate/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "b9c0edcf0af6",
+      "enseigne": "Carrefour",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-10-au-23-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-10-au-23-novembre-2026/#page64",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025carrefour1011202623112026S0C0gouter-en-famille-64.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-23",
+      "page": 64,
+      "marque": "francine",
+      "produit": "Farine suprême",
+      "quantite": "4",
+      "prix": 7.16,
+      "promo": -2.15,
+      "mecanique": null,
+      "opti": -1.0,
+      "prix_final": 4.01,
+      "remise_pct": 44,
+      "sources": [
+        {
+          "label": "Challenge Fid",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/francine-de-1-00e-a-1-00e-de-reduction-jusquau-30-09-2026-offre-de-remboursement-sur-pc-et-application-sur-challenge-fid/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "371503b2d8dc",
+      "enseigne": "Carrefour",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-10-au-23-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-10-au-23-novembre-2026/#page65",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025carrefour1011202623112026S0C0gouter-en-famille-65.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-23",
+      "page": 65,
+      "marque": "Bonduelle",
+      "produit": "Haricots verts",
+      "quantite": "2",
+      "prix": 13.0,
+      "promo": -3.9,
+      "mecanique": null,
+      "opti": -1.8,
+      "prix_final": 7.3,
+      "remise_pct": 44,
+      "sources": [
+        {
+          "label": "Challenge Fid",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bonduelle-de-1-80e-a-1-80e-de-reduction-jusquau-30-09-2026-offre-de-remboursement-sur-pc-et-application-sur-challenge-fid/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "282d7260c232",
+      "enseigne": "Carrefour",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-10-au-23-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-10-au-23-novembre-2026/#page68",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025carrefour1011202623112026S0C0gouter-en-famille-68.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-23",
+      "page": 68,
+      "marque": "WaterWipes",
+      "produit": "Lingettes",
+      "quantite": "1",
+      "prix": 8.95,
+      "promo": -3.04,
+      "mecanique": null,
+      "opti": -1.0,
+      "prix_final": 4.91,
+      "remise_pct": 45,
+      "sources": [
+        {
+          "label": "fidme",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/copie-de-waterwipes-0-5-e-de-reduction-jusquau-31-12-2026-offre-de-remboursement-sur-pc-et-application-sur-fidme-courses/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "4ccce9d5deda",
+      "enseigne": "Carrefour",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-10-au-23-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-10-au-23-novembre-2026/#page69",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025carrefour1011202623112026S0C0gouter-en-famille-69.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-23",
+      "page": 69,
+      "marque": "Guigoz",
+      "produit": "Lait de croissance",
+      "quantite": "2",
+      "prix": 22.38,
+      "promo": -5.6,
+      "mecanique": null,
+      "opti": -10.2,
+      "prix_final": 6.59,
+      "remise_pct": 71,
+      "sources": [
+        {
+          "label": "Guigoz (Remb)",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-pc-sur-la-marque-guigoz-de-2-euro-avec-guigoz-remb-2/"
+        },
+        {
+          "label": "fidme",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-pc-et-application-sur-la-marque-guigoz-de-2-2-euro-avec-fidme-courses-2/"
+        },
+        {
+          "label": "Guigoz",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-guigoz-de-3-euro-avec-guigoz-12/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "dd60723b8f69",
+      "enseigne": "Carrefour",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-10-au-23-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-10-au-23-novembre-2026/#page78",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025carrefour1011202623112026S0C0gouter-en-famille-78.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-23",
+      "page": 78,
+      "marque": "Skip",
+      "produit": "Lessive en capsules",
+      "quantite": "2",
+      "prix": 28.7,
+      "promo": -11.48,
+      "mecanique": null,
+      "opti": -2.87,
+      "prix_final": 14.35,
+      "remise_pct": 50,
+      "sources": [
+        {
+          "label": "10%",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-application-sur-la-marque-skip-de-10-pourcent-avec-10pourcent/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "dc53491dcfce",
+      "enseigne": "Carrefour",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-10-au-23-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-10-au-23-novembre-2026/#page60",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025carrefour1011202623112026S0C0gouter-en-famille-60.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-23",
+      "page": 60,
+      "marque": "MONTAGNE NOIRE",
+      "produit": "Assiette de charcuterie",
+      "quantite": "1",
+      "prix": 5.99,
+      "promo": 0.0,
+      "mecanique": null,
+      "opti": -0.8,
+      "prix_final": 5.19,
+      "remise_pct": 13,
+      "sources": [
+        {
+          "label": "Challenge Fid",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/montagne-noire-de-0-80e-a-0-80e-de-reduction-jusquau-31-12-2026-offre-de-remboursement-sur-pc-et-application-sur-challenge-fid/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "c828b4dab7af",
+      "enseigne": "Carrefour",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-10-au-23-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-du-10-au-23-novembre-2026/#page65",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025carrefour1011202623112026S0C0gouter-en-famille-65.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-23",
+      "page": 65,
+      "marque": "Barilla",
+      "produit": "Pâtes al bronzo",
+      "quantite": "2",
+      "prix": 3.7,
+      "promo": -1.11,
+      "mecanique": null,
+      "opti": -0.74,
+      "prix_final": 1.85,
+      "remise_pct": 50,
+      "sources": [
+        {
+          "label": "Shopmium",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-pc-et-application-sur-la-marque-barilla-de-30-pourcent-avec-shopmium-pc-appli-21/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "ef98c9a0b317",
+      "enseigne": "Carrefour Market",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-10-au-22-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-10-au-22-novembre-2026/#page15",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025carrefour-market1011202622112026S0C0petit-dejeuner-15.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-22",
+      "page": 15,
+      "marque": "Kellogg's",
+      "produit": "Céréales Extra",
+      "quantite": "1",
+      "prix": 3.25,
+      "promo": -0.98,
+      "mecanique": null,
+      "opti": -0.5,
+      "prix_final": 1.78,
+      "remise_pct": 45,
+      "sources": [
+        {
+          "label": "Bon Magasin",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-en-magasin-sur-la-marque-kelloggs-de-0-5-euro-10/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "5bbfaf0be68a",
+      "enseigne": "Carrefour Market",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-10-au-22-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-10-au-22-novembre-2026/#page16",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025carrefour-market1011202622112026S0C0petit-dejeuner-16.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-22",
+      "page": 16,
+      "marque": "PRESIDENT",
+      "produit": "Beurre",
+      "quantite": "2",
+      "prix": 3.9,
+      "promo": -0.98,
+      "mecanique": null,
+      "opti": -1.2,
+      "prix_final": 1.73,
+      "remise_pct": 56,
+      "sources": [
+        {
+          "label": "EDBM",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-president-de-0-6-euro-avec-envie-de-bien-manger-2/"
+        },
+        {
+          "label": "EDBM (Remb)",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/president-0-6-e-de-reduction-jusquau-31-12-2024-offre-de-remboursement-sur-pc-sur-edbm-remb/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "f552198f2cff",
+      "enseigne": "Carrefour Market",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-10-au-22-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-10-au-22-novembre-2026/#page20",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025carrefour-market1011202622112026S0C0petit-dejeuner-20.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-22",
+      "page": 20,
+      "marque": "candia",
+      "produit": "Grandlait des P'Tits",
+      "quantite": "2",
+      "prix": 5.18,
+      "promo": -1.76,
+      "mecanique": null,
+      "opti": -1.76,
+      "prix_final": 1.66,
+      "remise_pct": 68,
+      "sources": [
+        {
+          "label": "Shopmium",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-pc-et-application-sur-la-marque-candia-de-34-pourcent-avec-shopmium-pc-appli-5/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "3a3953d396e0",
+      "enseigne": "Carrefour Market",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-10-au-22-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-10-au-22-novembre-2026/#page21",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025carrefour-market1011202622112026S0C0petit-dejeuner-21.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-22",
+      "page": 21,
+      "marque": "CARREFOUR",
+      "produit": "Dessert fruitier",
+      "quantite": "4",
+      "prix": 4.36,
+      "promo": -0.44,
+      "mecanique": null,
+      "opti": -0.5,
+      "prix_final": 3.42,
+      "remise_pct": 21,
+      "sources": [
+        {
+          "label": "Challenge Fid",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/carrefour-de-0-50e-a-0-50e-de-reduction-jusquau-31-12-2026-offre-de-remboursement-sur-pc-et-application-sur-challenge-fid-8/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "afc88a0ac37f",
+      "enseigne": "Carrefour Market",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-10-au-22-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-10-au-22-novembre-2026/#page22",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025carrefour-market1011202622112026S0C0petit-dejeuner-22.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-22",
+      "page": 22,
+      "marque": "SOUS LE POMMIER",
+      "produit": "Jus de fruits",
+      "quantite": "2",
+      "prix": 5.18,
+      "promo": -1.76,
+      "mecanique": null,
+      "opti": -0.5,
+      "prix_final": 2.92,
+      "remise_pct": 44,
+      "sources": [
+        {
+          "label": "Appli CN",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-pc-et-application-sur-la-marque-sous-le-pommier-de-0-5-euro-avec-coupon-network-appli/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "3749962b24b9",
+      "enseigne": "Carrefour Market",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-10-au-22-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-10-au-22-novembre-2026/#page22",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025carrefour-market1011202622112026S0C0petit-dejeuner-22.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-22",
+      "page": 22,
+      "marque": "innocent",
+      "produit": "Smoothie",
+      "quantite": "2",
+      "prix": 6.9,
+      "promo": -2.07,
+      "mecanique": null,
+      "opti": -1.4,
+      "prix_final": 3.43,
+      "remise_pct": 50,
+      "sources": [
+        {
+          "label": "Bon Magasin",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-en-magasin-sur-la-marque-innocent-de-0-7-euro-3/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "9f380be4d24d",
+      "enseigne": "Carrefour Market",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-10-au-22-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-10-au-22-novembre-2026/#page22",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025carrefour-market1011202622112026S0C0petit-dejeuner-22.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-22",
+      "page": 22,
+      "marque": "CARREFOUR",
+      "produit": "Jus multifruits",
+      "quantite": "6",
+      "prix": 17.7,
+      "promo": -1.77,
+      "mecanique": null,
+      "opti": -1.7,
+      "prix_final": 14.23,
+      "remise_pct": 20,
+      "sources": [
+        {
+          "label": "Challenge Fid",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/carrefour-de-1-70e-a-1-70e-de-reduction-jusquau-31-12-2026-offre-de-remboursement-sur-pc-et-application-sur-challenge-fid/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "41c32c200148",
+      "enseigne": "Carrefour Market",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-10-au-22-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-10-au-22-novembre-2026/#page23",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025carrefour-market1011202622112026S0C0petit-dejeuner-23.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-22",
+      "page": 23,
+      "marque": "Paysan Breton",
+      "produit": "Madame Loïk portions",
+      "quantite": "2",
+      "prix": 4.5,
+      "promo": -1.35,
+      "mecanique": null,
+      "opti": -0.7,
+      "prix_final": 2.45,
+      "remise_pct": 46,
+      "sources": [
+        {
+          "label": "Bon Magasin",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-en-magasin-sur-la-marque-paysan-breton-de-0-7-euro-6/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "c2c370d41ad3",
+      "enseigne": "Carrefour Market",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-10-au-22-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-10-au-22-novembre-2026/#page23",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025carrefour-market1011202622112026S0C0petit-dejeuner-23.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-22",
+      "page": 23,
+      "marque": "Paysan Breton",
+      "produit": "Madame Loïk portions",
+      "quantite": "3",
+      "prix": 6.75,
+      "promo": -2.03,
+      "mecanique": null,
+      "opti": -1.2,
+      "prix_final": 3.53,
+      "remise_pct": 48,
+      "sources": [
+        {
+          "label": "Bon Magasin",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/paysan-breton-1-20-e-de-reduction-jusquau-31-01-2027-bon-de-reduction-en-magasin/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "b81ca2319e78",
+      "enseigne": "Carrefour Market",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-10-au-22-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-10-au-22-novembre-2026/#page24",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025carrefour-market1011202622112026S0C0petit-dejeuner-24.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-22",
+      "page": 24,
+      "marque": "CHARAL",
+      "produit": "Steacks hachés",
+      "quantite": "1",
+      "prix": 8.49,
+      "promo": 0.0,
+      "mecanique": null,
+      "opti": -1.0,
+      "prix_final": 7.49,
+      "remise_pct": 12,
+      "sources": [
+        {
+          "label": "Charal",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-charal-de-1-euro-avec-charal-3/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "f04565ab2c9f",
+      "enseigne": "Carrefour Market",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-10-au-22-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-10-au-22-novembre-2026/#page24",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025carrefour-market1011202622112026S0C0petit-dejeuner-24.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-22",
+      "page": 24,
+      "marque": "CHARAL",
+      "produit": "Carpaccio de bœuf",
+      "quantite": "2",
+      "prix": 13.6,
+      "promo": -3.4,
+      "mecanique": null,
+      "opti": -1.1,
+      "prix_final": 9.1,
+      "remise_pct": 33,
+      "sources": [
+        {
+          "label": "Charal",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-charal-de-1-1-euro-avec-charal-6/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "28ec5250333b",
+      "enseigne": "Carrefour Market",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-10-au-22-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-10-au-22-novembre-2026/#page25",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025carrefour-market1011202622112026S0C0petit-dejeuner-25.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-22",
+      "page": 25,
+      "marque": "Tendre & Plus",
+      "produit": "Blanquette de veau",
+      "quantite": "2",
+      "prix": 13.9,
+      "promo": 0.0,
+      "mecanique": null,
+      "opti": -1.39,
+      "prix_final": 12.51,
+      "remise_pct": 10,
+      "sources": [
+        {
+          "label": "10%",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-application-sur-la-marque-tendre-plus-de-10-pourcent-avec-10pourcent/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "38712e8fa721",
+      "enseigne": "Carrefour Market",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-10-au-22-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-10-au-22-novembre-2026/#page31",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025carrefour-market1011202622112026S0C0petit-dejeuner-31.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-22",
+      "page": 31,
+      "marque": "Mamie Nova",
+      "produit": "Yaourt gourmand",
+      "quantite": "2",
+      "prix": 2.58,
+      "promo": -0.65,
+      "mecanique": null,
+      "opti": -0.3,
+      "prix_final": 1.64,
+      "remise_pct": 37,
+      "sources": [
+        {
+          "label": "Mamie Nova",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-mamie-nova-de-0-3-euro-avec-mamie-nova-13/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "d91951c987ee",
+      "enseigne": "Carrefour Market",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-10-au-22-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-10-au-22-novembre-2026/#page32",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025carrefour-market1011202622112026S0C0petit-dejeuner-32.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-22",
+      "page": 32,
+      "marque": "EntreMont",
+      "produit": "Raclette",
+      "quantite": "2",
+      "prix": 9.18,
+      "promo": -3.12,
+      "mecanique": null,
+      "opti": -1.0,
+      "prix_final": 5.06,
+      "remise_pct": 45,
+      "sources": [
+        {
+          "label": "Challenge Fid",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/entremont-de-1-00e-a-1-00e-de-reduction-jusquau-15-11-2026-offre-de-remboursement-sur-pc-et-application-sur-challenge-fid/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "06ae29fb7ee0",
+      "enseigne": "Carrefour Market",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-10-au-22-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-10-au-22-novembre-2026/#page32",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025carrefour-market1011202622112026S0C0petit-dejeuner-32.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-22",
+      "page": 32,
+      "marque": "SOCIETE",
+      "produit": "Roquefort",
+      "quantite": "2",
+      "prix": 5.98,
+      "promo": -1.79,
+      "mecanique": null,
+      "opti": -2.7,
+      "prix_final": 1.49,
+      "remise_pct": 75,
+      "sources": [
+        {
+          "label": "Challenge Fid",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/societe-de-0-50e-a-0-50e-de-reduction-jusquau-31-12-2026-offre-de-remboursement-sur-pc-et-application-sur-challenge-fid/"
+        },
+        {
+          "label": "Bon Magasin",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-en-magasin-sur-la-marque-societe-de-0-6-euro-11/"
+        },
+        {
+          "label": "EDBM",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-societe-de-0-8-euro-avec-envie-de-bien-manger/"
+        },
+        {
+          "label": "EDBM (Remb)",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/societe-0-8-e-de-reduction-jusquau-31-12-2024-offre-de-remboursement-sur-pc-sur-edbm-remb/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "00ea8ba65fb1",
+      "enseigne": "Carrefour Market",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-10-au-22-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-10-au-22-novembre-2026/#page34",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025carrefour-market1011202622112026S0C0petit-dejeuner-34.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-22",
+      "page": 34,
+      "marque": "Cochonou",
+      "produit": "Saucisson croc'sec",
+      "quantite": "2",
+      "prix": 6.58,
+      "promo": -2.24,
+      "mecanique": null,
+      "opti": -0.5,
+      "prix_final": 3.84,
+      "remise_pct": 42,
+      "sources": [
+        {
+          "label": "Challenge Fid",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/cochonou-de-0-50e-a-0-50e-de-reduction-jusquau-30-09-2026-offre-de-remboursement-sur-pc-et-application-sur-challenge-fid/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "8506cedf2933",
+      "enseigne": "Carrefour Market",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-10-au-22-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-10-au-22-novembre-2026/#page34",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025carrefour-market1011202622112026S0C0petit-dejeuner-34.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-22",
+      "page": 34,
+      "marque": "Cochonou",
+      "produit": "Saucisson croc'sec",
+      "quantite": "4",
+      "prix": 13.16,
+      "promo": -4.47,
+      "mecanique": null,
+      "opti": -1.8,
+      "prix_final": 6.89,
+      "remise_pct": 48,
+      "sources": [
+        {
+          "label": "Challenge Fid",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/copie-de-jacquet-de-1-80e-a-1-80e-de-reduction-jusquau-15-09-2026-offre-de-remboursement-sur-pc-et-application-sur-challenge-fid/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "47c593534736",
+      "enseigne": "Carrefour Market",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-10-au-22-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-10-au-22-novembre-2026/#page34",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025carrefour-market1011202622112026S0C0petit-dejeuner-34.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-22",
+      "page": 34,
+      "marque": "Herta",
+      "produit": "Jambon",
+      "quantite": "2",
+      "prix": 8.96,
+      "promo": 0.0,
+      "mecanique": null,
+      "opti": -2.0,
+      "prix_final": 6.96,
+      "remise_pct": 22,
+      "sources": [
+        {
+          "label": "fidme",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-pc-et-application-sur-la-marque-herta-de-1-euro-avec-fidme-courses-3/"
+        },
+        {
+          "label": "Bon Magasin",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-en-magasin-sur-la-marque-herta-de-1-euro-8/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "807142b095ab",
+      "enseigne": "Carrefour Market",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-10-au-22-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-10-au-22-novembre-2026/#page34",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025carrefour-market1011202622112026S0C0petit-dejeuner-34.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-22",
+      "page": 34,
+      "marque": "Madrange",
+      "produit": "Jambon",
+      "quantite": "1",
+      "prix": 2.29,
+      "promo": 0.0,
+      "mecanique": null,
+      "opti": -0.5,
+      "prix_final": 1.79,
+      "remise_pct": 22,
+      "sources": [
+        {
+          "label": "Appli CN",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-pc-et-application-sur-la-marque-madrange-de-0-6-euro-avec-coupon-network-appli/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "ef26a783d689",
+      "enseigne": "Carrefour Market",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-10-au-22-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-10-au-22-novembre-2026/#page34",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025carrefour-market1011202622112026S0C0petit-dejeuner-34.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-22",
+      "page": 34,
+      "marque": "CROUSTIPATE",
+      "produit": "Pâte à pizza",
+      "quantite": "2",
+      "prix": 3.38,
+      "promo": -1.15,
+      "mecanique": null,
+      "opti": -0.3,
+      "prix_final": 1.93,
+      "remise_pct": 43,
+      "sources": [
+        {
+          "label": "Croustipate",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-croustipate-de-0-3-euro-avec-croustipate/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "c7279648cc91",
+      "enseigne": "Carrefour Market",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-10-au-22-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-10-au-22-novembre-2026/#page35",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025carrefour-market1011202622112026S0C0petit-dejeuner-35.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-22",
+      "page": 35,
+      "marque": "ACCRO",
+      "produit": "Haché végétal",
+      "quantite": "1",
+      "prix": 3.85,
+      "promo": -1.31,
+      "mecanique": null,
+      "opti": -0.5,
+      "prix_final": 2.04,
+      "remise_pct": 47,
+      "sources": [
+        {
+          "label": "fidme",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-pc-et-application-sur-la-marque-accro-de-0-5-euro-avec-fidme-courses/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "081f30cf3f12",
+      "enseigne": "Carrefour Market",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-10-au-22-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-10-au-22-novembre-2026/#page37",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025carrefour-market1011202622112026S0C0petit-dejeuner-37.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-22",
+      "page": 37,
+      "marque": "Barilla",
+      "produit": "Pâtes al bronzo",
+      "quantite": "2",
+      "prix": 3.7,
+      "promo": -1.11,
+      "mecanique": null,
+      "opti": -0.74,
+      "prix_final": 1.85,
+      "remise_pct": 50,
+      "sources": [
+        {
+          "label": "Shopmium",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-pc-et-application-sur-la-marque-barilla-de-30-pourcent-avec-shopmium-pc-appli-21/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "06ca94579865",
+      "enseigne": "Carrefour Market",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-10-au-22-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-10-au-22-novembre-2026/#page36",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025carrefour-market1011202622112026S0C0petit-dejeuner-36.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-22",
+      "page": 36,
+      "marque": "PANZANI",
+      "produit": "Sauce pesto",
+      "quantite": "4",
+      "prix": 7.0,
+      "promo": -2.1,
+      "mecanique": null,
+      "opti": -0.5,
+      "prix_final": 4.4,
+      "remise_pct": 37,
+      "sources": [
+        {
+          "label": "Challenge Fid",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/panzani-de-0-50e-a-0-50e-de-reduction-jusquau-31-12-2026-offre-de-remboursement-sur-pc-et-application-sur-challenge-fid/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "5688d21b8551",
+      "enseigne": "Carrefour Market",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-10-au-22-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-10-au-22-novembre-2026/#page37",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025carrefour-market1011202622112026S0C0petit-dejeuner-37.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-22",
+      "page": 37,
+      "marque": "PANZANI",
+      "produit": "Pâtes 3 minutes",
+      "quantite": "6",
+      "prix": 7.14,
+      "promo": -2.38,
+      "mecanique": null,
+      "opti": -0.5,
+      "prix_final": 4.26,
+      "remise_pct": 40,
+      "sources": [
+        {
+          "label": "Challenge Fid",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/panzani-de-0-50e-a-0-50e-de-reduction-jusquau-31-12-2026-offre-de-remboursement-sur-pc-et-application-sur-challenge-fid/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "d1c44439f184",
+      "enseigne": "Carrefour Market",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-10-au-22-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-10-au-22-novembre-2026/#page41",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025carrefour-market1011202622112026S0C0petit-dejeuner-41.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-22",
+      "page": 41,
+      "marque": "Poulain",
+      "produit": "Tablette de chocolat",
+      "quantite": "2",
+      "prix": 6.5,
+      "promo": -2.21,
+      "mecanique": null,
+      "opti": -0.6,
+      "prix_final": 3.69,
+      "remise_pct": 43,
+      "sources": [
+        {
+          "label": "Challenge Fid",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/copie-de-bens-original-de-0-60e-a-0-60e-de-reduction-jusquau-30-09-2026-offre-de-remboursement-sur-pc-et-application-sur-challenge-fid/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "e568b31901d0",
+      "enseigne": "Carrefour Market",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-10-au-22-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-10-au-22-novembre-2026/#page55",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025carrefour-market1011202622112026S0C0petit-dejeuner-55.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-22",
+      "page": 55,
+      "marque": "FEVER-TREE",
+      "produit": "Boisson ginger beer",
+      "quantite": "2",
+      "prix": 6.5,
+      "promo": -1.63,
+      "mecanique": null,
+      "opti": -1.0,
+      "prix_final": 3.88,
+      "remise_pct": 40,
+      "sources": [
+        {
+          "label": "Bon Magasin",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-en-magasin-sur-la-marque-fever-tree-de-0-5-euro/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "98970d82c18a",
+      "enseigne": "Carrefour Market",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-10-au-22-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-carrefour-market-du-10-au-22-novembre-2026/#page65",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025carrefour-market1011202622112026S0C0petit-dejeuner-65.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-22",
+      "page": 65,
+      "marque": "HUGGIES",
+      "produit": "Couches little movers",
+      "quantite": "1",
+      "prix": 17.95,
+      "promo": -7.18,
+      "mecanique": null,
+      "opti": -3.0,
+      "prix_final": 7.77,
+      "remise_pct": 57,
+      "sources": [
+        {
+          "label": "Huggies",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-huggies-de-3-euro-avec-huggies-4/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "ab6635054e38",
+      "enseigne": "Hyper U",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-hyper-u-du-10-au-15-novembre-2026-sud/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-hyper-u-du-10-au-15-novembre-2026-sud/#page14",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025hyper-u1011202615112026S0C0sud-14.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-15",
+      "page": 14,
+      "marque": "OLD EL PASO",
+      "produit": "Tortillas de blé",
+      "quantite": "2",
+      "prix": 5.38,
+      "promo": -1.61,
+      "mecanique": null,
+      "opti": -1.0,
+      "prix_final": 2.77,
+      "remise_pct": 49,
+      "sources": [
+        {
+          "label": "Bon Magasin",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-en-magasin-sur-la-marque-old-el-paso-de-0-5-euro-5/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "2440f2bfce46",
+      "enseigne": "Hyper U",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-hyper-u-du-10-au-15-novembre-2026-sud/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-hyper-u-du-10-au-15-novembre-2026-sud/#page14",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025hyper-u1011202615112026S0C0sud-14.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-15",
+      "page": 14,
+      "marque": "Jacquet",
+      "produit": "Pain à burger brioché",
+      "quantite": "2",
+      "prix": 3.3,
+      "promo": -0.99,
+      "mecanique": null,
+      "opti": -0.6,
+      "prix_final": 1.71,
+      "remise_pct": 48,
+      "sources": [
+        {
+          "label": "fidme",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-pc-et-application-sur-la-marque-jacquet-de-0-3-euro-avec-fidme-courses-2/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "fd1e7e60eba8",
+      "enseigne": "Hyper U",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-hyper-u-du-10-au-15-novembre-2026-sud/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-hyper-u-du-10-au-15-novembre-2026-sud/#page14",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025hyper-u1011202615112026S0C0sud-14.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-15",
+      "page": 14,
+      "marque": "Jacquet",
+      "produit": "Pain à burger brioché",
+      "quantite": "4",
+      "prix": 6.6,
+      "promo": -1.98,
+      "mecanique": null,
+      "opti": -2.9,
+      "prix_final": 1.73,
+      "remise_pct": 74,
+      "sources": [
+        {
+          "label": "fidme",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-pc-et-application-sur-la-marque-jacquet-de-0-3-euro-avec-fidme-courses-2/"
+        },
+        {
+          "label": "Bon Magasin",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-en-magasin-sur-la-marque-jacquet-de-0-3-euro-5/"
+        },
+        {
+          "label": "10%",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-application-sur-la-marque-jacquet-de-10-pourcent-avec-10pourcent/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "9d1f5e2b8325",
+      "enseigne": "Hyper U",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-hyper-u-du-10-au-15-novembre-2026-sud/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-hyper-u-du-10-au-15-novembre-2026-sud/#page14",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025hyper-u1011202615112026S0C0sud-14.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-15",
+      "page": 14,
+      "marque": "Herta",
+      "produit": "Pâte à tarte",
+      "quantite": "6",
+      "prix": 7.5,
+      "promo": -1.88,
+      "mecanique": null,
+      "opti": -1.5,
+      "prix_final": 4.13,
+      "remise_pct": 45,
+      "sources": [
+        {
+          "label": "Bon Magasin",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-en-magasin-sur-la-marque-herta-de-1-5-euro-4/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "dc0cf11fed1c",
+      "enseigne": "Hyper U",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-hyper-u-du-10-au-15-novembre-2026-sud/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-hyper-u-du-10-au-15-novembre-2026-sud/#page15",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025hyper-u1011202615112026S0C0sud-15.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-15",
+      "page": 15,
+      "marque": "lactel",
+      "produit": "Pack de lait",
+      "quantite": "1",
+      "prix": 10.55,
+      "promo": -3.17,
+      "mecanique": null,
+      "opti": -4.0,
+      "prix_final": 3.39,
+      "remise_pct": 68,
+      "sources": [
+        {
+          "label": "EDBM",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-lactel-de-2-euro-avec-envie-de-bien-manger-4/"
+        },
+        {
+          "label": "EDBM (Remb)",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/lactel-2-e-de-reduction-jusquau-31-12-2026-offre-de-remboursement-sur-pc-sur-edbm-remb/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "930e40606baf",
+      "enseigne": "Intermarché",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-intermarche-du-10-au-22-novembre-2026-version-super/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-intermarche-du-10-au-22-novembre-2026-version-super/#page8",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/11\\\\/juin2025intermarche1011202622112026S0C0version-Super-8.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-22",
+      "page": 8,
+      "marque": "Loué",
+      "produit": "Cuisses de poulet",
+      "quantite": "1",
+      "prix": 7.49,
+      "promo": 0.0,
+      "mecanique": null,
+      "opti": -0.6,
+      "prix_final": 6.89,
+      "remise_pct": 8,
+      "sources": [
+        {
+          "label": "Loué",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-loue-de-0-6-euro-avec-loue-3/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "f0c9e2d6204d",
+      "enseigne": "Intermarché",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-intermarche-du-10-au-22-novembre-2026-version-super/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-intermarche-du-10-au-22-novembre-2026-version-super/#page25",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/11\\\\/juin2025intermarche1011202622112026S0C0version-Super-25.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-22",
+      "page": 25,
+      "marque": "Herta",
+      "produit": "Pâte à tarte",
+      "quantite": "3",
+      "prix": 12.27,
+      "promo": -4.17,
+      "mecanique": null,
+      "opti": -1.5,
+      "prix_final": 6.6,
+      "remise_pct": 46,
+      "sources": [
+        {
+          "label": "Bon Magasin",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-en-magasin-sur-la-marque-herta-de-1-5-euro-4/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "91c21c036583",
+      "enseigne": "Intermarché",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-intermarche-du-10-au-22-novembre-2026-version-super/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-intermarche-du-10-au-22-novembre-2026-version-super/#page25",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/11\\\\/juin2025intermarche1011202622112026S0C0version-Super-25.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-22",
+      "page": 25,
+      "marque": "Herta",
+      "produit": "Filet de poulet",
+      "quantite": "2",
+      "prix": 143.4,
+      "promo": 0.0,
+      "mecanique": null,
+      "opti": -2.0,
+      "prix_final": 141.4,
+      "remise_pct": 1,
+      "sources": [
+        {
+          "label": "fidme",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-pc-et-application-sur-la-marque-herta-de-1-euro-avec-fidme-courses-3/"
+        },
+        {
+          "label": "Bon Magasin",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-en-magasin-sur-la-marque-herta-de-1-euro-8/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "6771369b9564",
+      "enseigne": "Intermarché",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-intermarche-du-10-au-22-novembre-2026-version-super/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-intermarche-du-10-au-22-novembre-2026-version-super/#page26",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/11\\\\/juin2025intermarche1011202622112026S0C0version-Super-26.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-22",
+      "page": 26,
+      "marque": "Maître CoQ",
+      "produit": "Coq'Ailes",
+      "quantite": "2",
+      "prix": 5.94,
+      "promo": -1.49,
+      "mecanique": null,
+      "opti": -0.5,
+      "prix_final": 3.96,
+      "remise_pct": 33,
+      "sources": [
+        {
+          "label": "Maître Coq",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-maitre-coq-de-0-5-euro-avec-maitre-coq-12/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "7febf7d8e175",
+      "enseigne": "Intermarché",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-intermarche-du-10-au-22-novembre-2026-version-super/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-intermarche-du-10-au-22-novembre-2026-version-super/#page28",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/11\\\\/juin2025intermarche1011202622112026S0C0version-Super-28.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-22",
+      "page": 28,
+      "marque": "la Laitière",
+      "produit": "Yaourt aromatisé",
+      "quantite": "2",
+      "prix": 6.28,
+      "promo": -1.57,
+      "mecanique": null,
+      "opti": -1.2,
+      "prix_final": 3.51,
+      "remise_pct": 44,
+      "sources": [
+        {
+          "label": "EDBM",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-la-laitiere-de-0-6-euro-avec-envie-de-bien-manger-4/"
+        },
+        {
+          "label": "EDBM (Remb)",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/la-laitiere-0-6-e-de-reduction-jusquau-31-12-2024-offre-de-remboursement-sur-pc-sur-edbm-remb/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "34131220e168",
+      "enseigne": "Intermarché",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-intermarche-du-10-au-22-novembre-2026-version-super/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-intermarche-du-10-au-22-novembre-2026-version-super/#page30",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/11\\\\/juin2025intermarche1011202622112026S0C0version-Super-30.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-22",
+      "page": 30,
+      "marque": "Milka",
+      "produit": "Calendrier de l'avent",
+      "quantite": "2",
+      "prix": 13.58,
+      "promo": -3.4,
+      "mecanique": null,
+      "opti": -2.0,
+      "prix_final": 8.19,
+      "remise_pct": 40,
+      "sources": [
+        {
+          "label": "Mes Défis Gagnants",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/milka-de-2-00e-a-2-00e-de-reduction-jusquau-31-12-2026-offre-de-remboursement-sur-pc-et-application-sur-mes-defis-gagnants/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "4aa81c5d8686",
+      "enseigne": "Intermarché",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-intermarche-du-10-au-22-novembre-2026-version-super/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-intermarche-du-10-au-22-novembre-2026-version-super/#page29",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/11\\\\/juin2025intermarche1011202622112026S0C0version-Super-29.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-22",
+      "page": 29,
+      "marque": "Milka",
+      "produit": "Biscuits Choco Suprême",
+      "quantite": "2",
+      "prix": 12.88,
+      "promo": -3.22,
+      "mecanique": null,
+      "opti": -1.0,
+      "prix_final": 8.66,
+      "remise_pct": 33,
+      "sources": [
+        {
+          "label": "Mes Défis Gagnants",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/milka-de-1-00e-a-1-00e-de-reduction-jusquau-31-12-2026-offre-de-remboursement-sur-pc-et-application-sur-mes-defis-gagnants/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "fb678d232d2e",
+      "enseigne": "Intermarché",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-intermarche-du-10-au-22-novembre-2026-version-super/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-intermarche-du-10-au-22-novembre-2026-version-super/#page31",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/11\\\\/juin2025intermarche1011202622112026S0C0version-Super-31.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-22",
+      "page": 31,
+      "marque": "Barilla",
+      "produit": "Pâtes al bronzo",
+      "quantite": "1",
+      "prix": 1.89,
+      "promo": -0.64,
+      "mecanique": null,
+      "opti": -0.78,
+      "prix_final": 0.47,
+      "remise_pct": 75,
+      "sources": [
+        {
+          "label": "Bonus",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bonus-video-quizz-sur-la-marque-barilla-de-0-1-euro-avec-coupon-network-appli-bonus-5/"
+        },
+        {
+          "label": "Appli CN",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-pc-et-application-sur-la-marque-barilla-de-0-3-euro-avec-coupon-network-appli-7/"
+        },
+        {
+          "label": "Shopmium",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-pc-et-application-sur-la-marque-barilla-de-30-pourcent-avec-shopmium-pc-appli-21/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "e44fccfa11c0",
+      "enseigne": "Intermarché",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-intermarche-du-10-au-22-novembre-2026-version-super/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-intermarche-du-10-au-22-novembre-2026-version-super/#page39",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/11\\\\/juin2025intermarche1011202622112026S0C0version-Super-39.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-22",
+      "page": 39,
+      "marque": "Skip",
+      "produit": "Lessive en capsules",
+      "quantite": "2",
+      "prix": 28.7,
+      "promo": -11.48,
+      "mecanique": null,
+      "opti": -2.87,
+      "prix_final": 14.35,
+      "remise_pct": 50,
+      "sources": [
+        {
+          "label": "10%",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-application-sur-la-marque-skip-de-10-pourcent-avec-10pourcent/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "ec6fe2663120",
+      "enseigne": "Intermarché",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-intermarche-du-10-au-22-novembre-2026-version-super/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-intermarche-du-10-au-22-novembre-2026-version-super/#page40",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/11\\\\/juin2025intermarche1011202622112026S0C0version-Super-40.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-22",
+      "page": 40,
+      "marque": "GOURMET",
+      "produit": "Pâtée Perle",
+      "quantite": "1",
+      "prix": 12.5,
+      "promo": 0.0,
+      "mecanique": null,
+      "opti": -1.0,
+      "prix_final": 11.5,
+      "remise_pct": 8,
+      "sources": [
+        {
+          "label": "fidme",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/gourmet-0-4-e-de-reduction-jusquau-31-12-2026-offre-de-remboursement-sur-pc-et-application-sur-fidme-courses/"
+        },
+        {
+          "label": "Bon Magasin",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-en-magasin-sur-la-marque-gourmet-de-0-6-euro-8/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "d695ccc23aa2",
+      "enseigne": "Intermarché",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-intermarche-du-10-au-22-novembre-2026-version-super/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-intermarche-du-10-au-22-novembre-2026-version-super/#page40",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/11\\\\/juin2025intermarche1011202622112026S0C0version-Super-40.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-22",
+      "page": 40,
+      "marque": "GOURMET",
+      "produit": "Mousseline révélations",
+      "quantite": "2",
+      "prix": 5.38,
+      "promo": -1.61,
+      "mecanique": null,
+      "opti": -0.8,
+      "prix_final": 2.97,
+      "remise_pct": 45,
+      "sources": [
+        {
+          "label": "fidme",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/gourmet-0-4-e-de-reduction-jusquau-31-12-2026-offre-de-remboursement-sur-pc-et-application-sur-fidme-courses/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "f39e9113c9aa",
+      "enseigne": "Intermarché",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-intermarche-du-10-au-22-novembre-2026-version-super/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-intermarche-du-10-au-22-novembre-2026-version-super/#page39",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/11\\\\/juin2025intermarche1011202622112026S0C0version-Super-39.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-22",
+      "page": 39,
+      "marque": "GOURMET",
+      "produit": "Pâtée mon petit",
+      "quantite": "2",
+      "prix": 4.96,
+      "promo": -1.49,
+      "mecanique": null,
+      "opti": -0.8,
+      "prix_final": 2.67,
+      "remise_pct": 46,
+      "sources": [
+        {
+          "label": "fidme",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/gourmet-0-4-e-de-reduction-jusquau-31-12-2026-offre-de-remboursement-sur-pc-et-application-sur-fidme-courses/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "aca9f0eafe73",
+      "enseigne": "Intermarché",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-intermarche-du-10-au-22-novembre-2026-version-super/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-intermarche-du-10-au-22-novembre-2026-version-super/#page40",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/11\\\\/juin2025intermarche1011202622112026S0C0version-Super-40.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-22",
+      "page": 40,
+      "marque": "GOURMET",
+      "produit": "Mousseline gold",
+      "quantite": "2",
+      "prix": 10.92,
+      "promo": -3.28,
+      "mecanique": null,
+      "opti": -0.8,
+      "prix_final": 6.84,
+      "remise_pct": 37,
+      "sources": [
+        {
+          "label": "fidme",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/gourmet-0-4-e-de-reduction-jusquau-31-12-2026-offre-de-remboursement-sur-pc-et-application-sur-fidme-courses/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "e6e70ab4b3e6",
+      "enseigne": "Super U",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-super-u-du-10-au-15-novembre-2026-sud/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-super-u-du-10-au-15-novembre-2026-sud/#page14",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025super-u1011202615112026S0C0sud-14.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-15",
+      "page": 14,
+      "marque": "OLD EL PASO",
+      "produit": "Tortillas de blé",
+      "quantite": "2",
+      "prix": 5.38,
+      "promo": -1.61,
+      "mecanique": null,
+      "opti": -1.0,
+      "prix_final": 2.77,
+      "remise_pct": 49,
+      "sources": [
+        {
+          "label": "Bon Magasin",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-en-magasin-sur-la-marque-old-el-paso-de-0-5-euro-5/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "025a87f12ebe",
+      "enseigne": "Super U",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-super-u-du-10-au-15-novembre-2026-sud/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-super-u-du-10-au-15-novembre-2026-sud/#page14",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025super-u1011202615112026S0C0sud-14.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-15",
+      "page": 14,
+      "marque": "Jacquet",
+      "produit": "Pain à burger brioché",
+      "quantite": "2",
+      "prix": 3.3,
+      "promo": -0.99,
+      "mecanique": null,
+      "opti": -0.6,
+      "prix_final": 1.71,
+      "remise_pct": 48,
+      "sources": [
+        {
+          "label": "fidme",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-pc-et-application-sur-la-marque-jacquet-de-0-3-euro-avec-fidme-courses-2/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "0c3030b064fd",
+      "enseigne": "Super U",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-super-u-du-10-au-15-novembre-2026-sud/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-super-u-du-10-au-15-novembre-2026-sud/#page14",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025super-u1011202615112026S0C0sud-14.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-15",
+      "page": 14,
+      "marque": "Jacquet",
+      "produit": "Pain à burger brioché",
+      "quantite": "4",
+      "prix": 6.6,
+      "promo": -1.98,
+      "mecanique": null,
+      "opti": -2.9,
+      "prix_final": 1.73,
+      "remise_pct": 74,
+      "sources": [
+        {
+          "label": "fidme",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-pc-et-application-sur-la-marque-jacquet-de-0-3-euro-avec-fidme-courses-2/"
+        },
+        {
+          "label": "Bon Magasin",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-en-magasin-sur-la-marque-jacquet-de-0-3-euro-5/"
+        },
+        {
+          "label": "10%",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-application-sur-la-marque-jacquet-de-10-pourcent-avec-10pourcent/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "cb46e8b386f2",
+      "enseigne": "Super U",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-super-u-du-10-au-15-novembre-2026-sud/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-super-u-du-10-au-15-novembre-2026-sud/#page14",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025super-u1011202615112026S0C0sud-14.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-15",
+      "page": 14,
+      "marque": "Herta",
+      "produit": "Pâte à tarte",
+      "quantite": "6",
+      "prix": 7.5,
+      "promo": -1.88,
+      "mecanique": null,
+      "opti": -1.5,
+      "prix_final": 4.13,
+      "remise_pct": 45,
+      "sources": [
+        {
+          "label": "Bon Magasin",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-en-magasin-sur-la-marque-herta-de-1-5-euro-4/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "9e1210854984",
+      "enseigne": "Super U",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-super-u-du-10-au-15-novembre-2026-sud/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-super-u-du-10-au-15-novembre-2026-sud/#page15",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025super-u1011202615112026S0C0sud-15.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-10",
+      "fin": "2026-11-15",
+      "page": 15,
+      "marque": "lactel",
+      "produit": "Pack de lait",
+      "quantite": "1",
+      "prix": 10.55,
+      "promo": -3.17,
+      "mecanique": null,
+      "opti": -4.0,
+      "prix_final": 3.39,
+      "remise_pct": 68,
+      "sources": [
+        {
+          "label": "EDBM",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-lactel-de-2-euro-avec-envie-de-bien-manger-4/"
+        },
+        {
+          "label": "EDBM (Remb)",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/lactel-2-e-de-reduction-jusquau-31-12-2026-offre-de-remboursement-sur-pc-sur-edbm-remb/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "8a0fe79abfb3",
+      "enseigne": "Lidl",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-lidl-du-05-au-11-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-lidl-du-05-au-11-novembre-2026/#page13",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025lidl0511202611112026S0C0decomptez-sans-compter-13.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-05",
+      "fin": "2026-11-11",
+      "page": 13,
+      "marque": "Primevère",
+      "produit": "Margarine",
+      "quantite": "3",
+      "prix": 5.01,
+      "promo": -1.67,
+      "mecanique": null,
+      "opti": -0.5,
+      "prix_final": 2.84,
+      "remise_pct": 43,
+      "sources": [
+        {
+          "label": "EDBM (Remb)",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/primevere-0-5-e-de-reduction-jusquau-31-12-2024-offre-de-remboursement-sur-pc-sur-edbm-remb/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "7c6820f64fc4",
+      "enseigne": "Lidl",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-lidl-du-05-au-11-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-lidl-du-05-au-11-novembre-2026/#page15",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025lidl0511202611112026S0C0decomptez-sans-compter-15.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-05",
+      "fin": "2026-11-11",
+      "page": 15,
+      "marque": "Sanex",
+      "produit": "Gel douche",
+      "quantite": "4",
+      "prix": 17.28,
+      "promo": -5.18,
+      "mecanique": null,
+      "opti": -1.3,
+      "prix_final": 10.8,
+      "remise_pct": 38,
+      "sources": [
+        {
+          "label": "10%",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-application-sur-la-marque-sanex-de-10-pourcent-avec-10pourcent/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "fd52277b930c",
+      "enseigne": "Leclerc",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-03-au-14-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-03-au-14-novembre-2026/#page12",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025leclerc0311202614112026S0C0super-pouvoirs-dachat-12.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-03",
+      "fin": "2026-11-14",
+      "page": 12,
+      "marque": "Milka",
+      "produit": "Boules de Noël",
+      "quantite": "2",
+      "prix": 12.58,
+      "promo": -3.77,
+      "mecanique": null,
+      "opti": -1.5,
+      "prix_final": 7.31,
+      "remise_pct": 42,
+      "sources": [
+        {
+          "label": "Parcours Gagnants",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/milka-de-1-50e-a-1-50e-de-reduction-jusquau-30-11-2026-offre-de-remboursement-sur-pc-et-application-sur-parcours-gagnants/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "13dcec5f48eb",
+      "enseigne": "Leclerc",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-03-au-14-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-03-au-14-novembre-2026/#page13",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025leclerc0311202614112026S0C0super-pouvoirs-dachat-13.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-03",
+      "fin": "2026-11-14",
+      "page": 13,
+      "marque": "BeLiN",
+      "produit": "Biscuits apéritif Croustilles",
+      "quantite": "3",
+      "prix": 12.75,
+      "promo": -3.83,
+      "mecanique": null,
+      "opti": -1.0,
+      "prix_final": 7.93,
+      "remise_pct": 38,
+      "sources": [
+        {
+          "label": "MVEC",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-belin-de-1-euro-avec-ma-vie-en-couleurs-3/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "7bf913becf96",
+      "enseigne": "Leclerc",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-03-au-14-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-03-au-14-novembre-2026/#page13",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025leclerc0311202614112026S0C0super-pouvoirs-dachat-13.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-03",
+      "fin": "2026-11-14",
+      "page": 13,
+      "marque": "BeLiN",
+      "produit": "Biscuits apéritif Croustilles",
+      "quantite": "4",
+      "prix": 17.0,
+      "promo": -5.1,
+      "mecanique": null,
+      "opti": -1.6,
+      "prix_final": 10.3,
+      "remise_pct": 39,
+      "sources": [
+        {
+          "label": "MVEC",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-belin-de-1-6-euro-avec-ma-vie-en-couleurs-2/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "e357b5a880b3",
+      "enseigne": "Leclerc",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-03-au-14-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-03-au-14-novembre-2026/#page14",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025leclerc0311202614112026S0C0super-pouvoirs-dachat-14.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-03",
+      "fin": "2026-11-14",
+      "page": 14,
+      "marque": "TAUREAU AILE",
+      "produit": "Riz basmati",
+      "quantite": "3",
+      "prix": 5.04,
+      "promo": -1.68,
+      "mecanique": null,
+      "opti": -0.9,
+      "prix_final": 2.46,
+      "remise_pct": 51,
+      "sources": [
+        {
+          "label": "Bon Magasin",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-en-magasin-sur-la-marque-taureau-aile-de-0-3-euro-7/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "b4ee5be6c0bf",
+      "enseigne": "Leclerc",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-03-au-14-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-03-au-14-novembre-2026/#page15",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025leclerc0311202614112026S0C0super-pouvoirs-dachat-15.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-03",
+      "fin": "2026-11-14",
+      "page": 15,
+      "marque": "SUZI WAN",
+      "produit": "Lait de coco",
+      "quantite": "2",
+      "prix": 2.5,
+      "promo": -0.75,
+      "mecanique": null,
+      "opti": -0.25,
+      "prix_final": 1.5,
+      "remise_pct": 40,
+      "sources": [
+        {
+          "label": "10%",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-application-sur-la-marque-suzi-wan-de-10-pourcent-avec-10pourcent/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "68a45e9df2d0",
+      "enseigne": "Leclerc",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-03-au-14-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-03-au-14-novembre-2026/#page19",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025leclerc0311202614112026S0C0super-pouvoirs-dachat-19.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-03",
+      "fin": "2026-11-14",
+      "page": 19,
+      "marque": "Socopa",
+      "produit": "Saucisses",
+      "quantite": "1",
+      "prix": 5.81,
+      "promo": -1.0,
+      "mecanique": null,
+      "opti": -0.6,
+      "prix_final": 4.21,
+      "remise_pct": 28,
+      "sources": [
+        {
+          "label": "Bon Magasin",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-en-magasin-sur-la-marque-socopa-de-0-6-euro-6/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "b649aca07fd2",
+      "enseigne": "Leclerc",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-03-au-14-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-03-au-14-novembre-2026/#page19",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025leclerc0311202614112026S0C0super-pouvoirs-dachat-19.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-03",
+      "fin": "2026-11-14",
+      "page": 19,
+      "marque": "CHARAL",
+      "produit": "Cheeseburger",
+      "quantite": "1",
+      "prix": 8.97,
+      "promo": 0.0,
+      "mecanique": null,
+      "opti": -1.0,
+      "prix_final": 7.97,
+      "remise_pct": 11,
+      "sources": [
+        {
+          "label": "Charal",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-charal-de-1-euro-avec-charal-12/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "68c1d65ce40b",
+      "enseigne": "Leclerc",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-03-au-14-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-03-au-14-novembre-2026/#page23",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025leclerc0311202614112026S0C0super-pouvoirs-dachat-23.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-03",
+      "fin": "2026-11-14",
+      "page": 23,
+      "marque": "Primevère",
+      "produit": "Margarine",
+      "quantite": "2",
+      "prix": 5.84,
+      "promo": -1.99,
+      "mecanique": null,
+      "opti": -1.0,
+      "prix_final": 2.85,
+      "remise_pct": 51,
+      "sources": [
+        {
+          "label": "EDBM",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-primevere-de-0-5-euro-avec-envie-de-bien-manger/"
+        },
+        {
+          "label": "EDBM (Remb)",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/primevere-0-5-e-de-reduction-jusquau-31-12-2024-offre-de-remboursement-sur-pc-sur-edbm-remb/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "3665a31855dc",
+      "enseigne": "Leclerc",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-03-au-14-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-03-au-14-novembre-2026/#page26",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025leclerc0311202614112026S0C0super-pouvoirs-dachat-26.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-03",
+      "fin": "2026-11-14",
+      "page": 26,
+      "marque": "Maître CoQ",
+      "produit": "Frites de poulet",
+      "quantite": "1",
+      "prix": 5.78,
+      "promo": -1.73,
+      "mecanique": null,
+      "opti": -1.0,
+      "prix_final": 3.05,
+      "remise_pct": 47,
+      "sources": [
+        {
+          "label": "Maître Coq",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-maitre-coq-de-1-euro-avec-maitre-coq-17/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "4f89f1c3f2e2",
+      "enseigne": "Leclerc",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-03-au-14-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-03-au-14-novembre-2026/#page26",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025leclerc0311202614112026S0C0super-pouvoirs-dachat-26.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-03",
+      "fin": "2026-11-14",
+      "page": 26,
+      "marque": "MAGNUM",
+      "produit": "Glace en bâtonnet",
+      "quantite": "2",
+      "prix": 8.1,
+      "promo": -2.43,
+      "mecanique": null,
+      "opti": -0.81,
+      "prix_final": 4.86,
+      "remise_pct": 40,
+      "sources": [
+        {
+          "label": "10%",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-application-sur-la-marque-magnum-de-10-euro-avec-10pourcent/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "fb0486666a0f",
+      "enseigne": "Leclerc",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-03-au-14-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-03-au-14-novembre-2026/#page29",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025leclerc0311202614112026S0C0super-pouvoirs-dachat-29.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-03",
+      "fin": "2026-11-14",
+      "page": 29,
+      "marque": "BARON de LESTAC",
+      "produit": "Vin rouge",
+      "quantite": "1",
+      "prix": 13.8,
+      "promo": -4.14,
+      "mecanique": null,
+      "opti": -2.1,
+      "prix_final": 7.56,
+      "remise_pct": 45,
+      "sources": [
+        {
+          "label": "fidme",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-pc-et-application-sur-la-marque-baron-de-lestac-de-2-1-euro-avec-fidme-courses/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "407db6d58928",
+      "enseigne": "Leclerc",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-03-au-14-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-03-au-14-novembre-2026/#page30",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025leclerc0311202614112026S0C0super-pouvoirs-dachat-30.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-03",
+      "fin": "2026-11-14",
+      "page": 30,
+      "marque": "LE CHAT",
+      "produit": "Lessive liquide",
+      "quantite": "1",
+      "prix": 26.25,
+      "promo": -10.5,
+      "mecanique": null,
+      "opti": -3.0,
+      "prix_final": 12.75,
+      "remise_pct": 51,
+      "sources": [
+        {
+          "label": "La Belle Adresse",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-le-chat-de-3-euro-avec-la-belle-adresse-12/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "8aacb7a8bce9",
+      "enseigne": "Leclerc",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-03-au-14-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-03-au-14-novembre-2026/#page30",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025leclerc0311202614112026S0C0super-pouvoirs-dachat-30.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-03",
+      "fin": "2026-11-14",
+      "page": 30,
+      "marque": "MIR",
+      "produit": "Lessive liquide",
+      "quantite": "2",
+      "prix": 12.68,
+      "promo": -5.07,
+      "mecanique": null,
+      "opti": -6.0,
+      "prix_final": 1.61,
+      "remise_pct": 87,
+      "sources": [
+        {
+          "label": "La Belle Adresse",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-mir-de-3-euro-avec-la-belle-adresse/"
+        },
+        {
+          "label": "La Belle Adresse",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/bon-de-reduction-a-imprimer-sur-la-marque-mir-de-3-euro-avec-la-belle-adresse-2/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "41e90a1b66aa",
+      "enseigne": "Leclerc",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-03-au-14-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-03-au-14-novembre-2026/#page30",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025leclerc0311202614112026S0C0super-pouvoirs-dachat-30.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-03",
+      "fin": "2026-11-14",
+      "page": 30,
+      "marque": "FAIRY",
+      "produit": "Capsules lave-vaisselle",
+      "quantite": "2",
+      "prix": 23.06,
+      "promo": -9.22,
+      "mecanique": null,
+      "opti": -1.7,
+      "prix_final": 12.14,
+      "remise_pct": 47,
+      "sources": [
+        {
+          "label": "Parcours Gagnants",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/fairy-de-1-70e-a-1-70e-de-reduction-jusquau-31-12-2026-offre-de-remboursement-sur-pc-et-application-sur-parcours-gagnants/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "cedb0347920b",
+      "enseigne": "Leclerc",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-03-au-14-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-03-au-14-novembre-2026/#page31",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025leclerc0311202614112026S0C0super-pouvoirs-dachat-31.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-03",
+      "fin": "2026-11-14",
+      "page": 31,
+      "marque": "Kleenex",
+      "produit": "Mouchoirs",
+      "quantite": "1",
+      "prix": 3.83,
+      "promo": 0.0,
+      "mecanique": null,
+      "opti": -0.5,
+      "prix_final": 3.33,
+      "remise_pct": 13,
+      "sources": [
+        {
+          "label": "Parcours Gagnants",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/kleenex-de-0-50e-a-0-50e-de-reduction-jusquau-31-12-2026-offre-de-remboursement-sur-pc-et-application-sur-parcours-gagnants/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "b6cc54b5d923",
+      "enseigne": "Leclerc",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-03-au-14-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-03-au-14-novembre-2026/#page32",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025leclerc0311202614112026S0C0super-pouvoirs-dachat-32.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-03",
+      "fin": "2026-11-14",
+      "page": 32,
+      "marque": "Sanex",
+      "produit": "Déodorant",
+      "quantite": "4",
+      "prix": 15.72,
+      "promo": -6.29,
+      "mecanique": null,
+      "opti": -1.18,
+      "prix_final": 8.25,
+      "remise_pct": 48,
+      "sources": [
+        {
+          "label": "10%",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-application-sur-la-marque-sanex-de-10-pourcent-avec-10pourcent/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    },
+    {
+      "id": "ddbf210daa69",
+      "enseigne": "Leclerc",
+      "catalogue_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-03-au-14-novembre-2026/",
+      "page_url": "https://anti-crise.fr/catalogue/catalogue-leclerc-du-03-au-14-novembre-2026/#page33",
+      "page_image": "https:\\\\/\\\\/media.anti-crise.fr\\\\/2026\\\\/10\\\\/juin2025leclerc0311202614112026S0C0super-pouvoirs-dachat-33.jpg",
+      "pdf_url": null,
+      "debut": "2026-11-03",
+      "fin": "2026-11-14",
+      "page": 33,
+      "marque": "King C. Gillette",
+      "produit": "Tondeuse à barbe",
+      "quantite": "1",
+      "prix": 40.78,
+      "promo": -20.39,
+      "mecanique": null,
+      "opti": -45.68,
+      "prix_final": -25.29,
+      "remise_pct": 162,
+      "sources": [
+        {
+          "label": "Parcours Gagnants",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/king-c-gillette-de-4-90e-a-4-90e-de-reduction-jusquau-31-12-2026-offre-de-remboursement-sur-pc-et-application-sur-parcours-gagnants/"
+        },
+        {
+          "label": "(ODR)",
+          "url": "https://anti-crise.fr/les-bons-de-reduction/offre-de-remboursement-sur-pc-sur-la-marque-king-c-gillette-de-100-pourcent-avec-king-c-gillette-rasage/"
+        }
+      ],
+      "vu_le": "2026-11-03"
+    }
+  ]
+}
